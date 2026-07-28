@@ -70,9 +70,7 @@ export const AMAZON_PRODUCTS: Product[] = [
     },
     updatedAt: '2026-07-28'
   },
-];
-export const AMAZON_PRODUCTS: Product[] = [
- {
+   {
     id: 'prod-lenovo-legion-5i-rtx5070',
     title: 'Lenovo Legion 5i – Gaming Laptop - Intel Core i7-14700HX - 15" 2.5K WQXGA PureSight OLED Display – 165Hz Refresh Rate – NVIDIA GeForce RTX 5070 – 16 GB Memory – 1 TB Storage',
     category: 'Gaming & Entertainment',
@@ -129,6 +127,7 @@ export const AMAZON_PRODUCTS: Product[] = [
     updatedAt: '2026-07-28'
   },
 ];
+
 export const SAMPLE_PRODUCTS: Product[] = AMAZON_PRODUCTS;
 
 
