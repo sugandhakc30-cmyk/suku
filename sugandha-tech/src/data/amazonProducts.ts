@@ -69,8 +69,8 @@ export const AMAZON_PRODUCTS: Product[] = [
       'Battery Endurance': 'Up to 70 days on full charge (3 min quick charge = 3 hours)'
     },
     updatedAt: '2026-07-28'
-  }
-    {
+  },
+  {
     id: 'prod-lenovo-legion-5i-rtx5070',
     title: 'Lenovo Legion 5i – Gaming Laptop - Intel Core i7-14700HX - 15" 2.5K WQXGA PureSight OLED Display – 165Hz Refresh Rate – NVIDIA GeForce RTX 5070 – 16 GB Memory – 1 TB Storage',
     category: 'Gaming & Entertainment',
