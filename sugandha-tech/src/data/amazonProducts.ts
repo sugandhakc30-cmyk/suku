@@ -2,7 +2,7 @@ import { Product, AuthorInfo } from '../types';
 import logitechImg from '../assets/images/logitech_mx_master_1785237677949.jpg';
 import fp from '../assets/images/1.jpg';
 
-export const DEFAULT_ASSOCIATE_TAG = 'sugandhatech-20';
+export const DEFAULT_ASSOCIATE_TAG = 'sugandha00-20';
 
 export const DEFAULT_AUTHOR: AuthorInfo = {
   name: 'Sugandha KC',
@@ -70,6 +70,7 @@ export const AMAZON_PRODUCTS: Product[] = [
     },
     updatedAt: '2026-07-28'
   },
+  
   {
     id: 'prod-lenovo-legion-5i-rtx5070',
     title: 'Lenovo Legion 5i – Gaming Laptop - Intel Core i7-14700HX - 15" 2.5K WQXGA PureSight OLED Display – 165Hz Refresh Rate – NVIDIA GeForce RTX 5070 – 16 GB Memory – 1 TB Storage',
