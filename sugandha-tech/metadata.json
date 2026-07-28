@@ -1,0 +1,6 @@
+{
+  "name": "SUGANDHA TECH - Amazon Affiliate Hub",
+  "description": "A fully compliant Amazon Associate marketing portal with disclosures, category filters, and product reviews.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
