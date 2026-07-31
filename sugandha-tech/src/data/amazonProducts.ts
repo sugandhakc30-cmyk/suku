@@ -134,7 +134,7 @@ export const AMAZON_PRODUCTS: Product[] = [
 {
   id: 'prod-beatbot-sora-70',
   title: 'Beatbot Sora 70 Pool Vacuum Robot',
-  category: 'Patio, Lawn & Garden',
+  category: 'Smart Home',
   brand: 'Beatbot',
   asin: 'B0H1MHCLG6',
   rating: 4.8,
