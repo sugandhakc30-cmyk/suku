@@ -70,62 +70,66 @@ export const AMAZON_PRODUCTS: Product[] = [
     },
     updatedAt: '2026-07-28'
   },
-   {
-    id: 'prod-lenovo-legion-5i-rtx5070',
-    title: 'Lenovo Legion 5i – Gaming Laptop - Intel Core i7-14700HX - 15" 2.5K WQXGA PureSight OLED Display – 165Hz Refresh Rate – NVIDIA GeForce RTX 5070 – 16 GB Memory – 1 TB Storage',
-    category: 'Gaming & Entertainment',
-    brand: 'Lenovo',
-    asin: 'B0-LEGION5I5070', // Replace with actual ASIN if needed
-    rating: 4.8,
-    reviewsCount: 89,
-    badge: "Editor's Choice",
-    image: fp,
-    gallery: [
-      'https://images.unsplash.com/photo-1603302576837-37561b2e2302?auto=format&fit=crop&w=800&q=80',
-      'https://images.unsplash.com/photo-1593642632823-8f785ba67e45?auto=format&fit=crop&w=800&q=80'
-    ],
-    shortSummary: 'High-performance gaming laptop equipped with an Intel Core i7-14700HX processor, 165Hz PureSight OLED display, and next-gen NVIDIA GeForce RTX 5070 graphics.',
-    description: 'The Lenovo Legion 5i delivers elite-tier gaming performance and visual fidelity. Powered by the Intel Core i7-14700HX CPU and the advanced NVIDIA GeForce RTX 5070 GPU, it handles demanding AAA titles and creative workloads effortlessly. Its 15-inch 2.5K WQXGA PureSight OLED display provides deep blacks, vivid colors, and a smooth 165Hz refresh rate.',
-    features: [
-      'Intel Core i7-14700HX high-performance processor for seamless multitasking and gaming',
-      'NVIDIA GeForce RTX 5070 graphics card for cutting-edge ray tracing and frame rates',
-      '15-inch 2.5K WQXGA (2560x1440) PureSight OLED Display with 165Hz refresh rate',
-      '16 GB high-speed memory and fast 1 TB SSD storage',
-      'Includes 3 Months of Xbox PC Game Pass for instant access to a massive game library'
-    ],
-    pros: [
-      'Stunning OLED screen with deep contrast, vibrant colors, and rapid response times',
-      'Exceptional raw gaming and processing performance',
-      'Advanced Legion Coldfront cooling system to maintain stable thermals',
-      'Tactile Legion TrueStrike keyboard with customizable lighting'
-    ],
-    cons: [
-      'Gaming laptops under heavy load generally have shorter battery life when unplugged',
-      'Power brick is sizeable and adds weight to travel bags'
-    ],
-    whoShouldBuy: [
-      'Hardcore gamers wanting high frame rates and gorgeous OLED graphics',
-      'Content creators, video editors, and 3D renderers needing heavy compute power'
-    ],
-    whoShouldAvoid: [
-      'Users looking for an ultra-lightweight, all-day battery laptop for casual browsing',
-      'Budget-conscious casual gamers who do not require high-end discrete graphics'
-    ],
-    editorVerdict: 'The Lenovo Legion 5i strikes an incredible balance between raw processing power and breathtaking display quality. The addition of the RTX 5070 and an OLED panel makes it a powerhouse for both work and play.',
-    author: DEFAULT_AUTHOR,
-    amazonUrl: 'https://amzn.to/4fz1HjH',
-    specifications: {
-      'Brand': 'Lenovo',
-      'Series': 'Legion 5i',
-      'Processor': 'Intel Core i7-14700HX',
-      'Graphics': 'NVIDIA GeForce RTX 5070',
-      'Display': '15" 2.5K WQXGA (2560 x 1440) PureSight OLED, 165Hz',
-      'Memory': '16 GB RAM',
-      'Storage': '1 TB SSD',
-      'Operating System': 'Windows 11 Home'
-    },
-    updatedAt: '2026-07-28'
+  {
+  id: 'prod-lenovo-legion-5i-rtx5070',
+  title: 'Lenovo Legion 5i Gaming Laptop – Intel Core i7-14700HX, RTX 5070, 15" 2.5K OLED 165Hz',
+  category: 'Computers & Gaming',
+  brand: 'Lenovo',
+  asin: 'YOUR_ASIN_HERE',
+  rating: 4.8,
+  reviewsCount: 2150,
+  badge: "Editor's Choice", // Options: "Editor's Choice" | "Best Value" | "Top Rated" | "Trending" | "Premium Pick"
+  image: 'fp',
+  gallery: [
+    'https://images.unsplash.com/photo-1603302576837-37561b2e2302?auto=format&fit=crop&w=800&q=80'
+  ],
+  shortSummary: 'Powerful gaming laptop featuring Intel Core i7-14700HX, NVIDIA GeForce RTX 5070 graphics, a stunning 15-inch 2.5K OLED 165Hz display, and 1TB SSD storage.',
+  description: 'Built for gamers and creators, the Lenovo Legion 5i combines the Intel Core i7-14700HX processor with NVIDIA GeForce RTX 5070 graphics for exceptional gaming, streaming, and content creation performance. The 15-inch PureSight OLED display delivers vivid colors, deep blacks, and ultra-smooth 165Hz gameplay.',
+  features: [
+    'Intel Core i7-14700HX processor for high-performance gaming and multitasking',
+    'NVIDIA GeForce RTX 5070 GPU with advanced ray tracing and AI-powered DLSS',
+    '15-inch 2.5K WQXGA PureSight OLED display with 165Hz refresh rate',
+    '16GB DDR5 RAM for smooth multitasking',
+    '1TB PCIe Gen4 SSD for fast boot times and game loading',
+    'Includes 3 Months of PC Game Pass'
+  ],
+  pros: [
+    'Excellent gaming and creative performance',
+    'Beautiful OLED display with vibrant colors and deep contrast',
+    'Fast 165Hz refresh rate for competitive gaming',
+    'Large 1TB SSD with quick loading speeds',
+    'Premium Legion cooling system keeps temperatures under control'
+  ],
+  cons: [
+    'Battery life is shorter during gaming sessions',
+    'Slightly heavier than standard productivity laptops'
+  ],
+  whoShouldBuy: [
+    'PC gamers',
+    'Content creators and video editors',
+    'Engineering and design students',
+    'Anyone wanting a premium gaming laptop'
+  ],
+  whoShouldAvoid: [
+    'Users looking for an ultra-light travel laptop',
+    'Those who only need a laptop for basic web browsing and office work'
+  ],
+  editorVerdict: 'The Lenovo Legion 5i delivers flagship-level gaming performance, an outstanding OLED display, and reliable cooling, making it one of the best gaming laptops in its class.',
+  author: DEFAULT_AUTHOR,
+  amazonUrl: 'https://amzn.to/4fz1HjH', // Replace with your affiliate link
+  specifications: {
+    'Brand': 'Lenovo',
+    'Processor': 'Intel Core i7-14700HX',
+    'Graphics': 'NVIDIA GeForce RTX 5070',
+    'Display': '15-inch 2.5K WQXGA PureSight OLED',
+    'Refresh Rate': '165Hz',
+    'Memory': '16GB DDR5',
+    'Storage': '1TB PCIe SSD',
+    'Operating System': 'Windows 11',
+    'Included': '3 Months of PC Game Pass'
   },
+  updatedAt: '2026-07-31'
+}
 ];
 
 export const SAMPLE_PRODUCTS: Product[] = AMAZON_PRODUCTS;
