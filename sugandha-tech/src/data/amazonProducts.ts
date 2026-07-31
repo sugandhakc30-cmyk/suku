@@ -1,6 +1,7 @@
 import { Product, AuthorInfo } from '../types';
 import logitechImg from '../assets/images/logitech_mx_master_1785237677949.jpg';
 import fp from '../assets/images/1.jpg';
+import fa from '../assets/images/2.jpg';
 
 export const DEFAULT_ASSOCIATE_TAG = 'sugandha00-20';
 
@@ -128,6 +129,77 @@ export const AMAZON_PRODUCTS: Product[] = [
     'Operating System': 'Windows 11',
     'Included': '3 Months of PC Game Pass'
   },
+  updatedAt: '2026-07-31'
+},
+{
+  id: 'prod-beatbot-sora-70',
+  title: 'Beatbot Sora 70 Pool Vacuum Robot',
+  category: 'Patio, Lawn & Garden',
+  brand: 'Beatbot',
+  asin: 'B0H1MHCLG6',
+  rating: 4.8,
+  reviewsCount: 320,
+  badge: 'Premium Pick', // Options: "Editor's Choice" | "Best Value" | "Top Rated" | "Trending" | "Premium Pick"
+  image: 'fa',
+  gallery: [
+    'https://images.unsplash.com/photo-1575429198097-0414ec08e8cd?auto=format&fit=crop&w=800&q=80'
+  ],
+  shortSummary: 'Advanced cordless robotic pool cleaner with 360° top-to-bottom cleaning, powerful 6800 GPH suction, smart surface parking, and a large 6L debris basket for pools up to 3,200 sq. ft.',
+  description: 'The Beatbot Sora 70 is a premium robotic pool cleaner designed for complete pool maintenance. It cleans the floor, walls, waterline, surface, and shallow platforms while using intelligent navigation and powerful suction to remove leaves, dirt, sand, insects, and other debris. Smart Surface Parking and app control make retrieval and operation effortless.',
+
+  features: [
+    '360° top-to-bottom cleaning for floors, walls, waterline, and water surface',
+    'Powerful 6,800 GPH suction removes fine debris and large leaves',
+    'Large 6L debris basket reduces cleaning interruptions',
+    'Smart Surface Parking for easy retrieval after cleaning',
+    'Cordless design with app control and multiple cleaning modes',
+    'Suitable for above-ground and in-ground pools up to 3,200 sq. ft.'
+  ],
+
+  pros: [
+    'Complete pool cleaning in one robot',
+    'Excellent suction power for heavy debris',
+    'Large debris basket minimizes emptying',
+    'Easy retrieval with Smart Surface Parking',
+    'Long battery life for large pools',
+    'Works on multiple pool surfaces'
+  ],
+
+  cons: [
+    'Premium price compared to basic pool cleaners',
+    'Large size may be unnecessary for small pools'
+  ],
+
+  whoShouldBuy: [
+    'Homeowners with medium to large swimming pools',
+    'People wanting hands-free automatic pool cleaning',
+    'Users looking for premium smart pool maintenance'
+  ],
+
+  whoShouldAvoid: [
+    'Owners of very small inflatable pools',
+    'Buyers looking for a low-budget pool cleaner'
+  ],
+
+  editorVerdict: 'The Beatbot Sora 70 is one of the most capable robotic pool cleaners available, offering outstanding cleaning performance, intelligent navigation, and premium convenience features for effortless pool maintenance.',
+
+  author: DEFAULT_AUTHOR,
+
+  amazonUrl: 'https://amzn.to/4hHM2kN',
+
+  specifications: {
+    'Brand': 'Beatbot',
+    'Model': 'Sora 70',
+    'Color': 'Lavender Purple',
+    'Cleaning Coverage': 'Floor, Walls, Waterline, Water Surface',
+    'Pool Size': 'Up to 3,200 sq. ft.',
+    'Suction Power': '6,800 GPH',
+    'Debris Capacity': '6 Liters',
+    'Battery': '10,000mAh Rechargeable',
+    'Runtime': 'Up to 5 Hours',
+    'Connectivity': 'Wi-Fi & Bluetooth App Control'
+  },
+
   updatedAt: '2026-07-31'
 }
 ];
