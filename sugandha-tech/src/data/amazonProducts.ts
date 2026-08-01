@@ -2,6 +2,8 @@ import { Product, AuthorInfo } from '../types';
 import logitechImg from '../assets/images/logitech_mx_master_1785237677949.jpg';
 import fp from '../assets/images/1.jpg';
 import fa from '../assets/images/2.jpg';
+import a from '../assets/images/3.jpg';
+
 
 export const DEFAULT_ASSOCIATE_TAG = 'sugandha00-20';
 
@@ -201,7 +203,68 @@ export const AMAZON_PRODUCTS: Product[] = [
   },
 
   updatedAt: '2026-07-31'
+},
+{
+  id: 'prod-xpro-150cc-moped-red',
+  title: 'X-PRO 150cc Moped Street Gas Moped with 13" Aluminum Wheels (Red)',
+  category: 'Automotive',
+  brand: 'X-PRO',
+  asin: 'B095NSTYP5',
+  rating: 4.4,
+  reviewsCount: 126,
+  badge: 'Best Value', // Options: "Editor's Choice" | "Best Value" | "Top Rated" | "Trending" | "Premium Pick"
+  image: a,
+  gallery: [
+    'https://images.unsplash.com/photo-1558981806-ec527fa84c39?auto=format&fit=crop&w=800&q=80'
+  ],
+  shortSummary: 'Reliable 150cc gas-powered street moped featuring an automatic transmission, 13-inch aluminum wheels, and a fuel-efficient 4-stroke engine for everyday commuting.',
+  description: 'The X-PRO Fiji 150 is designed for riders looking for an affordable and dependable street scooter. Powered by a 150cc air-cooled 4-stroke engine with automatic CVT transmission, it delivers smooth acceleration, excellent fuel economy, and comfortable urban riding. The lightweight 13-inch aluminum wheels and front disc/rear drum brakes provide confident handling and braking performance.',
+  features: [
+    '150cc air-cooled 4-stroke engine',
+    'Automatic CVT transmission',
+    '13-inch lightweight aluminum wheels',
+    'Electric start system',
+    'Front disc and rear drum brakes',
+    'Front and rear suspension for a comfortable ride'
+  ],
+  pros: [
+    'Fuel-efficient engine',
+    'Easy automatic transmission',
+    'Comfortable suspension',
+    'Lightweight aluminum wheels',
+    'Great value for daily commuting'
+  ],
+  cons: [
+    'Requires minor assembly after delivery',
+    'Not designed for highway-speed touring'
+  ],
+  whoShouldBuy: [
+    'Daily commuters',
+    'First-time scooter riders',
+    'Anyone looking for affordable transportation'
+  ],
+  whoShouldAvoid: [
+    'Off-road riders',
+    'Those needing a high-performance motorcycle'
+  ],
+  editorVerdict: 'The X-PRO Fiji 150 offers dependable transportation with excellent fuel economy, simple operation, and comfortable everyday performance, making it a strong value in the entry-level scooter market.',
+  author: DEFAULT_AUTHOR,
+  amazonUrl: 'https://amzn.to/4w24bgU',
+  specifications: {
+    'Brand': 'X-PRO',
+    'Model': 'Fiji 150',
+    'Color': 'Red',
+    'Engine': '150cc Air-Cooled 4-Stroke',
+    'Transmission': 'Automatic CVT',
+    'Wheel Size': '13 Inches',
+    'Brakes': 'Front Disc / Rear Drum',
+    'Starting System': 'Electric Start',
+    'Frame': 'Aluminum',
+    'Weight Capacity': '340 lbs'
+  },
+  updatedAt: '2026-08-01'
 }
+
 ];
 
 export const SAMPLE_PRODUCTS: Product[] = AMAZON_PRODUCTS;
