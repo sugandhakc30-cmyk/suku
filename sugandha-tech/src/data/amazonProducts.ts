@@ -430,7 +430,7 @@ export const AMAZON_PRODUCTS: Product[] = [
 
   features: [
     '65-inch OLED evo AI 4K UHD display',
-    'α9 AI Processor with AI Super Upscaling 4K',
+    'a9 AI Processor with AI Super Upscaling 4K',
     'Dolby Vision, Dolby Atmos, and HDR10 support',
     'Filmmaker Mode for cinema-quality viewing',
     'WOW Orchestra for synchronized TV and LG soundbar audio',
