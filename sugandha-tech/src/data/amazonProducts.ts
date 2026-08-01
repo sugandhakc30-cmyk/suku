@@ -435,7 +435,7 @@ features: [
     'Filmmaker Mode for cinema-quality viewing',
     'WOW Orchestra for synchronized TV and LG soundbar audio',
     'webOS Smart TV with built-in Alexa',
-    'HDMI 2.1 ports for next-generation gaming',
+    'HDMI 2.1 ports for next-generation gaming,
     'Ultra-slim premium design'
   ],
 
