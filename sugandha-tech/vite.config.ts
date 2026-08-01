@@ -10,7 +10,10 @@ export default defineConfig(() => {
     plugins: [
       react(),
       tailwindcss(),
-      Sitemap()],
+      Sitemap({
+        hostname: 
+        "https://sugandha.tech",
+      })],
 
     resolve: {
       alias: {
