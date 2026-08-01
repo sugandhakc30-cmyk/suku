@@ -80,7 +80,7 @@ export const AMAZON_PRODUCTS: Product[] = [
   rating: 4.8,
   reviewsCount: 2150,
   badge: "Editor's Choice", // Options: "Editor's Choice" | "Best Value" | "Top Rated" | "Trending" | "Premium Pick"
-  image: 'fp',
+  image: fp,
   gallery: [
     'https://images.unsplash.com/photo-1603302576837-37561b2e2302?auto=format&fit=crop&w=800&q=80'
   ],
@@ -140,7 +140,7 @@ export const AMAZON_PRODUCTS: Product[] = [
   rating: 4.8,
   reviewsCount: 320,
   badge: 'Premium Pick', // Options: "Editor's Choice" | "Best Value" | "Top Rated" | "Trending" | "Premium Pick"
-  image: 'fa',
+  image: fa,
   gallery: [
     'https://images.unsplash.com/photo-1575429198097-0414ec08e8cd?auto=format&fit=crop&w=800&q=80'
   ],
