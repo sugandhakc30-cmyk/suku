@@ -4,7 +4,7 @@ import fp from '../assets/images/1.jpg';
 import fa from '../assets/images/2.jpg';
 import a from '../assets/images/3.jpg';
 import b from '../assets/images/4.jpg';
-
+import c from '../assets/images/5.jpg';
 
 export const DEFAULT_ASSOCIATE_TAG = 'sugandha00-20';
 
@@ -333,6 +333,79 @@ export const AMAZON_PRODUCTS: Product[] = [
     'Suspension': 'Front & Rear Hydraulic Suspension',
     'Lighting': 'Dual LED Headlights',
     'Color': 'Green'
+  },
+
+  updatedAt: '2026-08-01'
+},
+{
+  id: 'prod-3000w-electric-dirt-bike-60v25ah',
+  title: '3000W Electric Dirt Bike for Adults – 42MPH Off-Road E-Bike, 60V 25Ah Battery',
+  category: 'Sports & Outdoors',
+  brand: 'Generic',
+  asin: 'YOUR_ASIN_HERE',
+  rating: 4.6,
+  reviewsCount: 145,
+  badge: 'Best Value', // Options: "Editor's Choice" | "Best Value" | "Top Rated" | "Trending" | "Premium Pick"
+  image: c,
+  gallery: [
+    'https://images.unsplash.com/photo-1558981806-ec527fa84c39?auto=format&fit=crop&w=800&q=80'
+  ],
+  shortSummary: 'Powerful 3000W electric dirt bike featuring a 60V 25Ah removable battery, 42 MPH top speed, up to 90 miles of range, and premium full suspension for off-road adventures.',
+
+  description: 'Built for adventure seekers, this 3000W Electric Dirt Bike combines impressive performance with long-range capability. Its high-torque brushless motor, 60V 25Ah lithium battery, full suspension, hydraulic disc brakes, and rugged 17-inch off-road tires provide excellent control, comfort, and confidence on trails, dirt roads, and challenging terrain.',
+
+  features: [
+    '3000W high-torque brushless motor',
+    '42 MPH maximum speed',
+    '60V 25Ah removable lithium battery',
+    'Up to 90 miles of riding range',
+    '17-inch off-road tires for superior traction',
+    'Front and rear full suspension',
+    'Hydraulic disc brakes',
+    'LED headlight and digital LCD display'
+  ],
+
+  pros: [
+    'Excellent range for long trail rides',
+    'Strong acceleration and hill-climbing performance',
+    'Comfortable full suspension',
+    'Reliable hydraulic braking system',
+    'Removable battery for convenient charging'
+  ],
+
+  cons: [
+    'Charging takes several hours',
+    'Not intended for highway riding'
+  ],
+
+  whoShouldBuy: [
+    'Adults looking for an electric off-road motorcycle',
+    'Trail riders and outdoor enthusiasts',
+    'Anyone wanting a quiet alternative to gas dirt bikes'
+  ],
+
+  whoShouldAvoid: [
+    'Young children or beginner riders',
+    'Commuters needing a street-legal motorcycle'
+  ],
+
+  editorVerdict: 'Offering a great balance of power, range, and durability, this 3000W electric dirt bike is an excellent choice for riders who want dependable off-road performance without the maintenance of a gas-powered bike.',
+
+  author: DEFAULT_AUTHOR,
+
+  amazonUrl: 'https://amzn.to/4fGgvgw',
+
+  specifications: {
+    'Brand': 'Generic',
+    'Motor Power': '3000W Brushless',
+    'Top Speed': '42 MPH',
+    'Battery': '60V 25Ah Lithium',
+    'Maximum Range': 'Up to 90 Miles',
+    'Wheel Size': '17-inch Off-Road Tires',
+    'Suspension': 'Front & Rear Full Suspension',
+    'Brakes': 'Hydraulic Disc Brakes',
+    'Display': 'LCD Digital Display',
+    'Lighting': 'LED Headlight'
   },
 
   updatedAt: '2026-08-01'
