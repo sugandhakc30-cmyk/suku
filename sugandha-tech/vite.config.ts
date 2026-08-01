@@ -12,7 +12,7 @@ export default defineConfig(() => {
       tailwindcss(),
       Sitemap({
         hostname: 
-        "https://sugandha.tech",
+        "https://sugandhatech.in.net",
       })],
 
     resolve: {
