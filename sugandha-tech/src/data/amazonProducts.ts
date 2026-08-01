@@ -414,7 +414,7 @@ export const AMAZON_PRODUCTS: Product[] = [
 {
   id: 'prod-lg-oled65c5pua-65inch',
   title: 'LG 65-Inch Class OLED evo AI 4K C5 Series Smart TV (OLED65C5PUA, 2025)',
-  category: 'Electronics',
+  category: 'Productivity & Tech',
   brand: 'LG',
   asin: 'COXXXXXX',
   rating: 4.9,
