@@ -428,15 +428,15 @@ export const AMAZON_PRODUCTS: Product[] = [
 
   description: 'The LG OLED65C5PUA delivers breathtaking OLED evo picture quality with perfect blacks, vibrant colors, and advanced AI processing. Powered by the latest α9 AI Processor, it intelligently enhances picture and sound while supporting Dolby Vision, Dolby Atmos, HDR10, and AI Super Upscaling 4K. Whether you're watching movies, gaming, or streaming, the C5 Series provides a premium entertainment experience.',
 
-  features: [
-    "65-inch OLED evo AI 4K UHD display",
-    "a9 AI Processor with AI Super Upscaling 4K",
-    "Dolby Vision, Dolby Atmos, and HDR10 support",
-    "Filmmaker Mode for cinema-quality viewing",
-    "WOW Orchestra for synchronized TV and LG soundbar audio",
-    "webOS Smart TV with built-in Alexa",
-    "HDMI 2.1 ports for next-generation gaming",
-    "Ultra-slim premium design"
+features: [
+    '65-inch OLED evo AI 4K UHD display',
+    'α9 AI Processor with AI Super Upscaling 4K',
+    'Dolby Vision, Dolby Atmos, and HDR10 support',
+    'Filmmaker Mode for cinema-quality viewing',
+    'WOW Orchestra for synchronized TV and LG soundbar audio',
+    'webOS Smart TV with built-in Alexa',
+    'HDMI 2.1 ports for next-generation gaming',
+    'Ultra-slim premium design'
   ],
 
   pros: [
