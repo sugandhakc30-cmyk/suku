@@ -3,6 +3,7 @@ import logitechImg from '../assets/images/logitech_mx_master_1785237677949.jpg';
 import fp from '../assets/images/1.jpg';
 import fa from '../assets/images/2.jpg';
 import a from '../assets/images/3.jpg';
+import b from '../assets/images/4.jpg';
 
 
 export const DEFAULT_ASSOCIATE_TAG = 'sugandha00-20';
@@ -262,6 +263,78 @@ export const AMAZON_PRODUCTS: Product[] = [
     'Frame': 'Aluminum',
     'Weight Capacity': '340 lbs'
   },
+  updatedAt: '2026-08-01'
+},
+{
+  id: 'prod-xpro-electric-dirt-bike-6600w-green',
+  title: 'X-PRO Electric Dirt Bike 6600W – Teens & Adults Off-Road E-Bike (Green)',
+  category: 'Sports & Outdoors',
+  brand: 'X-PRO',
+  asin: 'B0C5Y8Z9XX',
+  rating: 4.7,
+  reviewsCount: 185,
+  badge: 'Trending', // Options: "Editor's Choice" | "Best Value" | "Top Rated" | "Trending" | "Premium Pick"
+  image: b,
+  gallery: [
+    'https://images.unsplash.com/photo-1558981806-ec527fa84c39?auto=format&fit=crop&w=800&q=80'
+  ],
+  shortSummary: 'High-performance 6600W electric dirt bike featuring a removable long-range battery, 55+ MPH top speed, adjustable 3-speed modes, and rugged off-road suspension.',
+  description: 'The X-PRO 6600W Electric Dirt Bike is designed for teens and adults who want thrilling off-road performance without the noise of a gas engine. Equipped with a powerful 6600W electric motor, removable high-capacity battery, hydraulic suspension, and adjustable riding modes, it delivers impressive acceleration, long riding range, and dependable control on challenging terrain.',
+
+  features: [
+    '6600W high-performance brushless electric motor',
+    '55+ MPH top speed',
+    'Long-range removable lithium battery',
+    'Three adjustable riding speed modes',
+    'Front and rear hydraulic suspension',
+    'Dual LED headlights for improved visibility',
+    'Hydraulic disc brakes for reliable stopping power',
+    'Heavy-duty off-road tires for excellent traction'
+  ],
+
+  pros: [
+    'Powerful acceleration and high top speed',
+    'Removable battery for convenient charging',
+    'Excellent suspension for rough terrain',
+    'Quiet, low-maintenance electric drivetrain',
+    'Selectable riding modes for beginners and experienced riders'
+  ],
+
+  cons: [
+    'Premium price compared to entry-level dirt bikes',
+    'Longer charging time than refueling a gas bike'
+  ],
+
+  whoShouldBuy: [
+    'Teens and adults looking for an electric off-road bike',
+    'Trail riders and outdoor adventure enthusiasts',
+    'Riders wanting a quiet alternative to gas dirt bikes'
+  ],
+
+  whoShouldAvoid: [
+    'Children or inexperienced young riders',
+    'Riders looking for a street-legal commuter motorcycle'
+  ],
+
+  editorVerdict: 'The X-PRO 6600W Electric Dirt Bike delivers exciting performance with its powerful motor, removable battery, premium suspension, and adjustable riding modes. It is an excellent choice for off-road enthusiasts seeking speed, range, and modern electric technology.',
+
+  author: DEFAULT_AUTHOR,
+
+  amazonUrl: 'https://amzn.to/4fL29LX',
+
+  specifications: {
+    'Brand': 'X-PRO',
+    'Motor Power': '6600W Brushless Motor',
+    'Top Speed': '55+ MPH',
+    'Battery': 'Removable Lithium Battery',
+    'Range': 'Long Range',
+    'Speed Modes': '3 Adjustable Modes',
+    'Brakes': 'Hydraulic Disc Brakes',
+    'Suspension': 'Front & Rear Hydraulic Suspension',
+    'Lighting': 'Dual LED Headlights',
+    'Color': 'Green'
+  },
+
   updatedAt: '2026-08-01'
 }
 
