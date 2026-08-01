@@ -5,6 +5,7 @@ import fa from '../assets/images/2.jpg';
 import a from '../assets/images/3.jpg';
 import b from '../assets/images/4.jpg';
 import c from '../assets/images/5.jpg';
+import d from '../assets/images/6.jpg';
 
 export const DEFAULT_ASSOCIATE_TAG = 'sugandha00-20';
 
@@ -406,6 +407,82 @@ export const AMAZON_PRODUCTS: Product[] = [
     'Brakes': 'Hydraulic Disc Brakes',
     'Display': 'LCD Digital Display',
     'Lighting': 'LED Headlight'
+  },
+
+  updatedAt: '2026-08-01'
+},
+{
+  id: 'prod-lg-oled65c5pua-65inch',
+  title: 'LG 65-Inch Class OLED evo AI 4K C5 Series Smart TV (OLED65C5PUA, 2025)',
+  category: 'Electronics',
+  brand: 'LG',
+  asin: 'COXXXXXX',
+  rating: 4.9,
+  reviewsCount: 890,
+  badge: 'Editor\'s Choice', // Options: "Editor's Choice" | "Best Value" | "Top Rated" | "Trending" | "Premium Pick"
+  image: d,
+  gallery: [
+    'https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80'
+  ],
+  shortSummary: 'Premium 65-inch OLED evo AI 4K Smart TV featuring Dolby Vision, Dolby Atmos, AI Super Upscaling 4K, Filmmaker Mode, and Alexa Built-in for an immersive home theater experience.',
+
+  description: 'The LG OLED65C5PUA delivers breathtaking OLED evo picture quality with perfect blacks, vibrant colors, and advanced AI processing. Powered by the latest α9 AI Processor, it intelligently enhances picture and sound while supporting Dolby Vision, Dolby Atmos, HDR10, and AI Super Upscaling 4K. Whether you're watching movies, gaming, or streaming, the C5 Series provides a premium entertainment experience.',
+
+  features: [
+    '65-inch OLED evo AI 4K UHD display',
+    'α9 AI Processor with AI Super Upscaling 4K',
+    'Dolby Vision, Dolby Atmos, and HDR10 support',
+    'Filmmaker Mode for cinema-quality viewing',
+    'WOW Orchestra for synchronized TV and LG soundbar audio',
+    'webOS Smart TV with built-in Alexa',
+    'HDMI 2.1 ports for next-generation gaming',
+    'Ultra-slim premium design'
+  ],
+
+  pros: [
+    'Exceptional OLED picture quality with perfect blacks',
+    'Outstanding Dolby Vision and Dolby Atmos performance',
+    'Excellent gaming features with HDMI 2.1',
+    'Fast and responsive webOS smart platform',
+    'Beautiful ultra-thin premium design'
+  ],
+
+  cons: [
+    'Premium price compared to LED TVs',
+    'No included wall mount'
+  ],
+
+  whoShouldBuy: [
+    'Home theater enthusiasts',
+    'Console and PC gamers',
+    'Movie lovers seeking premium picture quality',
+    'Anyone upgrading to a flagship OLED TV'
+  ],
+
+  whoShouldAvoid: [
+    'Buyers on a tight budget',
+    'Users who only need a basic TV for casual viewing'
+  ],
+
+  editorVerdict: 'The LG OLED evo C5 Series is one of the best premium OLED TVs available, combining outstanding picture quality, powerful AI processing, immersive Dolby Atmos audio, and excellent gaming features into a sleek, modern design.',
+
+  author: DEFAULT_AUTHOR,
+
+  amazonUrl: 'https://amzn.to/3TRNozz',
+
+  specifications: {
+    'Brand': 'LG',
+    'Model': 'OLED65C5PUA',
+    'Screen Size': '65 Inches',
+    'Resolution': '4K UHD (3840 × 2160)',
+    'Display Technology': 'OLED evo',
+    'Processor': 'α9 AI Processor',
+    'HDR': 'Dolby Vision, HDR10, HLG',
+    'Audio': 'Dolby Atmos',
+    'Operating System': 'webOS',
+    'Voice Assistant': 'Alexa Built-in',
+    'Gaming Features': 'HDMI 2.1, VRR, ALLM, G-SYNC & FreeSync Compatible',
+    'Year': '2025'
   },
 
   updatedAt: '2026-08-01'
