@@ -6,6 +6,7 @@ import a from '../assets/images/3.jpg';
 import b from '../assets/images/4.jpg';
 import c from '../assets/images/5.jpg';
 import d from '../assets/images/6.jpg';
+import e from '../assets/images/7.jpg';
 
 export const DEFAULT_ASSOCIATE_TAG = 'sugandha00-20';
 
@@ -486,7 +487,155 @@ features: [
   },
 
   updatedAt: '2026-08-01'
-}
+},
+{
+  id: 'prod-lenovo-loq-essential-i5-12450hx-rtx4050',
+  title: 'Lenovo LOQ Essential – AI-Powered Student Gaming Laptop - Intel® Core™ i5-12450HX - 15.6" FHD IPS 144Hz – NVIDIA® GeForce RTX™ 4050 – 8GB RAM – 512GB SSD – Luna Grey',
+  category: 'Gaming Laptops',
+  brand: 'Lenovo',
+  asin: 'BXXXXXXXX',
+
+  rating: 4.7,
+  reviewsCount: 1250,
+
+  badge: "Editor's Choice",
+
+  amazonUrl: 'https://amzn.to/4w5KqF9',
+
+  image: e,
+
+  gallery: [
+    'https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=1200&q=80',
+    'https://images.unsplash.com/photo-1517336714739-489689fd1ca8?auto=format&fit=crop&w=1200&q=80',
+    'https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?auto=format&fit=crop&w=1200&q=80'
+  ],
+
+  shortSummary:
+    'The Lenovo LOQ Essential combines Intel Core i5-12450HX and RTX 4050 graphics to deliver excellent gaming, programming, and productivity performance for students and creators.',
+
+  description:
+    'The Lenovo LOQ Essential is designed for students and gamers looking for strong performance at an affordable price. Powered by the Intel Core i5-12450HX processor and NVIDIA GeForce RTX 4050 Laptop GPU, it delivers smooth 1080p gaming, fast multitasking, and reliable performance for engineering software, coding, video editing, and everyday productivity.',
+
+  features: [
+    'Intel Core i5-12450HX Processor',
+    'NVIDIA GeForce RTX 4050 Laptop GPU',
+    '15.6-inch Full HD IPS Display',
+    '144Hz Refresh Rate',
+    '8GB DDR5 RAM',
+    '512GB PCIe Gen4 SSD',
+    'AI-powered Lenovo optimization',
+    'Wi-Fi 6',
+    'Bluetooth 5.2',
+    'Windows 11'
+  ],
+
+  pros: [
+    'Excellent RTX 4050 gaming performance',
+    'Powerful Intel HX-series processor',
+    'Smooth 144Hz display',
+    'Fast PCIe SSD',
+    'Upgradeable RAM and storage',
+    'Efficient cooling system',
+    'Great value for money'
+  ],
+
+  cons: [
+    'Only 8GB RAM out of the box',
+    'Battery life is average',
+    'Plastic chassis',
+    'Slightly heavy for travel'
+  ],
+
+  specifications: {
+    Processor: 'Intel Core i5-12450HX',
+    Graphics: 'NVIDIA GeForce RTX 4050 6GB',
+    RAM: '8GB DDR5',
+    Storage: '512GB PCIe SSD',
+    Display: '15.6-inch FHD IPS',
+    RefreshRate: '144Hz',
+    Weight: 'Approx. 2.4 kg',
+    Battery: '57Wh',
+    Connectivity: 'Wi-Fi 6, Bluetooth 5.2',
+    Color: 'Luna Grey'
+  },
+
+  seo: {
+    title:
+      'Lenovo LOQ Essential i5-12450HX RTX 4050 Review (2026) | Best Student Gaming Laptop',
+    description:
+      'Read our Lenovo LOQ Essential review featuring Intel Core i5-12450HX, RTX 4050, 144Hz display, gaming benchmarks, pros, cons, and best Amazon deals.',
+    keywords: [
+      'Lenovo LOQ Essential',
+      'RTX 4050 Laptop',
+      'Intel i5 12450HX',
+      'Gaming Laptop',
+      'Student Laptop',
+      'Best Gaming Laptop 2026',
+      'Lenovo LOQ Review'
+    ]
+  },
+
+  comparison: [
+    'Acer Nitro V RTX 4050',
+    'ASUS TUF Gaming A15 RTX 4050',
+    'HP Victus 15 RTX 4050'
+  ],
+
+  faqs: [
+    {
+      question: 'Is the Lenovo LOQ Essential good for gaming?',
+      answer:
+        'Yes. The RTX 4050 and Intel Core i5-12450HX provide excellent 1080p gaming performance in modern titles.'
+    },
+    {
+      question: 'Can I upgrade the RAM?',
+      answer:
+        'Yes. The RAM and SSD are upgradeable, making it easy to improve performance in the future.'
+    },
+    {
+      question: 'Is it good for engineering students?',
+      answer:
+        'Absolutely. It performs well for programming, AutoCAD, MATLAB, SolidWorks, and other engineering applications.'
+    },
+    {
+      question: 'Does it support Ray Tracing?',
+      answer:
+        'Yes. The RTX 4050 supports real-time Ray Tracing and NVIDIA DLSS.'
+    }
+  ],
+
+  buyingGuide:
+    'Choose this laptop if you want excellent gaming performance, powerful multitasking, a high refresh rate display, and good upgradeability at a competitive price.',
+
+  alternatives: [
+    'Acer Nitro V 15 RTX 4050',
+    'HP Victus 15 RTX 4050',
+    'ASUS TUF Gaming A15 RTX 4050'
+  ],
+
+  editorRating: 4.8,
+
+  valueForMoney: '9.5/10',
+
+  bestFor: [
+    'Gaming',
+    'Programming',
+    'Engineering Students',
+    'Video Editing',
+    'Content Creation'
+  ],
+
+  notRecommendedFor: [
+    'Users needing all-day battery life',
+    'Frequent travelers',
+    'Professional 4K video editors'
+  ],
+
+  affiliateDisclosure:
+    'As an Amazon Associate, we earn from qualifying purchases at no extra cost to you.',
+
+  updatedAt: '2026-08-02'
+},
 
 ];
 
