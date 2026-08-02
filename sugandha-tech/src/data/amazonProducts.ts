@@ -8,6 +8,7 @@ import c from '../assets/images/5.jpg';
 import d from '../assets/images/6.jpg';
 import e from '../assets/images/7.jpg';
 import f from '../assets/images/8.jpg';
+import g from '../assets/images/9.jpg';
 
 export const DEFAULT_ASSOCIATE_TAG = 'sugandha00-20';
 
@@ -640,6 +641,86 @@ features: [
     'Ports': 'USB-A, USB-C',
     'Camera': 'Privacy Shutter Webcam',
     'Color': 'Luna Grey'
+  },
+
+  updatedAt: '2026-08-02'
+},
+{
+  id: 'prod-lenovo-thinkpad-e16-gen3-ultra5',
+  title: 'Lenovo ThinkPad E16 Gen 3 Review (2026): Best Business Laptop? ⭐',
+  category: 'productivity & Tech',
+  brand: 'Lenovo',
+  asin: 'bxxxxxxxxxx',
+  rating: 4.8,
+  reviewsCount: 425,
+  badge: 'Editor\'s Choice', // Options: "Editor's Choice" | "Best Value" | "Top Rated" | "Trending" | "Premium Pick"
+  image: f,
+  gallery: [
+    'https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=800&q=80'
+  ],
+  shortSummary: 'Professional 16-inch business laptop powered by the Intel Core Ultra 5 225H processor, 16GB DDR5 memory, 512GB SSD, Windows 11 Pro, and enterprise-grade security features.',
+
+  description: 'The Lenovo ThinkPad E16 Gen 3 is built for professionals, students, and business users who need dependable performance, excellent battery life, and enterprise-level security. Powered by the Intel Core Ultra 5 225H processor, 16GB DDR5 memory, and a fast 512GB PCIe SSD, it handles multitasking, productivity, and remote work with ease. Premium features like a fingerprint reader, backlit keyboard, fast charging, and Windows 11 Pro make it an outstanding everyday business laptop.',
+
+  features: [
+    'Intel Core Ultra 5 225H processor',
+    '16-inch Full HD display',
+    '16GB DDR5 high-speed memory',
+    '512GB PCIe NVMe SSD',
+    'Windows 11 Pro',
+    'Fingerprint reader for secure login',
+    'Backlit keyboard',
+    'Long battery life with Rapid Charge support',
+    'Wi-Fi 6E and Bluetooth connectivity',
+    'HD webcam with privacy shutter'
+  ],
+
+  pros: [
+    'Excellent productivity performance',
+    'Comfortable ThinkPad keyboard',
+    'Fast SSD and DDR5 memory',
+    'Long battery life',
+    'Business-grade security features',
+    'Durable ThinkPad build quality'
+  ],
+
+  cons: [
+    'Integrated graphics are not designed for AAA gaming',
+    'Display is optimized for productivity rather than professional color work'
+  ],
+
+  whoShouldBuy: [
+    'Business professionals',
+    'Remote workers',
+    'College students',
+    'Office users',
+    'Small business owners'
+  ],
+
+  whoShouldAvoid: [
+    'Competitive gamers',
+    'Professional 3D artists requiring dedicated graphics'
+  ],
+
+  editorVerdict: 'The Lenovo ThinkPad E16 Gen 3 delivers everything business users expect: reliable performance, excellent battery life, enterprise security, and the legendary ThinkPad keyboard. It is one of the best business laptops available in its price range.',
+
+  author: DEFAULT_AUTHOR,
+
+  amazonUrl: 'https://amzn.to/3S96wIP',
+
+  specifications: {
+    'Brand': 'Lenovo',
+    'Model': 'ThinkPad E16 Gen 3',
+    'Processor': 'Intel Core Ultra 5 225H',
+    'Display': '16-inch Full HD',
+    'Memory': '16GB DDR5',
+    'Storage': '512GB PCIe NVMe SSD',
+    'Graphics': 'Intel Integrated Graphics',
+    'Operating System': 'Windows 11 Pro',
+    'Keyboard': 'Backlit',
+    'Security': 'Fingerprint Reader',
+    'Battery': 'Long Battery Life with Fast Charging',
+    'Color': 'Jet Black'
   },
 
   updatedAt: '2026-08-02'
