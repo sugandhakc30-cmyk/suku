@@ -497,7 +497,7 @@ features: [
   rating: 4.7,
   reviewsCount: 540,
   badge: 'Best Value', // Options: "Editor's Choice" | "Best Value" | "Top Rated" | "Trending" | "Premium Pick"
-  image: 'https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=800&q=80',
+  image:  e,
   gallery: [
     'https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=800&q=80'
   ],
