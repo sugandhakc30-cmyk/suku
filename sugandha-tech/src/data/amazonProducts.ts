@@ -656,7 +656,7 @@ features: [
   rating: 4.8,
   reviewsCount: 425,
   badge: 'Editor\'s Choice', // Options: "Editor's Choice" | "Best Value" | "Top Rated" | "Trending" | "Premium Pick"
-  image: f,
+  image: g,
   gallery: [
     'https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=800&q=80'
   ],
