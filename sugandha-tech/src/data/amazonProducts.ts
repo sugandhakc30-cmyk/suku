@@ -9,6 +9,8 @@ import d from '../assets/images/6.jpg';
 import e from '../assets/images/7.jpg';
 import f from '../assets/images/8.jpg';
 import g from '../assets/images/9.jpg';
+import h from '../assets/images/10.jpg';
+
 
 export const DEFAULT_ASSOCIATE_TAG = 'sugandha00-20';
 
@@ -721,6 +723,84 @@ features: [
     'Security': 'Fingerprint Reader',
     'Battery': 'Long Battery Life with Fast Charging',
     'Color': 'Jet Black'
+  },
+
+  updatedAt: '2026-08-02'
+},
+{
+  id: 'prod-samsung-odyssey-g5-27-qhd-180hz',
+  title: 'Samsung Odyssey G5 27" Review (2026): Best 180Hz QHD Gaming Monitor?',
+  category: 'Computers & Gaming',
+  brand: 'Samsung',
+  asin: 'B09XQJQJQJ',
+  rating: 4.8,
+  reviewsCount: 1240,
+  badge: 'Top Rated', // Options: "Editor's Choice" | "Best Value" | "Top Rated" | "Trending" | "Premium Pick"
+  image: h,
+  gallery: [
+    'https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?auto=format&fit=crop&w=800&q=80'
+  ],
+  shortSummary: 'Fast 27-inch QHD gaming monitor featuring a 180Hz refresh rate, 1ms response time, AMD FreeSync, HDR10, and an ergonomic height-adjustable stand.',
+
+  description: 'The Samsung Odyssey G5 (G51F) is designed for competitive gamers who want smooth, responsive gameplay and sharp QHD visuals. Featuring a 27-inch 2560×1440 display, 180Hz refresh rate, 1ms response time, AMD FreeSync, HDR10 support, and gaming tools like Black Equalizer and Virtual Aim Point, it delivers an immersive experience for fast-paced games.',
+
+  features: [
+    '27-inch QHD (2560 × 1440) gaming display',
+    '180Hz refresh rate',
+    '1ms (GtG) response time',
+    'AMD FreeSync technology',
+    'HDR10 support',
+    'Height-adjustable ergonomic stand',
+    'Black Equalizer for enhanced visibility',
+    'Virtual Aim Point gaming feature',
+    'Auto Source Switch+',
+    'Borderless design'
+  ],
+
+  pros: [
+    'Smooth 180Hz gameplay',
+    'Sharp QHD resolution',
+    'Excellent motion clarity',
+    'Ergonomic adjustable stand',
+    'Useful gaming features',
+    'Excellent value for competitive gamers'
+  ],
+
+  cons: [
+    'No built-in speakers',
+    'HDR performance is limited compared to premium HDR displays'
+  ],
+
+  whoShouldBuy: [
+    'Competitive gamers',
+    'PC and console gamers',
+    'Content creators wanting a sharp QHD display',
+    'Students looking for gaming and productivity'
+  ],
+
+  whoShouldAvoid: [
+    'Users needing a professional color-accurate monitor',
+    'Those looking for a 4K display'
+  ],
+
+  editorVerdict: 'The Samsung Odyssey G5 G51F delivers an outstanding combination of QHD resolution, a fast 180Hz refresh rate, ergonomic design, and gamer-focused features. It is an excellent choice for anyone seeking a premium mid-range gaming monitor.',
+
+  author: DEFAULT_AUTHOR,
+
+  amazonUrl: 'https://amzn.to/3U9mIdF',
+
+  specifications: {
+    'Brand': 'Samsung',
+    'Model': 'Odyssey G5 G51F (LS27FG512ENXZA)',
+    'Screen Size': '27 Inches',
+    'Resolution': 'QHD (2560 × 1440)',
+    'Refresh Rate': '180Hz',
+    'Response Time': '1ms (GtG)',
+    'Adaptive Sync': 'AMD FreeSync',
+    'HDR': 'HDR10',
+    'Stand': 'Height Adjustable',
+    'Gaming Features': 'Black Equalizer, Virtual Aim Point, Auto Source Switch+',
+    'Color': 'Black'
   },
 
   updatedAt: '2026-08-02'
