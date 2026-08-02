@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { ShoppingBag, Search, Sun, Moon, Menu, X, Shield, HelpCircle, Mail, Sparkles } from 'lucide-react';
 import { ActivePage, Category } from '../types';
+import logo from "../assets/images/logo.png";
 
 interface NavbarProps {
   activePage: ActivePage;
@@ -38,30 +39,27 @@ export const Navbar: React.FC<NavbarProps> = ({
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 gap-4">
           
-          {/* Brand Logo */}
-          <div className="flex items-center gap-3">
-            <button 
-              onClick={() => handleNavClick('home')} 
-              className="flex items-center gap-2.5 text-left group cursor-pointer"
-            >
-              <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-amber-500 to-orange-600 flex items-center justify-center text-white shadow-md shadow-orange-500/20 group-hover:scale-105 transition-transform">
-                <ShoppingBag className="w-5 h-5" />
-              </div>
-              <div>
-                <div className="flex items-center gap-1.5">
-                  <span className="font-extrabold text-xl tracking-tight text-slate-900 dark:text-white">
-                    SUGANDHA TECH
-                  </span>
-                  <span className="text-[10px] font-bold uppercase tracking-wider bg-amber-500/10 text-amber-600 dark:text-amber-400 border border-amber-500/20 px-1.5 py-0.5 rounded">
-                    #ad
-                  </span>
-                </div>
-                <p className="text-[10px] text-slate-500 dark:text-slate-400 font-medium">
-                  Compliant Amazon Reviews
-                </p>
-              </div>
-            </button>
-          </div>
+         <div className="flex items-center gap-3">
+  <button
+    onClick={() => handleNavClick('home')}
+    className="flex items-center gap-2.5 text-left group cursor-pointer"
+  >
+    <img
+      src={logo}
+      alt="Sugandha Tech"
+      className="h-10 w-auto"
+    />
+
+    <div className="flex flex-col">
+      <span className="font-extrabold text-xl">
+        SUGANDHA TECH
+      </span>
+      <p className="text-[10px]">
+        Compliant Amazon Reviews
+      </p>
+    </div>
+  </button>
+</div>
 
           {/* Search Bar - Desktop */}
           <div className="hidden md:flex flex-1 max-w-md mx-4">
