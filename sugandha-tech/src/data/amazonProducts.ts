@@ -7,6 +7,7 @@ import b from '../assets/images/4.jpg';
 import c from '../assets/images/5.jpg';
 import d from '../assets/images/6.jpg';
 import e from '../assets/images/7.jpg';
+import f from '../assets/images/8.jpg';
 
 export const DEFAULT_ASSOCIATE_TAG = 'sugandha00-20';
 
@@ -560,6 +561,85 @@ features: [
     'Wireless': 'Wi-Fi 6, Bluetooth',
     'Color': 'Luna Grey',
     'Operating System': 'Windows 11'
+  },
+
+  updatedAt: '2026-08-02'
+},
+{
+  id: 'prod-lenovo-legion-5i-i9-rtx4070',
+  title: 'Lenovo Legion 5i Gaming Laptop – Intel Core i9-14900HX, RTX 4070, 16" Display',
+  category: 'Productivity & Tech',
+  brand: 'Lenovo',
+  asin: 'BXXXXXXXX',
+  rating: 4.9,
+  reviewsCount: 1285,
+  badge: 'Editor\'s Choice', // Options: "Editor's Choice" | "Best Value" | "Top Rated" | "Trending" | "Premium Pick"
+  image: f,
+  gallery: [
+    'https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=800&q=80'
+  ],
+  shortSummary: 'High-performance gaming laptop powered by an Intel Core i9-14900HX processor, NVIDIA GeForce RTX 4070 graphics, 32GB RAM, and a stunning 16-inch display with G-SYNC.',
+
+  description: 'The Lenovo Legion 5i is engineered for gamers, streamers, and creators who demand desktop-class performance in a portable design. Featuring the Intel Core i9-14900HX processor, NVIDIA GeForce RTX 4070 Laptop GPU, 32GB DDR5 memory, and a fast 512GB PCIe SSD, it delivers exceptional speed for AAA gaming, video editing, 3D rendering, and multitasking. The immersive 16-inch display with NVIDIA G-SYNC ensures ultra-smooth gameplay with reduced screen tearing.',
+
+  features: [
+    'Intel Core i9-14900HX 24-core processor',
+    'NVIDIA GeForce RTX 4070 Laptop GPU',
+    '16-inch high-resolution gaming display',
+    'NVIDIA G-SYNC technology',
+    '32GB DDR5 high-speed memory',
+    '512GB PCIe Gen4 NVMe SSD',
+    'USB-A and USB-C connectivity',
+    'Privacy shutter webcam',
+    'Advanced Legion ColdFront cooling system',
+    'Windows 11 Home'
+  ],
+
+  pros: [
+    'Outstanding gaming and creator performance',
+    'Powerful RTX 4070 graphics with ray tracing',
+    'Large 32GB RAM for heavy multitasking',
+    'Smooth G-SYNC gaming experience',
+    'Premium cooling keeps temperatures under control',
+    'Excellent keyboard and build quality'
+  ],
+
+  cons: [
+    '512GB SSD may fill up quickly with modern games',
+    'Heavier than standard productivity laptops'
+  ],
+
+  whoShouldBuy: [
+    'Competitive gamers',
+    'Content creators and video editors',
+    'Engineering and programming students',
+    'Professionals needing workstation-class performance'
+  ],
+
+  whoShouldAvoid: [
+    'Users wanting an ultra-light laptop',
+    'People needing only basic office or web browsing'
+  ],
+
+  editorVerdict: 'The Lenovo Legion 5i combines Intel’s flagship Core i9-14900HX processor with RTX 4070 graphics to deliver exceptional gaming and creative performance. With 32GB RAM, G-SYNC support, and premium cooling, it stands out as one of the best high-performance laptops in its class.',
+
+  author: DEFAULT_AUTHOR,
+
+  amazonUrl: 'https://amzn.to/4boL7BU',
+
+  specifications: {
+    'Brand': 'Lenovo',
+    'Model': 'Legion 5i',
+    'Processor': 'Intel Core i9-14900HX',
+    'Graphics': 'NVIDIA GeForce RTX 4070 Laptop GPU',
+    'Display': '16-inch',
+    'Memory': '32GB DDR5',
+    'Storage': '512GB PCIe Gen4 NVMe SSD',
+    'Display Technology': 'G-SYNC',
+    'Operating System': 'Windows 11 Home',
+    'Ports': 'USB-A, USB-C',
+    'Camera': 'Privacy Shutter Webcam',
+    'Color': 'Luna Grey'
   },
 
   updatedAt: '2026-08-02'
