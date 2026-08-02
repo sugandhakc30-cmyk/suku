@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://sugandhatech.in.net/sitemap.xml
