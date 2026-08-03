@@ -100,18 +100,13 @@ export const ProductCard: React.FC<ProductCardProps> = ({
               )}
             </div>
           </div>
-
-          {/* Title */}
-          <h3 
-         <button
-  onClick={() => onOpenDetail(product)}
-  <span>Full Specs &amp; Hands-On Review</span>
-  <ChevronRight className="w-3.5 h-3.5" />
-    </Link>
-            className="font-bold text-slate-900 dark:text-slate-100 text-base leading-snug line-clamp-2 hover:text-amber-600 dark:hover:text-amber-400 transition-colors cursor-pointer"
-          >
-            {product.title}
-          </h3>
+{/* Title */}
+<Link
+  to={`/product/${product.id}`}
+  className="font-bold text-slate-900 dark:text-slate-100 text-base leading-snug line-clamp-2 hover:text-amber-600 dark:hover:text-amber-400 transition-colors block"
+>
+  {product.title}
+</Link>
 
           {/* Star Rating & Reviews */}
           <div className="flex items-center gap-2">
