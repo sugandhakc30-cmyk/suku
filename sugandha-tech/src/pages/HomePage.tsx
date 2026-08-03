@@ -1,4 +1,5 @@
 import React, { useState, useMemo } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { 
   ShieldCheck, 
   Award, 
@@ -83,6 +84,17 @@ export const HomePage: React.FC<HomePageProps> = ({
   onEditProduct,
   onDeleteProduct
 }) => {
+
+  const navigate = useNavigate();
+
+  const [filterState, setFilterState] = useState<FilterState>({
+    category: selectedCategory,
+    searchQuery: searchQuery,
+    selectedBrand: '',
+    minRating: 0,
+    badgeFilter: '',
+    sortBy: 'featured'
+  });
   const [filterState, setFilterState] = useState<FilterState>({
     category: selectedCategory,
     searchQuery: searchQuery,
