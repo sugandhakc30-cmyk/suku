@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { Star, ExternalLink, ChevronRight, CheckCircle2, ShieldCheck, Tag, Edit3, Trash2 } from 'lucide-react';
 import { Product } from '../types';
 import { buildAffiliateUrl } from '../utils/affiliateUtils';
