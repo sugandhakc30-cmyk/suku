@@ -345,7 +345,6 @@ export const HomePage: React.FC<HomePageProps> = ({
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {featuredPicks.map(product => (
               <ProductCard
-              <ProductCard
                product={product}
               onOpenDetail={onOpenDetail}
 />
@@ -404,6 +403,7 @@ export const HomePage: React.FC<HomePageProps> = ({
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
             {filteredProducts.map(product => (
               <ProductCard
+
                 key={product.id}
                 product={product}
                 activeAssociateTag={activeAssociateTag}
