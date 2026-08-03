@@ -97,7 +97,8 @@ export default function App() {
       {/* Main Page Content */}
       <main className="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 pt-6">
 
- <Routes>
+ 
+        <Routes>
   <Route
     path="/"
     element={
@@ -116,23 +117,37 @@ export default function App() {
   />
 
   <Route path="/product/:id" element={<ProductPage />} />
+
+  <Route
+    path="/about"
+    element={<AboutUsPage onBackToHome={() => setActivePage('home')} />}
+  />
+
+  <Route
+    path="/privacy"
+    element={<PrivacyPolicyPage onBackToHome={() => setActivePage('home')} />}
+  />
+
+  <Route
+    path="/contact"
+    element={<ContactPage onBackToHome={() => setActivePage('home')} />}
+  />
+
+  <Route
+    path="/terms"
+    element={<TermsPage onBackToHome={() => setActivePage('home')} />}
+  />
+
+  <Route
+    path="/cookie"
+    element={<CookiePolicyPage onBackToHome={() => setActivePage('home')} />}
+  />
+
+  <Route
+    path="/disclosure"
+    element={<AffiliateDisclosurePage onBackToHome={() => setActivePage('home')} />}
+  />
 </Routes>
-
-        {activePage === 'disclosure' && (
-          <AffiliateDisclosurePage onBackToHome={() => setActivePage('home')} />
-        )}
-
-        {activePage === 'terms' && (
-          <TermsPage onBackToHome={() => setActivePage('home')} />
-        )}
-
-        {activePage === 'cookie' && (
-          <CookiePolicyPage onBackToHome={() => setActivePage('home')} />
-        )}
-
-        {activePage === 'about' && (
-          <AboutUsPage onBackToHome={() => setActivePage('home')} />
-        )}
 
         {activePage === 'privacy' && (
           <PrivacyPolicyPage onBackToHome={() => setActivePage('home')} />
