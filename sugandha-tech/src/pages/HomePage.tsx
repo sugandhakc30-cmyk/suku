@@ -344,14 +344,14 @@ export const HomePage: React.FC<HomePageProps> = ({
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-  {featuredPicks.map((product) => (
-    <ProductCard
-      key={product.id}
-      product={product}
-      activeAssociateTag={activeAssociateTag}
-      onOpenDetail={onOpenDetail}
-      onEditProduct={onEditProduct}
-      onDeleteProduct={onDeleteProduct}
+            {featuredPicks.map((product) => (
+                   <ProductCard
+                      key={product.id}
+                      product={product}
+                      activeAssociateTag={activeAssociateTag}
+                      onOpenDetail={onOpenDetail}
+                      onEditProduct={onEditProduct}
+                      onDeleteProduct={onDeleteProduct}
     />
   ))}
 </div>
