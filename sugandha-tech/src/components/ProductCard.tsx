@@ -103,7 +103,11 @@ export const ProductCard: React.FC<ProductCardProps> = ({
 
           {/* Title */}
           <h3 
-            onClick={() => onOpenDetail(product)}
+         <button
+  onClick={() => onOpenDetail(product)}
+  <span>Full Specs &amp; Hands-On Review</span>
+  <ChevronRight className="w-3.5 h-3.5" />
+    </Link>
             className="font-bold text-slate-900 dark:text-slate-100 text-base leading-snug line-clamp-2 hover:text-amber-600 dark:hover:text-amber-400 transition-colors cursor-pointer"
           >
             {product.title}
@@ -164,8 +168,13 @@ export const ProductCard: React.FC<ProductCardProps> = ({
           </a>
 
           {/* Secondary Full Review Button */}
-          <button
-            onClick={() => onOpenDetail(product)}
+        <Link
+  to={`/product/${product.id}`}
+  className="w-full py-2 px-3 rounded-xl border border-slate-200 dark:border-slate-700 hover:bg-slate-100 dark:hover:bg-slate-800 text-slate-700 dark:text-slate-300 font-semibold text-xs transition-colors flex items-center justify-center gap-1"
+>
+  <span>Full Specs &amp; Hands-On Review</span>
+  <ChevronRight className="w-3.5 h-3.5" />
+</Link>
             className="w-full py-2 px-3 rounded-xl border border-slate-200 dark:border-slate-700 hover:bg-slate-100 dark:hover:bg-slate-800 text-slate-700 dark:text-slate-300 font-semibold text-xs transition-colors flex items-center justify-center gap-1 cursor-pointer"
           >
             <span>Full Specs &amp; Hands-On Review</span>
