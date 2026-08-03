@@ -343,19 +343,18 @@ export const HomePage: React.FC<HomePageProps> = ({
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {featuredPicks.map(product => (
-              <ProductCard
-               product={product}
-              onOpenDetail={onOpenDetail}
-/>
-                key={product.id}
-                product={product}
-                activeAssociateTag={activeAssociateTag}
-                onOpenDetail={onOpenDetail}
-                onEditProduct={onEditProduct}
-                onDeleteProduct={onDeleteProduct}
-              />
-            ))}
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+  {featuredPicks.map((product) => (
+    <ProductCard
+      key={product.id}
+      product={product}
+      activeAssociateTag={activeAssociateTag}
+      onOpenDetail={onOpenDetail}
+      onEditProduct={onEditProduct}
+      onDeleteProduct={onDeleteProduct}
+    />
+  ))}
+</div>
           </div>
         </section>
       )}
