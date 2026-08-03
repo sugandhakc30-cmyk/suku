@@ -25,7 +25,10 @@ export const ProductCard: React.FC<ProductCardProps> = ({
     <div className="group rounded-2xl bg-white dark:bg-slate-900 border border-slate-200/80 dark:border-slate-800 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col h-full overflow-hidden relative">
       
       {/* Top Image Section */}
-      <div className="relative aspect-4/3 bg-slate-100 dark:bg-slate-800 overflow-hidden cursor-pointer" onClick={() => onOpenDetail(product)}>
+     <Link
+  to={`/product/${product.id}`}
+  className="relative aspect-4/3 bg-slate-100 dark:bg-slate-800 overflow-hidden cursor-pointer block"
+>
         <img
           src={product.image}
           alt={product.title}
@@ -53,7 +56,7 @@ export const ProductCard: React.FC<ProductCardProps> = ({
             Read Hands-On Review <ChevronRight className="w-3.5 h-3.5" />
           </span>
         </div>
-      </div>
+      </Link>
 
       {/* Card Body */}
       <div className="p-5 flex-1 flex flex-col justify-between space-y-4">
