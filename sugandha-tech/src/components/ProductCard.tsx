@@ -165,16 +165,11 @@ export const ProductCard: React.FC<ProductCardProps> = ({
           {/* Secondary Full Review Button */}
         <Link
   to={`/product/${product.id}`}
-  className="w-full py-2 px-3 rounded-xl border border-slate-200 dark:border-slate-700 hover:bg-slate-100 dark:hover:bg-slate-800 text-slate-700 dark:text-slate-300 font-semibold text-xs transition-colors flex items-center justify-center gap-1"
->
-  <span>Full Specs &amp; Hands-On Review</span>
-  <ChevronRight className="w-3.5 h-3.5" />
-</Link>
             className="w-full py-2 px-3 rounded-xl border border-slate-200 dark:border-slate-700 hover:bg-slate-100 dark:hover:bg-slate-800 text-slate-700 dark:text-slate-300 font-semibold text-xs transition-colors flex items-center justify-center gap-1 cursor-pointer"
           >
             <span>Full Specs &amp; Hands-On Review</span>
             <ChevronRight className="w-3.5 h-3.5" />
-          </button>
+          </link>
 
           {/* Paid Link Micro Disclosure */}
           <div className="text-[10px] text-slate-400 dark:text-slate-500 text-center flex items-center justify-center gap-1 pt-0.5">
