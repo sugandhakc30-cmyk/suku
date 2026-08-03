@@ -278,37 +278,40 @@ export default function ProductPage() {
         {/* ---------------------------------------------------------------------
             10. RELATED PRODUCTS
         --------------------------------------------------------------------- */}
-      {/* 10. RELATED PRODUCTS */}
-{relatedProducts.length > 0 && (
-  <section className="mt-12">
-    <h2 className="text-xl font-bold text-slate-900 mb-6">Related Products</h2>
-    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-      {relatedProducts.map((rel) => (
-        <Link
-          key={rel.id}
-          to={`/product/${rel.slug}`}
-          className="bg-white rounded-xl border border-slate-200 overflow-hidden shadow-sm hover:shadow-md transition-shadow block"
-        >
-          <div className="w-full h-44 bg-slate-100 relative">
-            <img
-              src={rel.images[0]}
-              alt={rel.title}
-              className="w-full h-full object-cover"
-            />
-          </div>
-          <div className="p-4">
-            <h3 className="font-bold text-slate-900 mb-1 line-clamp-1">
-              {rel.title}
-            </h3>
-            <p className="text-amber-600 font-extrabold mb-3">
-              ${rel.price}
-            </p>
-            <span className="text-sm font-semibold text-indigo-600 flex items-center gap-1">
-              Read Review <span>→</span>
-            </span>
-          </div>
-        </Link>
-      ))}
+        {relatedProducts.length > 0 && (
+          <section className="mt-12">
+            <h2 className="text-xl font-bold text-slate-900 mb-6">Related Products</h2>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+              {relatedProducts.map((rel) => (
+                <Link
+                  key={rel.id}
+                  to={`/product/${rel.slug}`}
+                  className="bg-white rounded-xl border border-slate-200 overflow-hidden shadow-sm hover:shadow-md transition-shadow block"
+                >
+                  <div className="w-full h-44 bg-slate-100 relative">
+                    <img
+                      src={rel.images[0]}
+                      alt={rel.title}
+                      className="w-full h-full object-cover"
+                    />
+                  </div>
+                  <div className="p-4">
+                    <h3 className="font-bold text-slate-900 mb-1 line-clamp-1">
+                      {rel.title}
+                    </h3>
+                    <p className="text-amber-600 font-extrabold mb-3">
+                      ${rel.price}
+                    </p>
+                    <span className="text-sm font-semibold text-indigo-600 flex items-center gap-1">
+                      Read Review <span>→</span>
+                    </span>
+                  </div>
+                </Link>
+              ))}
+            </div>
+          </section>
+        )}
+      </main>
     </div>
-  </section>
-)}
+  );
+}
