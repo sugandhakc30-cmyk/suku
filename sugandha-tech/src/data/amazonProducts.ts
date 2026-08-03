@@ -808,6 +808,16 @@ features: [
 
 ];
 
-export const SAMPLE_PRODUCTS: Product[] = AMAZON_PRODUCTS;
+/**
+ * Helper function to retrieve a single product by its unique ID
+ */
+export const getProductById = (id: string): Product | undefined => {
+  return AMAZON_PRODUCTS.find((product) => product.id === id);
+};
 
-
+/**
+ * Helper function to retrieve multiple products by array of IDs
+ */
+export const getProductsByIds = (ids: string[]): Product[] => {
+  return AMAZON_PRODUCTS.filter((product) => ids.includes(product.id));
+};
