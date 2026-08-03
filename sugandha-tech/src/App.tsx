@@ -10,7 +10,8 @@ import { Footer } from './components/Footer';
 import { ProductDetailModal } from './components/ProductDetailModal';
 import { AssociateTagModal } from './components/AssociateTagModal';
 
-// Pages
+import { Routes, Route } from 'react-router-dom';
+
 import { HomePage } from './pages/HomePage';
 import { AboutUsPage } from './pages/AboutUsPage';
 import { PrivacyPolicyPage } from './pages/PrivacyPolicyPage';
@@ -18,6 +19,7 @@ import { ContactPage } from './pages/ContactPage';
 import { AffiliateDisclosurePage } from './pages/AffiliateDisclosurePage';
 import { TermsPage } from './pages/TermsPage';
 import { CookiePolicyPage } from './pages/CookiePolicyPage';
+import ProductPage from './pages/ProductPage';
 
 
 
