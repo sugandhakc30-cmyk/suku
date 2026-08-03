@@ -19,7 +19,7 @@ import { AffiliateDisclosurePage } from './pages/AffiliateDisclosurePage';
 import { TermsPage } from './pages/TermsPage';
 import { CookiePolicyPage } from './pages/CookiePolicyPage';
 
-const PRODUCTS_STORAGE_KEY = 'gearpicks_products_v4';
+
 
 export default function App() {
   const [activePage, setActivePage] = useState<ActivePage>('home');
@@ -30,29 +30,9 @@ export default function App() {
     return false;
   });
 
-  // Stateful products list initialized with our original reviews
-  const [products, setProducts] = useState<Product[]>(() => {
-    if (typeof window !== 'undefined') {
-      try {
-        const saved = localStorage.getItem(PRODUCTS_STORAGE_KEY);
-        if (saved) return JSON.parse(saved);
-      } catch (e) {
-        console.error('Error loading products from storage', e);
-      }
-    }
-    return AMAZON_PRODUCTS;
-  });
+  const [PRODUCTS] =
+ useState<Product[]>(  AMAZON_PRODUCTS);
 
-  // Persist products when updated
-  useEffect(() => {
-    if (typeof window !== 'undefined') {
-      try {
-        localStorage.setItem(PRODUCTS_STORAGE_KEY, JSON.stringify(products));
-      } catch (e) {
-        console.error('Error saving products to storage', e);
-      }
-    }
-  }, [products]);
 
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedCategory, setSelectedCategory] = useState<Category>('All');
