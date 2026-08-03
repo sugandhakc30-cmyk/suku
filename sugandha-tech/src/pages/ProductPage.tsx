@@ -1,3 +1,5 @@
+/// <reference types="react" />
+/// <reference types="react/jsx-runtime" />
 import React, { useState } from 'react';
 import SEO from '../components/SEO';
 import { useParams, Link } from 'react-router-dom';
@@ -434,6 +436,7 @@ export const ProductPage: React.FC = () => {
 
       </div>
     </div>
+  </> 
   );
 };
 
