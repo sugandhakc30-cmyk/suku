@@ -40,7 +40,7 @@ export default function SEO({
     "@type": "Organization",
     name: SITE_NAME,
     url: SITE_URL,
-    logo: `${sugandhatech.in.net}/logo.png`,
+    logo: `${SITE_URL}/logo.png`,
    
   };
 
