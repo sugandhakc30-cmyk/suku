@@ -97,23 +97,26 @@ export default function App() {
       {/* Main Page Content */}
       <main className="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 pt-6">
 
-  <Routes>
-    <Route path="/product/:id" element={<ProductPage />} />
-  </Routes>
+ <Routes>
+  <Route
+    path="/"
+    element={
+      <HomePage
+        products={products}
+        categories={categories}
+        searchQuery={searchQuery}
+        setSearchQuery={setSearchQuery}
+        selectedCategory={selectedCategory}
+        setSelectedCategory={setSelectedCategory}
+        activeAssociateTag={activeAssociateTag}
+        onOpenDetail={(prod) => setSelectedProduct(prod)}
+        onNavigatePage={(page) => setActivePage(page)}
+      />
+    }
+  />
 
-  {activePage === 'home' && (
-          <HomePage
-            products={products}
-            categories={categories}
-            searchQuery={searchQuery}
-            setSearchQuery={setSearchQuery}
-            selectedCategory={selectedCategory}
-            setSelectedCategory={setSelectedCategory}
-            activeAssociateTag={activeAssociateTag}
-            onOpenDetail={(prod) => setSelectedProduct(prod)}
-            onNavigatePage={(page) => setActivePage(page)}
-          />
-        )}
+  <Route path="/product/:id" element={<ProductPage />} />
+</Routes>
 
         {activePage === 'disclosure' && (
           <AffiliateDisclosurePage onBackToHome={() => setActivePage('home')} />
