@@ -169,7 +169,7 @@ export const ProductCard: React.FC<ProductCardProps> = ({
           >
             <span>Full Specs &amp; Hands-On Review</span>
             <ChevronRight className="w-3.5 h-3.5" />
-          </link>
+          </Link>
 
           {/* Paid Link Micro Disclosure */}
           <div className="text-[10px] text-slate-400 dark:text-slate-500 text-center flex items-center justify-center gap-1 pt-0.5">
