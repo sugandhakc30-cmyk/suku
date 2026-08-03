@@ -1,3 +1,4 @@
+/// <reference types="react" />
 import React, { useState } from "react";
 import { useParams, Link } from "react-router-dom"; // Replace with 'next/navigation' or 'next/router' if using Next.js
 import { getProductBySlug, getProductsByIds, Product } from "./amazonProducts";
