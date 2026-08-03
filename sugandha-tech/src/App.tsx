@@ -149,13 +149,7 @@ export default function App() {
   />
 </Routes>
 
-        {activePage === 'privacy' && (
-          <PrivacyPolicyPage onBackToHome={() => setActivePage('home')} />
-        )}
-
-        {activePage === 'contact' && (
-          <ContactPage onBackToHome={() => setActivePage('home')} />
-        )}
+        
       </main>
 
       {/* Site Footer */}
