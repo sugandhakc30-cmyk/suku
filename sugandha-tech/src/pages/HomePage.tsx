@@ -85,16 +85,7 @@ export const HomePage: React.FC<HomePageProps> = ({
   onDeleteProduct
 }) => {
 
-  const navigate = useNavigate();
-
-  const [filterState, setFilterState] = useState<FilterState>({
-    category: selectedCategory,
-    searchQuery: searchQuery,
-    selectedBrand: '',
-    minRating: 0,
-    badgeFilter: '',
-    sortBy: 'featured'
-  });
+  
   const [filterState, setFilterState] = useState<FilterState>({
     category: selectedCategory,
     searchQuery: searchQuery,
