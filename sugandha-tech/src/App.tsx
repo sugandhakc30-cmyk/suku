@@ -31,7 +31,7 @@ export default function App() {
   });
 
   const [PRODUCTS] =
- useState<Product[]>(  AMAZON_PRODUCTS);
+ useState<Product[]>(AMAZON_PRODUCTS);
 
 
   const [searchQuery, setSearchQuery] = useState('');
