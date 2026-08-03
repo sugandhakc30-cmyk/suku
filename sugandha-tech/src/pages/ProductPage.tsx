@@ -129,10 +129,9 @@ export const ProductPage: React.FC = () => {
             {/* Product Overview Column */}
             <div className="lg:col-span-7 flex flex-col justify-between">
               <div>
-                <div className="flex items-center space-x-2 text-sm text-blue-600 font-semibold uppercase tracking-wider mb-2">
-                 <div className="flex items-center text-sm text-blue-600 font-semibold uppercase tracking-wider mb-2">
-                 <span>{product.brand}</span>
-                      </div>
+                <<div className="text-sm text-blue-600 font-semibold uppercase tracking-wider mb-2">
+                   <span>{product.brand}</span>
+                   </div>
 
                 <h1 className="text-2xl sm:text-3xl font-bold text-gray-900 leading-snug mb-4">
                   {product.title}
