@@ -96,7 +96,12 @@ export default function App() {
 
       {/* Main Page Content */}
       <main className="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 pt-6">
-        {activePage === 'home' && (
+
+  <Routes>
+    <Route path="/product/:id" element={<ProductPage />} />
+  </Routes>
+
+  {activePage === 'home' && (
           <HomePage
             products={products}
             categories={categories}
