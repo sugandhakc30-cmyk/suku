@@ -434,7 +434,6 @@ export const ProductPage: React.FC = () => {
 
       </div>
     </div>
-    </>
   );
 };
 
