@@ -195,7 +195,7 @@ export const AMAZON_PRODUCTS: Product[] = [
   rating: 4.4,
   reviewsCount: 126,
   badge: 'Best Value', // Options: "Editor's Choice" | "Best Value" | "Top Rated" | "Trending" | "Premium Pick"
-  image: '/images/3.jpg',,
+  image: '/images/3.jpg',
   shortSummary: 'Reliable 150cc gas-powered street moped featuring an automatic transmission, 13-inch aluminum wheels, and a fuel-efficient 4-stroke engine for everyday commuting.',
   description: 'The X-PRO Fiji 150 is designed for riders looking for an affordable and dependable street scooter. Powered by a 150cc air-cooled 4-stroke engine with automatic CVT transmission, it delivers smooth acceleration, excellent fuel economy, and comfortable urban riding. The lightweight 13-inch aluminum wheels and front disc/rear drum brakes provide confident handling and braking performance.',
   features: [
