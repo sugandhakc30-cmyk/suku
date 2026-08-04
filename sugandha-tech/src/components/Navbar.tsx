@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { ShoppingBag, Search, Sun, Moon, Menu, X, Shield, HelpCircle, Mail, Sparkles } from 'lucide-react';
 import { ActivePage, Category } from '../types';
-import logo from "../assets/images/logo.png";
+import logo from "/images/logo.png";
 
 interface NavbarProps {
   activePage: ActivePage;
