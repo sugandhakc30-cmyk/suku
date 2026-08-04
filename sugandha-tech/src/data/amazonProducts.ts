@@ -28,7 +28,6 @@ export const AMAZON_PRODUCTS: Product[] = [
     title: 'Logitech MX Master 3S - Performance Wireless Mouse with Ultra-Fast Scrolling, Ergo, 8K DPI, Track on Glass, Quiet Clicks, Bluetooth, Windows, Linux, Chrome, Black',
     category: 'Productivity & Tech',
     brand: 'Logitech',
-    asin: 'B09HM94VDS',
     rating: 4.6,
     reviewsCount: 126,
     badge: "Editor's Choice",
@@ -85,7 +84,6 @@ export const AMAZON_PRODUCTS: Product[] = [
   title: 'Lenovo Legion 5i Gaming Laptop – Intel Core i7-14700HX, RTX 5070, 15" 2.5K OLED 165Hz',
   category: 'Computers & Gaming',
   brand: 'Lenovo',
-  asin: 'YOUR_ASIN_HERE',
   rating: 4.8,
   reviewsCount: 2150,
   badge: "Editor's Choice", // Options: "Editor's Choice" | "Best Value" | "Top Rated" | "Trending" | "Premium Pick"
@@ -145,7 +143,6 @@ export const AMAZON_PRODUCTS: Product[] = [
   title: 'Beatbot Sora 70 Pool Vacuum Robot',
   category: 'Smart Home',
   brand: 'Beatbot',
-  asin: 'B0H1MHCLG6',
   rating: 4.8,
   reviewsCount: 320,
   badge: 'Premium Pick', // Options: "Editor's Choice" | "Best Value" | "Top Rated" | "Trending" | "Premium Pick"
@@ -216,7 +213,6 @@ export const AMAZON_PRODUCTS: Product[] = [
   title: 'X-PRO 150cc Moped Street Gas Moped with 13" Aluminum Wheels (Red)',
   category: 'Automotive',
   brand: 'X-PRO',
-  asin: 'B095NSTYP5',
   rating: 4.4,
   reviewsCount: 126,
   badge: 'Best Value', // Options: "Editor's Choice" | "Best Value" | "Top Rated" | "Trending" | "Premium Pick"
@@ -276,7 +272,6 @@ export const AMAZON_PRODUCTS: Product[] = [
   title: 'X-PRO Electric Dirt Bike 6600W – Teens & Adults Off-Road E-Bike (Green)',
   category: 'Sports & Outdoors',
   brand: 'X-PRO',
-  asin: 'B0C5Y8Z9XX',
   rating: 4.7,
   reviewsCount: 185,
   badge: 'Trending', // Options: "Editor's Choice" | "Best Value" | "Top Rated" | "Trending" | "Premium Pick"
@@ -348,7 +343,6 @@ export const AMAZON_PRODUCTS: Product[] = [
   title: '3000W Electric Dirt Bike for Adults – 42MPH Off-Road E-Bike, 60V 25Ah Battery',
   category: 'Sports & Outdoors',
   brand: 'Generic',
-  asin: 'YOUR_ASIN_HERE',
   rating: 4.6,
   reviewsCount: 145,
   badge: 'Best Value', // Options: "Editor's Choice" | "Best Value" | "Top Rated" | "Trending" | "Premium Pick"
@@ -421,7 +415,6 @@ export const AMAZON_PRODUCTS: Product[] = [
   title: 'LG 65-Inch Class OLED evo AI 4K C5 Series Smart TV (OLED65C5PUA, 2025)',
   category: 'Productivity & Tech',
   brand: 'LG',
-  asin: 'COXXXXXX',
   rating: 4.9,
   reviewsCount: 890,
   badge: 'Editor\'s Choice', // Options: "Editor's Choice" | "Best Value" | "Top Rated" | "Trending" | "Premium Pick"
@@ -497,7 +490,7 @@ features: [
   title: 'Lenovo LOQ Essential AI-Powered Student Gaming Laptop – Intel Core i5-12450HX, RTX 4050',
   category: 'Productivity & Tech',
   brand: 'Lenovo',
-  asin: 'BXXXXXXX',
+
   rating: 4.7,
   reviewsCount: 540,
   badge: 'Best Value', // Options: "Editor's Choice" | "Best Value" | "Top Rated" | "Trending" | "Premium Pick"
@@ -573,7 +566,7 @@ features: [
   title: 'Lenovo Legion 5i Gaming Laptop – Intel Core i9-14900HX, RTX 4070, 16" Display',
   category: 'Productivity & Tech',
   brand: 'Lenovo',
-  asin: 'BXXXXXXXX',
+ 
   rating: 4.9,
   reviewsCount: 1285,
   badge: 'Editor\'s Choice', // Options: "Editor's Choice" | "Best Value" | "Top Rated" | "Trending" | "Premium Pick"
@@ -652,7 +645,6 @@ features: [
   title: 'Lenovo ThinkPad E16 Gen 3 Review (2026): Best Business Laptop? ⭐',
   category: 'productivity & Tech',
   brand: 'Lenovo',
-  asin: 'bxxxxxxxxxx',
   rating: 4.8,
   reviewsCount: 425,
   badge: 'Editor\'s Choice', // Options: "Editor's Choice" | "Best Value" | "Top Rated" | "Trending" | "Premium Pick"
@@ -736,9 +728,6 @@ features: [
   reviewsCount: 1240,
   badge: 'Top Rated', // Options: "Editor's Choice" | "Best Value" | "Top Rated" | "Trending" | "Premium Pick"
   image: h,
-  gallery: [
-    'https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?auto=format&fit=crop&w=800&q=80'
-  ],
   shortSummary: 'Fast 27-inch QHD gaming monitor featuring a 180Hz refresh rate, 1ms response time, AMD FreeSync, HDR10, and an ergonomic height-adjustable stand.',
 
   description: 'The Samsung Odyssey G5 (G51F) is designed for competitive gamers who want smooth, responsive gameplay and sharp QHD visuals. Featuring a 27-inch 2560×1440 display, 180Hz refresh rate, 1ms response time, AMD FreeSync, HDR10 support, and gaming tools like Black Equalizer and Virtual Aim Point, it delivers an immersive experience for fast-paced games.',
