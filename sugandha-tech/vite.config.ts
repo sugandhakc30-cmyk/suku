@@ -11,9 +11,16 @@ export default defineConfig(() => {
       react(),
       tailwindcss(),
       Sitemap({
-        hostname: 
-        "https://sugandhatech.in.net",
-      })],
+  hostname: "https://sugandhatech.in.net",
+  dynamicRoutes: [
+    "/",
+    "/about",
+    "/contact",
+    "/privacy",
+    "/terms",
+    "/disclosure",
+  ],
+})],
 
     resolve: {
       alias: {
