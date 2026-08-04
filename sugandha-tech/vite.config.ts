@@ -1,5 +1,6 @@
 import tailwindcss from '@tailwindcss/vite';
 import react from '@vitejs/plugin-react';
+import { AMAZON_PRODUCTS } from './data/amazonProducts';
 import path from 'path';
 import {defineConfig} from 'vite';
 import Sitemap from 
@@ -10,7 +11,7 @@ export default defineConfig(() => {
     plugins: [
       react(),
       tailwindcss(),
-      Sitemap({
+Sitemap({
   hostname: "https://sugandhatech.in.net",
   dynamicRoutes: [
     "/",
@@ -18,7 +19,11 @@ export default defineConfig(() => {
     "/contact",
     "/privacy",
     "/terms",
+    "/cookie",
     "/disclosure",
+    ...AMAZON_PRODUCTS.map(
+      (product) => `/product/${product.id}`
+    ),
   ],
 })],
 
