@@ -732,7 +732,6 @@ features: [
   title: 'Samsung Odyssey G5 27" Review (2026): Best 180Hz QHD Gaming Monitor?',
   category: 'Computers & Gaming',
   brand: 'Samsung',
-  asin: 'B09XQJQJQJ',
   rating: 4.8,
   reviewsCount: 1240,
   badge: 'Top Rated', // Options: "Editor's Choice" | "Best Value" | "Top Rated" | "Trending" | "Premium Pick"
