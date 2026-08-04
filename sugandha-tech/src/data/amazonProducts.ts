@@ -1,15 +1,4 @@
 import { Product, AuthorInfo } from '../types';
-import logitechImg from '../assets/images/logitech_mx_master_1785237677949.jpg';
-import fp from '../assets/images/1.jpg';
-import fa from '../assets/images/2.jpg';
-import a from '../assets/images/3.jpg';
-import b from '../assets/images/4.jpg';
-import c from '../assets/images/5.jpg';
-import d from '../assets/images/6.jpg';
-import e from '../assets/images/7.jpg';
-import f from '../assets/images/8.jpg';
-import g from '../assets/images/9.jpg';
-import h from '../assets/images/10.jpg';
 
 
 export const DEFAULT_ASSOCIATE_TAG = 'sugandha00-20';
@@ -31,7 +20,7 @@ export const AMAZON_PRODUCTS: Product[] = [
     rating: 4.6,
     reviewsCount: 126,
     badge: "Editor's Choice",
-    image: logitechImg,
+    image: '/images/logitech-mx-master-3s-black.jpg',
     shortSummary: 'Master class ergonomic workstation mouse featuring an 8,000 DPI Darkfield track-on-glass sensor, 90% quieter Quiet Clicks, and electromagnetic MagSpeed scrolling.',
     description: 'The Logitech MX Master 3S is sculpted to support your palm and wrist in a natural relaxed posture. Equipped with the revolutionary MagSpeed wheel that scrolls 1,000 lines per second in silence, an 8K DPI sensor that works flawlessly even on clear glass dining tables, and customizable thumb controls.',
     features: [
@@ -83,7 +72,7 @@ export const AMAZON_PRODUCTS: Product[] = [
   rating: 4.8,
   reviewsCount: 2150,
   badge: "Editor's Choice", // Options: "Editor's Choice" | "Best Value" | "Top Rated" | "Trending" | "Premium Pick"
-  image: fp,
+  image: '/images/1.jpg',
   shortSummary: 'Powerful gaming laptop featuring Intel Core i7-14700HX, NVIDIA GeForce RTX 5070 graphics, a stunning 15-inch 2.5K OLED 165Hz display, and 1TB SSD storage.',
   description: 'Built for gamers and creators, the Lenovo Legion 5i combines the Intel Core i7-14700HX processor with NVIDIA GeForce RTX 5070 graphics for exceptional gaming, streaming, and content creation performance. The 15-inch PureSight OLED display delivers vivid colors, deep blacks, and ultra-smooth 165Hz gameplay.',
   features: [
@@ -139,7 +128,7 @@ export const AMAZON_PRODUCTS: Product[] = [
   rating: 4.8,
   reviewsCount: 320,
   badge: 'Premium Pick', // Options: "Editor's Choice" | "Best Value" | "Top Rated" | "Trending" | "Premium Pick"
-  image: fa,
+  image: '/images/2.jpg',
   shortSummary: 'Advanced cordless robotic pool cleaner with 360° top-to-bottom cleaning, powerful 6800 GPH suction, smart surface parking, and a large 6L debris basket for pools up to 3,200 sq. ft.',
   description: 'The Beatbot Sora 70 is a premium robotic pool cleaner designed for complete pool maintenance. It cleans the floor, walls, waterline, surface, and shallow platforms while using intelligent navigation and powerful suction to remove leaves, dirt, sand, insects, and other debris. Smart Surface Parking and app control make retrieval and operation effortless.',
 
@@ -206,7 +195,7 @@ export const AMAZON_PRODUCTS: Product[] = [
   rating: 4.4,
   reviewsCount: 126,
   badge: 'Best Value', // Options: "Editor's Choice" | "Best Value" | "Top Rated" | "Trending" | "Premium Pick"
-  image: a,
+  image: '/images/3.jpg',,
   shortSummary: 'Reliable 150cc gas-powered street moped featuring an automatic transmission, 13-inch aluminum wheels, and a fuel-efficient 4-stroke engine for everyday commuting.',
   description: 'The X-PRO Fiji 150 is designed for riders looking for an affordable and dependable street scooter. Powered by a 150cc air-cooled 4-stroke engine with automatic CVT transmission, it delivers smooth acceleration, excellent fuel economy, and comfortable urban riding. The lightweight 13-inch aluminum wheels and front disc/rear drum brakes provide confident handling and braking performance.',
   features: [
@@ -262,7 +251,7 @@ export const AMAZON_PRODUCTS: Product[] = [
   rating: 4.7,
   reviewsCount: 185,
   badge: 'Trending', // Options: "Editor's Choice" | "Best Value" | "Top Rated" | "Trending" | "Premium Pick"
-  image: b,
+  image: '/images/4.jpg',
   shortSummary: 'High-performance 6600W electric dirt bike featuring a removable long-range battery, 55+ MPH top speed, adjustable 3-speed modes, and rugged off-road suspension.',
   description: 'The X-PRO 6600W Electric Dirt Bike is designed for teens and adults who want thrilling off-road performance without the noise of a gas engine. Equipped with a powerful 6600W electric motor, removable high-capacity battery, hydraulic suspension, and adjustable riding modes, it delivers impressive acceleration, long riding range, and dependable control on challenging terrain.',
 
@@ -330,7 +319,7 @@ export const AMAZON_PRODUCTS: Product[] = [
   rating: 4.6,
   reviewsCount: 145,
   badge: 'Best Value', // Options: "Editor's Choice" | "Best Value" | "Top Rated" | "Trending" | "Premium Pick"
-  image: c,
+  image: '/images/5.jpg',
   shortSummary: 'Powerful 3000W electric dirt bike featuring a 60V 25Ah removable battery, 42 MPH top speed, up to 90 miles of range, and premium full suspension for off-road adventures.',
 
   description: 'Built for adventure seekers, this 3000W Electric Dirt Bike combines impressive performance with long-range capability. Its high-torque brushless motor, 60V 25Ah lithium battery, full suspension, hydraulic disc brakes, and rugged 17-inch off-road tires provide excellent control, comfort, and confidence on trails, dirt roads, and challenging terrain.',
@@ -399,7 +388,7 @@ export const AMAZON_PRODUCTS: Product[] = [
   rating: 4.9,
   reviewsCount: 890,
   badge: 'Editor\'s Choice', // Options: "Editor's Choice" | "Best Value" | "Top Rated" | "Trending" | "Premium Pick"
-  image: d,
+  image: '/images/6.jpg',
   shortSummary: 'Premium 65-inch OLED evo AI 4K Smart TV featuring Dolby Vision, Dolby Atmos, AI Super Upscaling 4K, Filmmaker Mode, and Alexa Built-in for an immersive home theater experience.',
 
   description: 'The LG OLED65C5PUA delivers breathtaking OLED evo picture quality with perfect blacks, vibrant colors, and advanced AI processing. Powered by the latest α9 AI Processor, it intelligently enhances picture and sound while supporting Dolby Vision, Dolby Atmos, HDR10, and AI Super Upscaling 4K. Whether you are watching movies, gaming, or streaming, the C5 Series provides a premium entertainment experience.',
@@ -472,7 +461,7 @@ features: [
   rating: 4.7,
   reviewsCount: 540,
   badge: 'Best Value', // Options: "Editor's Choice" | "Best Value" | "Top Rated" | "Trending" | "Premium Pick"
-  image:  e,
+  image: '/images/7.jpg',
   shortSummary: 'Affordable AI-powered gaming laptop featuring an Intel Core i5-12450HX processor, NVIDIA GeForce RTX 4050 graphics, 144Hz FHD display, and fast 512GB SSD storage.',
 
   description: 'The Lenovo LOQ Essential is built for students, gamers, and creators who need dependable performance at an affordable price. Powered by the Intel Core i5-12450HX processor and NVIDIA GeForce RTX 4050 graphics, it delivers smooth gameplay, fast multitasking, and AI-enhanced performance. The 15.6-inch Full HD IPS display with a 144Hz refresh rate provides fluid visuals for gaming, studying, and entertainment.',
@@ -545,7 +534,7 @@ features: [
   rating: 4.9,
   reviewsCount: 1285,
   badge: 'Editor\'s Choice', // Options: "Editor's Choice" | "Best Value" | "Top Rated" | "Trending" | "Premium Pick"
-  image: f,
+  image: '/images/8.jpg',
   shortSummary: 'High-performance gaming laptop powered by an Intel Core i9-14900HX processor, NVIDIA GeForce RTX 4070 graphics, 32GB RAM, and a stunning 16-inch display with G-SYNC.',
 
   description: 'The Lenovo Legion 5i is engineered for gamers, streamers, and creators who demand desktop-class performance in a portable design. Featuring the Intel Core i9-14900HX processor, NVIDIA GeForce RTX 4070 Laptop GPU, 32GB DDR5 memory, and a fast 512GB PCIe SSD, it delivers exceptional speed for AAA gaming, video editing, 3D rendering, and multitasking. The immersive 16-inch display with NVIDIA G-SYNC ensures ultra-smooth gameplay with reduced screen tearing.',
@@ -620,7 +609,7 @@ features: [
   rating: 4.8,
   reviewsCount: 425,
   badge: 'Editor\'s Choice', // Options: "Editor's Choice" | "Best Value" | "Top Rated" | "Trending" | "Premium Pick"
-  image: g,
+  image: '/images/9.jpg',
   shortSummary: 'Professional 16-inch business laptop powered by the Intel Core Ultra 5 225H processor, 16GB DDR5 memory, 512GB SSD, Windows 11 Pro, and enterprise-grade security features.',
 
   description: 'The Lenovo ThinkPad E16 Gen 3 is built for professionals, students, and business users who need dependable performance, excellent battery life, and enterprise-level security. Powered by the Intel Core Ultra 5 225H processor, 16GB DDR5 memory, and a fast 512GB PCIe SSD, it handles multitasking, productivity, and remote work with ease. Premium features like a fingerprint reader, backlit keyboard, fast charging, and Windows 11 Pro make it an outstanding everyday business laptop.',
@@ -696,7 +685,7 @@ features: [
   rating: 4.8,
   reviewsCount: 1240,
   badge: 'Top Rated', // Options: "Editor's Choice" | "Best Value" | "Top Rated" | "Trending" | "Premium Pick"
-  image: h,
+  image: '/images/10.jpg',
   shortSummary: 'Fast 27-inch QHD gaming monitor featuring a 180Hz refresh rate, 1ms response time, AMD FreeSync, HDR10, and an ergonomic height-adjustable stand.',
 
   description: 'The Samsung Odyssey G5 (G51F) is designed for competitive gamers who want smooth, responsive gameplay and sharp QHD visuals. Featuring a 27-inch 2560×1440 display, 180Hz refresh rate, 1ms response time, AMD FreeSync, HDR10 support, and gaming tools like Black Equalizer and Virtual Aim Point, it delivers an immersive experience for fast-paced games.',
