@@ -20,7 +20,7 @@ export const AMAZON_PRODUCTS: Product[] = [
     rating: 4.6,
     reviewsCount: 126,
     badge: "Editor's Choice",
-    image: '/images/logitech-mx-master-3s-black.jpg',
+    image: '/images/logitech_mx_master_1785237677949.jpg',
     shortSummary: 'Master class ergonomic workstation mouse featuring an 8,000 DPI Darkfield track-on-glass sensor, 90% quieter Quiet Clicks, and electromagnetic MagSpeed scrolling.',
     description: 'The Logitech MX Master 3S is sculpted to support your palm and wrist in a natural relaxed posture. Equipped with the revolutionary MagSpeed wheel that scrolls 1,000 lines per second in silence, an 8K DPI sensor that works flawlessly even on clear glass dining tables, and customizable thumb controls.',
     features: [
