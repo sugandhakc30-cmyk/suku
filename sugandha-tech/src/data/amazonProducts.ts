@@ -751,6 +751,94 @@ features: [
 
   updatedAt: '2026-08-02'
 }
+{
+  id: 'prod-razer-atheris-stormtrooper-wireless-mouse',
+
+  title: 'Razer Atheris Stormtrooper Edition Wireless Mouse Review (2026)',
+
+  category: 'Productivity & Tech',
+
+  brand: 'Razer',
+
+  rating: 4.7,
+
+  reviewsCount: 980,
+
+  badge: 'Trending',
+
+  image: '/images/11.jpg',
+
+  shortSummary:
+    'The Razer Atheris Stormtrooper Limited Edition is a compact wireless gaming and productivity mouse featuring a 7,200 DPI optical sensor, dual wireless connectivity, and up to 350 hours of battery life in an exclusive Star Wars-inspired design.',
+
+  description:
+    'The Razer Atheris Stormtrooper Limited Edition combines portability, precision, and long-lasting battery life in a unique Star Wars-themed design. Equipped with a 7,200 DPI optical sensor, it provides accurate tracking for gaming, office work, and creative tasks. Dual wireless connectivity via Bluetooth and the included 2.4GHz USB receiver offers flexibility for laptops and desktop PCs. Designed with an ambidextrous shape, the mouse is comfortable for both left- and right-handed users. Its exceptional battery life of up to 350 hours makes it an excellent travel companion, while the iconic Stormtrooper styling makes it a collector-worthy accessory for Star Wars fans.',
+
+  features: [
+    'Stormtrooper Limited Edition Star Wars design',
+    '7,200 DPI optical sensor',
+    'Dual wireless connectivity (Bluetooth & 2.4GHz USB receiver)',
+    'Up to 350-hour battery life',
+    'Ambidextrous ergonomic design',
+    'Compact travel-friendly size',
+    'High tracking accuracy',
+    'Five independently programmable buttons',
+    'Compatible with Windows and macOS',
+    'Razer Synapse support'
+  ],
+
+  pros: [
+    'Excellent battery life',
+    'Accurate 7,200 DPI sensor',
+    'Bluetooth and USB wireless connectivity',
+    'Compact and lightweight',
+    'Comfortable ambidextrous design',
+    'Unique Star Wars collectible appearance'
+  ],
+
+  cons: [
+    'Not rechargeable',
+    'Limited RGB lighting',
+    'Small size may not suit users with large hands'
+  ],
+
+  whoShouldBuy: [
+    'Star Wars fans and collectors',
+    'Gamers needing a portable mouse',
+    'Students and professionals',
+    'Laptop users',
+    'Travelers wanting long battery life'
+  ],
+
+  whoShouldAvoid: [
+    'Users who prefer large ergonomic mice',
+    'Competitive esports players needing ultra-light wired mice',
+    'People looking for rechargeable wireless mice'
+  ],
+
+  editorVerdict:
+    'The Razer Atheris Stormtrooper Limited Edition is an excellent portable wireless mouse that combines reliable gaming performance with exceptional battery life and an eye-catching Star Wars design. Its compact size, dual wireless connectivity, and precise optical sensor make it a fantastic choice for both productivity and casual gaming.',
+
+  author: DEFAULT_AUTHOR,
+
+  amazonUrl: 'https://amzn.to/4w9i7FS',
+
+  specifications: {
+    Brand: 'Razer',
+    Model: 'Atheris Stormtrooper Limited Edition',
+    Color: 'Stormtrooper White',
+    Connectivity: 'Bluetooth & 2.4GHz Wireless',
+    Sensor: '7,200 DPI Optical Sensor',
+    Buttons: '5 Programmable Buttons',
+    Battery: 'Up to 350 Hours',
+    Design: 'Ambidextrous',
+    Weight: 'Approximately 66g (without batteries)',
+    Compatibility: 'Windows, macOS',
+    Power: '2 × AA Batteries'
+  },
+
+  updatedAt: '2026-08-06'
+}
 
 ];
 
