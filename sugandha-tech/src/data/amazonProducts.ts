@@ -750,7 +750,8 @@ features: [
   },
 
   updatedAt: '2026-08-02'
-}
+}, 
+
 {
   id: 'prod-razer-atheris-stormtrooper-wireless-mouse',
 
