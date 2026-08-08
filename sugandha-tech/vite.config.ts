@@ -11,29 +11,38 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 export default defineConfig({
   base: '/',
+
   plugins: [
     react(),
     tailwindcss(),
+
     Sitemap({
-      hostname: "https://sugandhatech.in.net",
+      hostname: 'https://sugandhatech.in.net',
+
       dynamicRoutes: [
-        "/about",
-        "/contact",
-        "/privacy",
-        "/terms",
-        "/cookie",
-        "/disclosure",
-        ...AMAZON_PRODUCTS.map((product) => `/product/${product.id}`),
+        '/about',
+        '/contact',
+        '/privacy',
+        '/terms',
+        '/cookie',
+        '/disclosure',
+
+        ...AMAZON_PRODUCTS.map(
+          (product) => `/product/${product.id}`
+        ),
       ],
+
+      readable: true,
     }),
   ],
+
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),
     },
   },
+
   server: {
-    // HMR configuration flags
     hmr: process.env.DISABLE_HMR === 'true',
     watch: process.env.DISABLE_HMR === 'true' ? null : {},
   },
