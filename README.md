@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Sugandha Tech — Next.js + TypeScript + Tailwind
 
 Tech Reviews. Best Picks. Smart Choices.
@@ -19,3 +20,6 @@ Project structure:
 - styles/ — global CSS
 
 This scaffold is built to be edited. Replace demo content in data/ with your editorial content and configure affiliate links in product data.
+=======
+# suku
+>>>>>>> c41942dc8f6e98a0e7ff862a8ebfebd7b7849fe1
