@@ -18,7 +18,7 @@ export default function Header({ siteName }: { siteName: string }) {
 
       <div className="container mx-auto flex items-center justify-between py-4">
         <Link href="/" className="flex items-center gap-4">
-          <img src="/images/logo.svg" alt="Sugandha Tech" className="h-10 w-auto" />
+          <img src="/images/channels4_profile.jpg" alt="Sugandha Tech" className="h-10 w-auto" />
         </Link>
         <nav className="hidden md:flex gap-6 items-center text-sm">
           <Link href="/" className="hover:underline">Home</Link>
