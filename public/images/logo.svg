@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="280" height="64" viewBox="0 0 280 64" role="img" aria-label="Sugandha Tech logo">
+  <rect width="280" height="64" rx="8" fill="#ffffff"/>
+  <g transform="translate(12,8)">
+    <rect width="48" height="48" rx="8" fill="#0b6ef6"/>
+    <text x="74" y="34" font-family="Inter, Arial, sans-serif" font-size="22" fill="#111827" font-weight="700">Sugandha Tech</text>
+  </g>
+</svg>
