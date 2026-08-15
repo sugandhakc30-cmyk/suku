@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "functions": {
+    "/about": {},
+    "/best": {},
+    "/affiliate-disclosure": {},
+    "/cookie-policy": {},
+    "/editorial-policy": {},
+    "/guides": {},
+    "/": {},
+    "/news": {},
+    "/privacy-policy": {},
+    "/reviews": {},
+    "/terms": {}
+  }
+}
