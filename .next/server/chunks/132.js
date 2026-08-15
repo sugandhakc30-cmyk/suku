@@ -467,11 +467,19 @@ const metadata = {
     metadataBase: new URL(meta.baseUrl),
     title: "Sugandha Tech",
     description: "Independent technology reviews and buying guidance for smarter purchase decisions.",
+    alternates: {
+        canonical: meta.baseUrl
+    },
+    robots: {
+        index: true,
+        follow: true
+    },
     openGraph: {
         title: "Sugandha Tech",
         description: "Independent technology reviews and buying guidance for smarter purchase decisions.",
         url: meta.baseUrl,
-        siteName: "Sugandha Tech"
+        siteName: "Sugandha Tech",
+        type: "website"
     },
     icons: {
         icon: "/favicon.svg"
@@ -479,37 +487,29 @@ const metadata = {
 };
 function RootLayout({ children }) {
     const meta = (0,seo/* siteMeta */.N)();
-    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("html", {
+    return /*#__PURE__*/ jsx_runtime_.jsx("html", {
         lang: "en",
-        children: [
-            /*#__PURE__*/ jsx_runtime_.jsx("head", {
-                children: /*#__PURE__*/ jsx_runtime_.jsx("link", {
-                    rel: "icon",
-                    href: "/favicon.ico"
+        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("body", {
+            children: [
+                /*#__PURE__*/ jsx_runtime_.jsx(JsonLd, {}),
+                /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                    className: "min-h-screen flex flex-col",
+                    children: [
+                        /*#__PURE__*/ jsx_runtime_.jsx(Header, {
+                            siteName: meta.siteName
+                        }),
+                        /*#__PURE__*/ jsx_runtime_.jsx("main", {
+                            className: "flex-1 w-full",
+                            children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                className: "container py-8",
+                                children: children
+                            })
+                        }),
+                        /*#__PURE__*/ jsx_runtime_.jsx(Footer, {})
+                    ]
                 })
-            }),
-            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("body", {
-                children: [
-                    /*#__PURE__*/ jsx_runtime_.jsx(JsonLd, {}),
-                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                        className: "min-h-screen flex flex-col",
-                        children: [
-                            /*#__PURE__*/ jsx_runtime_.jsx(Header, {
-                                siteName: meta.siteName
-                            }),
-                            /*#__PURE__*/ jsx_runtime_.jsx("main", {
-                                className: "flex-1 w-full",
-                                children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                    className: "container py-8",
-                                    children: children
-                                })
-                            }),
-                            /*#__PURE__*/ jsx_runtime_.jsx(Footer, {})
-                        ]
-                    })
-                ]
-            })
-        ]
+            ]
+        })
     });
 }
 

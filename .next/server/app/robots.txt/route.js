@@ -59,6 +59,7 @@ function robots() {
             userAgent: "*",
             allow: "/"
         },
+        host: baseUrl,
         sitemap: `${baseUrl}/sitemap.xml`
     };
 }

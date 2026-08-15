@@ -1,16 +1,16 @@
 {
   "version": 1,
   "functions": {
-    "/affiliate-disclosure": {},
-    "/best": {},
     "/about": {},
-    "/cookie-policy": {},
-    "/guides": {},
-    "/news": {},
+    "/affiliate-disclosure": {},
     "/editorial-policy": {},
+    "/best": {},
+    "/cookie-policy": {},
+    "/news": {},
     "/privacy-policy": {},
+    "/guides": {},
     "/": {},
-    "/reviews": {},
-    "/terms": {}
+    "/terms": {},
+    "/reviews": {}
   }
 }

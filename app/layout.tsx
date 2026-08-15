@@ -12,11 +12,19 @@ export const metadata: Metadata = {
   metadataBase: new URL(meta.baseUrl),
   title: 'Sugandha Tech',
   description: 'Independent technology reviews and buying guidance for smarter purchase decisions.',
+  alternates: {
+    canonical: meta.baseUrl
+  },
+  robots: {
+    index: true,
+    follow: true
+  },
   openGraph: {
     title: 'Sugandha Tech',
     description: 'Independent technology reviews and buying guidance for smarter purchase decisions.',
     url: meta.baseUrl,
-    siteName: 'Sugandha Tech'
+    siteName: 'Sugandha Tech',
+    type: 'website'
   },
   icons: {
     icon: '/favicon.svg'
@@ -27,9 +35,6 @@ export default function RootLayout({ children }: { children: ReactNode }) {
   const meta = siteMeta()
   return (
     <html lang="en">
-      <head>
-        <link rel="icon" href="/favicon.ico" />
-      </head>
       <body>
         {/* JSON-LD for Organization and WebSite */}
         <JsonLd />

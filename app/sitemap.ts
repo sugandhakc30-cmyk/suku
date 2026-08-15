@@ -1,16 +1,45 @@
 import type { MetadataRoute } from 'next'
 import { siteMeta } from '../lib/seo'
+import { articles } from '../data/articles'
+import { products } from '../data/products'
+import { guides } from '../data/guides'
+import { categories } from '../data/categories'
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const meta = siteMeta()
-  const base = meta.baseUrl
+  const base = meta.baseUrl.replace(/\/$/, '')
 
-  return [
-    { url: `${base}/`, lastModified: new Date() },
-    { url: `${base}/reviews`, lastModified: new Date() },
-    { url: `${base}/guides`, lastModified: new Date() },
-    { url: `${base}/news`, lastModified: new Date() },
-    { url: `${base}/about`, lastModified: new Date() },
-    { url: `${base}/contact`, lastModified: new Date() }
+  const staticUrls = [
+    '',
+    '/reviews',
+    '/guides',
+    '/news',
+    '/about',
+    '/contact',
+    '/privacy-policy',
+    '/terms',
+    '/cookie-policy',
+    '/editorial-policy',
+    '/affiliate-disclosure',
+    '/best',
+    '/comparisons'
   ]
+
+  const reviewUrls = articles.map((article) => `/reviews/${article.slug}`)
+  const productUrls = products.map((product) => `/products/${product.id}`)
+  const guideUrls = guides.map((guide) => `/guides/${guide.slug}`)
+  const categoryUrls = categories.map((category) => category.href)
+
+  const uniqueUrls = [...new Set([
+    ...staticUrls,
+    ...reviewUrls,
+    ...productUrls,
+    ...guideUrls,
+    ...categoryUrls
+  ])]
+
+  return uniqueUrls.map((path) => ({
+    url: `${base}${path === '' ? '/' : path}`,
+    lastModified: new Date()
+  }))
 }
