@@ -1,15 +1,15 @@
 {
   "version": 1,
   "functions": {
-    "/about": {},
-    "/best": {},
     "/affiliate-disclosure": {},
+    "/best": {},
+    "/about": {},
     "/cookie-policy": {},
-    "/editorial-policy": {},
     "/guides": {},
-    "/": {},
     "/news": {},
+    "/editorial-policy": {},
     "/privacy-policy": {},
+    "/": {},
     "/reviews": {},
     "/terms": {}
   }
