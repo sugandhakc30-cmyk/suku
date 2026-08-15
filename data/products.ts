@@ -105,7 +105,128 @@ export const products: Product[] = [
         body: 'The Razer Atheris Stormtrooper Edition remains a compelling portable wireless mouse because of its compact design, strong sensor, and long battery life. It is best for users who want a small ambidextrous mouse with useful wireless flexibility and a distinctive look.'
       }
     ]
-  }
+  },
+    {
+    id: 'jensor-16800w-72v-50ah-electric-dirt-bike',
+
+    name:
+      'JENSOR 16800W Electric Dirt Bike Review – 72V 50Ah Battery, 70 MPH',
+
+    category:
+      'Electric Dirt Bikes',
+
+    image:
+      '/images/1.jpg',
+
+    description:
+      'JENSOR electric dirt bike for adults featuring a claimed 16800W peak mid-mounted motor, 72V 50Ah removable battery, up to 70 MPH claimed top speed, hydraulic brakes, and full shock absorption for off-road riding.',
+
+    summary:
+      'The JENSOR electric dirt bike is designed for adult off-road riders and combines a high-power mid-mounted motor with a removable 72V 50Ah battery, hydraulic braking, and full suspension. The manufacturer listing claims a peak output of 16800W and a top speed of up to 70 MPH.',
+
+    affiliateUrl:
+      'https://amzn.to/3UztBFk',
+
+    published:
+      'August 2026',
+
+    heroLabel:
+      'Electric Dirt Bike Review',
+
+    pros: [
+      'Claimed 16800W peak motor output',
+      '72V 50Ah removable battery',
+      'Claimed top speed of up to 70 MPH',
+      'Mid-mounted motor design',
+      'Hydraulic braking system',
+      'Full shock absorption',
+      'Designed for adult off-road riding',
+      'Removable battery',
+    ],
+
+    cons: [
+      'Large and heavy compared with conventional bicycles',
+      'Actual range depends on rider, terrain, speed, and conditions',
+      'Actual top speed may vary from the advertised figure',
+      'High-power electric motorcycle requires appropriate safety equipment',
+      'Verify local registration, licensing, and road-use requirements',
+      'Availability and specifications may vary by seller',
+    ],
+
+    reviewSections: [
+      {
+        heading:
+          '16800W Peak Motor',
+
+        body:
+          'The JENSOR listing advertises a 16800W peak mid-mounted motor. This puts the bike in a high-power electric off-road category. Actual performance will depend on factors including battery charge, rider weight, terrain, temperature, controller settings, and riding conditions.',
+      },
+
+      {
+        heading:
+          '72V 50Ah Removable Battery',
+
+        body:
+          'The bike is listed with a 72V 50Ah removable battery. A removable battery can make charging and storage more convenient, particularly for riders who do not have convenient access to a charging location near the bike.',
+      },
+
+      {
+        heading:
+          '70 MPH Claimed Top Speed',
+
+        body:
+          'The product listing claims a top speed of up to 70 MPH. Buyers should treat this as a manufacturer or seller claim rather than a guaranteed real-world speed. Actual speed can vary according to rider weight, terrain, battery condition, temperature, and other factors.',
+      },
+
+      {
+        heading:
+          'Hydraulic Brakes',
+
+        body:
+          'Hydraulic brakes are included in the listed specification. A strong braking system is particularly important on a high-power off-road electric bike because riding conditions can include steep terrain, loose surfaces, and higher speeds.',
+      },
+
+      {
+        heading:
+          'Full Shock Absorption',
+
+        body:
+          'The JENSOR is advertised with full shock absorption for off-road riding. Suspension can help absorb bumps and uneven terrain and can contribute to a more controlled riding experience on suitable trails.',
+      },
+
+      {
+        heading:
+          'Off-Road Design',
+
+        body:
+          'This electric dirt bike is marketed toward adult off-road riders rather than ordinary urban commuting. Its high-power motor, suspension system, hydraulic brakes, and dirt-bike design make it better suited to appropriate private or designated off-road environments.',
+      },
+
+      {
+        heading:
+          'Who Should Buy It?',
+
+        body:
+          'This bike may appeal to experienced adult riders looking for a high-power electric off-road machine and who have an appropriate place to ride it legally and safely. Buyers should carefully check the exact specifications, warranty, included equipment, and local requirements before purchasing.',
+      },
+
+      {
+        heading:
+          'Who Should Skip It?',
+
+        body:
+          'It may not be appropriate for beginners, riders looking for a lightweight commuter bicycle, or buyers who need a street-legal vehicle without additional registration or licensing requirements. Check your local regulations before riding.',
+      },
+
+      {
+        heading:
+          'Final Verdict',
+
+        body:
+          'The JENSOR electric dirt bike is an unusually high-power off-road model on paper, with a claimed 16800W peak motor, 72V 50Ah removable battery, 70 MPH top speed, hydraulic brakes, and full suspension. Because these are seller-listed specifications, buyers should verify the exact configuration and applicable safety and legal requirements before purchasing.',
+      },
+    ],
+  },
 ]
 
 export default products
