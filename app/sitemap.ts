@@ -5,7 +5,7 @@ import { products } from '../data/products'
 import { guides } from '../data/guides'
 import { categories } from '../data/categories'
 
-export default function sitemap(): MetadataRoute.Sitemap {
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const meta = siteMeta()
   const base = meta.baseUrl.replace(/\/$/, '')
 
@@ -39,7 +39,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   ])]
 
   return uniqueUrls.map((path) => ({
-    url: `${base}${path === '' ? '/' : path}`,
+    url: `${base}${path === '' ? '' : path}`,
     lastModified: new Date()
   }))
 }
