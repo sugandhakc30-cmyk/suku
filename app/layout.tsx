@@ -35,13 +35,17 @@ export default function RootLayout({ children }: { children: ReactNode }) {
   const meta = siteMeta()
   return (
     <html lang="en">
-      <body>
+      <head>
+        <meta charSet="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+      </head>
+      <body className="bg-white text-neutral-900 antialiased">
         {/* JSON-LD for Organization and WebSite */}
         <JsonLd />
         <div className="min-h-screen flex flex-col">
           <Header siteName={meta.siteName} />
           <main className="flex-1 w-full">
-            <div className="container py-8">{children}</div>
+            <div className="container mx-auto py-6 md:py-8 px-4">{children}</div>
           </main>
           <Footer />
         </div>

@@ -20,31 +20,54 @@ export default function Home() {
     <>
       <Hero />
 
-      <section className="container mx-auto py-8">
-        <div className="rounded-[28px] bg-slate-950 text-white shadow-[0_25px_80px_rgba(15,23,42,0.18)] overflow-hidden">
-          <div className="grid lg:grid-cols-[1.3fr_0.7fr]">
-            <div className="p-8 md:p-10">
-              <p className="text-xs uppercase tracking-[0.28em] text-blue-300">Editor's Pick</p>
-              <h2 className="mt-4 text-3xl md:text-5xl font-bold leading-tight">
+      {/* Featured Section */}
+      <section className="py-12 px-4">
+        <div className="rounded-2xl bg-gradient-to-br from-neutral-900 via-neutral-800 to-neutral-950 text-white shadow-2xl overflow-hidden border border-neutral-700/50 backdrop-blur">
+          <div className="grid lg:grid-cols-[1.4fr_0.6fr] gap-0">
+            <div className="p-8 md:p-12">
+              <div className="inline-flex items-center gap-2 px-3 py-1 bg-white/10 border border-white/20 rounded-full mb-6 backdrop-blur-sm">
+                <span className="w-2 h-2 bg-blue-400 rounded-full"></span>
+                <span className="text-xs font-semibold uppercase tracking-wider text-blue-300">Editor's Pick</span>
+              </div>
+              
+              <h2 className="text-3xl md:text-5xl font-bold leading-tight mb-5 text-white">
                 HP Omen RTX 5070 is built for serious gaming performance.
               </h2>
-              <p className="mt-4 max-w-xl text-slate-300 text-base md:text-lg">
+              
+              <p className="text-lg text-neutral-300 mb-8 leading-relaxed max-w-2xl">
                 A premium 16-inch gaming laptop with AMD Ryzen 9 8940HX power, 32GB DDR5 memory, a 240Hz display, and a calm, refined look that fits both creators and competitive players.
               </p>
-              <div className="mt-6 flex flex-wrap gap-3">
-                <a href="/reviews/hp-omen-rtx-5070-gaming-laptop-review" className="inline-flex items-center rounded-full bg-blue-600 px-5 py-3 text-sm font-medium text-white hover:bg-blue-500">Read the review</a>
-                <a href="/guides/gaming-laptop-buying-guide" className="inline-flex items-center rounded-full border border-white/20 px-5 py-3 text-sm font-medium text-white hover:bg-white/5">Buying guide</a>
+              
+              <div className="flex flex-wrap gap-3">
+                <a href="/reviews/hp-omen-rtx-5070-gaming-laptop-review" className="inline-flex items-center justify-center rounded-lg bg-brand-600 px-6 py-3 text-sm font-semibold text-white hover:bg-brand-700 transition-all duration-200 shadow-lg hover:shadow-xl">
+                  Read the Review
+                </a>
+                <a href="/guides/gaming-laptop-buying-guide" className="inline-flex items-center justify-center rounded-lg border-2 border-white/30 px-6 py-3 text-sm font-semibold text-white hover:bg-white/10 transition-all duration-200 backdrop-blur-sm">
+                  Buying Guide
+                </a>
               </div>
             </div>
 
-            <div className="bg-gradient-to-br from-blue-500/20 to-slate-800 p-8 md:p-10 flex items-center justify-center">
-              <div className="w-full rounded-2xl border border-white/10 bg-white/5 p-5 backdrop-blur-sm">
-                <div className="text-xs uppercase tracking-[0.2em] text-slate-300">Quick Specs</div>
-                <ul className="mt-5 space-y-3 text-sm text-slate-200">
-                  <li className="flex justify-between gap-4 border-b border-white/10 pb-3"><span>CPU</span><strong>AMD Ryzen 9 8940HX</strong></li>
-                  <li className="flex justify-between gap-4 border-b border-white/10 pb-3"><span>GPU</span><strong>RTX 5070</strong></li>
-                  <li className="flex justify-between gap-4 border-b border-white/10 pb-3"><span>Display</span><strong>16&quot; WQXGA</strong></li>
-                  <li className="flex justify-between gap-4"><span>Refresh</span><strong>240Hz</strong></li>
+            <div className="bg-gradient-to-br from-brand-600/20 via-blue-500/10 to-neutral-900 p-8 md:p-12 flex items-center justify-center border-l border-white/10">
+              <div className="w-full">
+                <div className="text-xs uppercase tracking-widest font-semibold text-blue-300 mb-6">Quick Specifications</div>
+                <ul className="space-y-4">
+                  <li className="flex justify-between items-center gap-4 pb-4 border-b border-white/10">
+                    <span className="text-neutral-400">CPU</span>
+                    <strong className="text-white font-semibold">AMD Ryzen 9 8940HX</strong>
+                  </li>
+                  <li className="flex justify-between items-center gap-4 pb-4 border-b border-white/10">
+                    <span className="text-neutral-400">GPU</span>
+                    <strong className="text-white font-semibold">RTX 5070</strong>
+                  </li>
+                  <li className="flex justify-between items-center gap-4 pb-4 border-b border-white/10">
+                    <span className="text-neutral-400">Display</span>
+                    <strong className="text-white font-semibold">16" WQXGA</strong>
+                  </li>
+                  <li className="flex justify-between items-center gap-4">
+                    <span className="text-neutral-400">Refresh Rate</span>
+                    <strong className="text-white font-semibold">240Hz</strong>
+                  </li>
                 </ul>
               </div>
             </div>
@@ -52,8 +75,12 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="container mx-auto py-8">
-        <h2 className="text-2xl font-semibold mb-4">Featured Products</h2>
+      {/* Featured Products */}
+      <section className="py-14 px-4">
+        <div className="mb-8">
+          <h2 className="text-3xl md:text-4xl font-bold text-neutral-900 mb-2">Featured Products</h2>
+          <p className="text-lg text-neutral-600">Handpicked tech products reviewed and recommended by our experts.</p>
+        </div>
         <div className="grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
           {products.map((product) => (
             <ProductCard
@@ -69,6 +96,24 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Categories Section */}
+      <section className="py-14 px-4">
+        <div className="mb-8">
+          <h2 className="text-3xl md:text-4xl font-bold text-neutral-900 mb-2">Browse by Category</h2>
+          <p className="text-lg text-neutral-600">Explore reviews and guides across different technology categories.</p>
+        </div>
+        <div className="grid gap-5 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+          {categories.slice(0, 8).map((category) => (
+            <CategoryCard
+              key={category.id}
+              categoryId={category.id}
+              categoryName={category.name}
+              categoryIcon={category.icon}
+              description={category.description}
+            />
+          ))}
+        </div>
+      </section>
     </>
   )
 }
