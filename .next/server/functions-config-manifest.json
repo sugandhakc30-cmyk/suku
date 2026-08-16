@@ -1,17 +1,17 @@
 {
   "version": 1,
   "functions": {
-    "/about": {},
     "/best": {},
     "/affiliate-disclosure": {},
+    "/about": {},
     "/cookie-policy": {},
     "/editorial-policy": {},
     "/guides": {},
     "/news": {},
     "/": {},
-    "/privacy-policy": {},
-    "/search": {},
+    "/terms": {},
     "/reviews": {},
-    "/terms": {}
+    "/privacy-policy": {},
+    "/search": {}
   }
 }

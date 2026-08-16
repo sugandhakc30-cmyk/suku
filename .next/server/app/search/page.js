@@ -225,7 +225,7 @@ const tree = {
         'search',
         {
         children: ['__PAGE__', {}, {
-          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4644)), "C:\\Users\\SUGANDHA\\Downloads\\files\\app\\search\\page.tsx"],
+          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 5506)), "C:\\Users\\SUGANDHA\\Downloads\\files\\app\\search\\page.tsx"],
           
         }]
       },
@@ -273,14 +273,14 @@ const routeModule = new AppPageRouteModule({
 
 /***/ }),
 
-/***/ 4179:
+/***/ 8302:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4098))
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 2730))
 
 /***/ }),
 
-/***/ 4098:
+/***/ 2730:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -289,8 +289,7 @@ __webpack_require__.r(__webpack_exports__);
 
 // EXPORTS
 __webpack_require__.d(__webpack_exports__, {
-  "default": () => (/* binding */ SearchPage),
-  metadata: () => (/* binding */ metadata)
+  "default": () => (/* binding */ SearchPageClient)
 });
 
 // EXTERNAL MODULE: external "next/dist/compiled/react/jsx-runtime"
@@ -434,44 +433,13 @@ function searchAll(query) {
     return results.slice(0, 50);
 }
 
-;// CONCATENATED MODULE: ./lib/seo.ts
-function siteMeta() {
-    return {
-        siteName: "Sugandha Tech",
-        description: "Independent technology reviews and buying guidance.",
-        baseUrl: process.env.NEXT_PUBLIC_BASE_URL || "https://sugandhatech.in.net"
-    };
-}
-const seoDefaults = {
-    siteName: "Sugandha Tech",
-    siteUrl: "https://sugandhatech.in.net",
-    keywords: [
-        "technology reviews",
-        "buying guides",
-        "gaming laptop reviews",
-        "tech buying advice"
-    ]
-};
-
-;// CONCATENATED MODULE: ./app/search/page.tsx
-/* __next_internal_client_entry_do_not_use__ metadata,default auto */ 
+;// CONCATENATED MODULE: ./components/SearchPageClient.tsx
+/* __next_internal_client_entry_do_not_use__ default auto */ 
 
 
 
 
-
-const metadata = {
-    title: "Search — Sugandha Tech",
-    description: "Search reviews, buying guides, and product picks from Sugandha Tech.",
-    alternates: {
-        canonical: `${siteMeta().baseUrl}/search`
-    },
-    robots: {
-        index: false,
-        follow: false
-    }
-};
-function SearchPage() {
+function SearchPageClient() {
     const params = (0,navigation.useSearchParams)();
     const query = params.get("q") || "";
     const results = (0,react_.useMemo)(()=>searchAll(query), [
@@ -537,20 +505,26 @@ function SearchPage() {
 
 /***/ }),
 
-/***/ 4644:
+/***/ 5506:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
+// ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   $$typeof: () => (/* binding */ $$typeof),
-/* harmony export */   __esModule: () => (/* binding */ __esModule),
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__),
-/* harmony export */   metadata: () => (/* binding */ e0)
-/* harmony export */ });
-/* harmony import */ var next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1363);
 
-const proxy = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\SUGANDHA\Downloads\files\app\search\page.tsx`)
+// EXPORTS
+__webpack_require__.d(__webpack_exports__, {
+  "default": () => (/* binding */ SearchPage),
+  metadata: () => (/* binding */ metadata)
+});
+
+// EXTERNAL MODULE: external "next/dist/compiled/react/jsx-runtime"
+var jsx_runtime_ = __webpack_require__(6786);
+// EXTERNAL MODULE: ./node_modules/next/dist/build/webpack/loaders/next-flight-loader/module-proxy.js
+var module_proxy = __webpack_require__(1363);
+;// CONCATENATED MODULE: ./components/SearchPageClient.tsx
+
+const proxy = (0,module_proxy.createProxy)(String.raw`C:\Users\SUGANDHA\Downloads\files\components\SearchPageClient.tsx`)
 
 // Accessing the __esModule property and exporting $$typeof are required here.
 // The __esModule getter forces the proxy target to create the default export
@@ -559,10 +533,29 @@ const proxy = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy
 const { __esModule, $$typeof } = proxy;
 const __default__ = proxy.default;
 
-const e0 = proxy["metadata"];
+
+/* harmony default export */ const SearchPageClient = (__default__);
+// EXTERNAL MODULE: ./lib/seo.ts
+var seo = __webpack_require__(9051);
+;// CONCATENATED MODULE: ./app/search/page.tsx
 
 
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__default__);
+
+const metadata = {
+    title: "Search — Sugandha Tech",
+    description: "Search reviews, buying guides, and product picks from Sugandha Tech.",
+    alternates: {
+        canonical: `${(0,seo/* siteMeta */.N)().baseUrl}/search`
+    },
+    robots: {
+        index: false,
+        follow: false
+    }
+};
+function SearchPage() {
+    return /*#__PURE__*/ jsx_runtime_.jsx(SearchPageClient, {});
+}
+
 
 /***/ })
 
