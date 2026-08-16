@@ -276,11 +276,11 @@ const routeModule = new AppPageRouteModule({
 /***/ 4179:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 6475))
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4098))
 
 /***/ }),
 
-/***/ 6475:
+/***/ 4098:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -289,7 +289,8 @@ __webpack_require__.r(__webpack_exports__);
 
 // EXPORTS
 __webpack_require__.d(__webpack_exports__, {
-  "default": () => (/* binding */ SearchPage)
+  "default": () => (/* binding */ SearchPage),
+  metadata: () => (/* binding */ metadata)
 });
 
 // EXTERNAL MODULE: external "next/dist/compiled/react/jsx-runtime"
@@ -433,12 +434,43 @@ function searchAll(query) {
     return results.slice(0, 50);
 }
 
+;// CONCATENATED MODULE: ./lib/seo.ts
+function siteMeta() {
+    return {
+        siteName: "Sugandha Tech",
+        description: "Independent technology reviews and buying guidance.",
+        baseUrl: process.env.NEXT_PUBLIC_BASE_URL || "https://sugandhatech.in.net"
+    };
+}
+const seoDefaults = {
+    siteName: "Sugandha Tech",
+    siteUrl: "https://sugandhatech.in.net",
+    keywords: [
+        "technology reviews",
+        "buying guides",
+        "gaming laptop reviews",
+        "tech buying advice"
+    ]
+};
+
 ;// CONCATENATED MODULE: ./app/search/page.tsx
-/* __next_internal_client_entry_do_not_use__ default auto */ 
+/* __next_internal_client_entry_do_not_use__ metadata,default auto */ 
 
 
 
 
+
+const metadata = {
+    title: "Search — Sugandha Tech",
+    description: "Search reviews, buying guides, and product picks from Sugandha Tech.",
+    alternates: {
+        canonical: `${siteMeta().baseUrl}/search`
+    },
+    robots: {
+        index: false,
+        follow: false
+    }
+};
 function SearchPage() {
     const params = (0,navigation.useSearchParams)();
     const query = params.get("q") || "";
@@ -513,7 +545,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   $$typeof: () => (/* binding */ $$typeof),
 /* harmony export */   __esModule: () => (/* binding */ __esModule),
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__),
+/* harmony export */   metadata: () => (/* binding */ e0)
 /* harmony export */ });
 /* harmony import */ var next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1363);
 
@@ -525,6 +558,8 @@ const proxy = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy
 // is a client boundary.
 const { __esModule, $$typeof } = proxy;
 const __default__ = proxy.default;
+
+const e0 = proxy["metadata"];
 
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__default__);

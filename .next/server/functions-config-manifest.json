@@ -2,15 +2,16 @@
   "version": 1,
   "functions": {
     "/about": {},
-    "/affiliate-disclosure": {},
-    "/editorial-policy": {},
     "/best": {},
+    "/affiliate-disclosure": {},
     "/cookie-policy": {},
-    "/news": {},
-    "/privacy-policy": {},
+    "/editorial-policy": {},
     "/guides": {},
+    "/news": {},
     "/": {},
-    "/terms": {},
-    "/reviews": {}
+    "/privacy-policy": {},
+    "/search": {},
+    "/reviews": {},
+    "/terms": {}
   }
 }

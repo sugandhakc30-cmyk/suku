@@ -1,9 +1,23 @@
 'use client'
 
+import type { Metadata } from 'next'
 import { useSearchParams } from 'next/navigation'
 import Link from 'next/link'
 import { useMemo } from 'react'
 import { searchAll } from '../../lib/search'
+import { siteMeta } from '../../lib/seo'
+
+export const metadata: Metadata = {
+  title: 'Search — Sugandha Tech',
+  description: 'Search reviews, buying guides, and product picks from Sugandha Tech.',
+  alternates: {
+    canonical: `${siteMeta().baseUrl}/search`
+  },
+  robots: {
+    index: false,
+    follow: false
+  }
+}
 
 export default function SearchPage() {
   const params = useSearchParams()
