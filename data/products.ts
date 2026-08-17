@@ -512,7 +512,7 @@ export const products: Product[] = [
       'Lenovo Legion LOQ AI Gaming Laptop – Core i7-13650HX, RTX 5050, 24GB RAM, 1TB SSD',
 
     category:
-      'Gaming Laptops',
+      'Laptops',
 
     image:
       '/images/55.jpg',
