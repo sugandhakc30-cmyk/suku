@@ -1045,6 +1045,126 @@ export const products: Product[] = [
       },
     ],
   },
+    {
+    id: 'jbl-flip-6-portable-waterproof-speaker',
+
+    name:
+      'JBL Flip 6 Portable Waterproof Bluetooth Speaker – Black',
+
+    category:
+      'Speakers & Audio',
+
+    image:
+      '/images/59.jpg',
+
+    description:
+      'JBL Flip 6 portable Bluetooth speaker with powerful sound, IP67 waterproof and dustproof protection, up to 12 hours of playtime, and a bold portable design.',
+
+    summary:
+      'The JBL Flip 6 is a compact portable speaker designed for everyday listening indoors and outdoors. Its IP67 waterproof and dustproof rating, claimed 12-hour battery life, and portable design make it a practical option for travel, parties, outdoor activities, and casual listening.',
+
+    affiliateUrl:
+      'https://amzn.to/4zetJtQ',
+
+    published:
+      'August 2026',
+
+    heroLabel:
+      'Portable Bluetooth Speaker',
+
+    pros: [
+      'Portable design',
+      'IP67 waterproof rating',
+      'IP67 dustproof protection',
+      'Up to 12 hours of claimed playtime',
+      'Bold design',
+      'Wireless Bluetooth connectivity',
+      'Suitable for indoor and outdoor use',
+      'Compact and easy to carry',
+    ],
+
+    cons: [
+      'Battery life varies depending on volume and usage',
+      'No large PA-style output',
+      'Compact size limits physical bass output compared with larger speakers',
+      'Not designed as a full professional PA system',
+      'Charging is required after extended use',
+    ],
+
+    reviewSections: [
+      {
+        heading:
+          'Portable Design',
+
+        body:
+          'The JBL Flip 6 is designed as a portable Bluetooth speaker that can easily be carried between rooms, trips, outdoor gatherings, and other locations. Its compact form factor makes it convenient for everyday listening.',
+      },
+
+      {
+        heading:
+          'Sound Performance',
+
+        body:
+          'JBL positions the Flip 6 as a speaker offering louder and more powerful sound while maintaining a portable form factor. Actual listening results will depend on volume level, music content, listening environment, and personal preferences.',
+      },
+
+      {
+        heading:
+          'IP67 Waterproof and Dustproof Protection',
+
+        body:
+          'The Flip 6 carries an IP67 rating for water and dust protection. This makes it particularly useful for outdoor activities and environments where the speaker may encounter dust or water. Users should still follow JBL’s care and usage instructions.',
+      },
+
+      {
+        heading:
+          '12-Hour Battery Life',
+
+        body:
+          'JBL advertises up to 12 hours of playtime. Actual battery life can vary depending on volume, audio content, environmental conditions, Bluetooth usage, and other factors.',
+      },
+
+      {
+        heading:
+          'Outdoor Use',
+
+        body:
+          'The combination of a portable design and IP67 protection makes the Flip 6 well suited to outdoor listening. It can be useful for picnics, travel, poolside environments, camping, and casual gatherings where a portable wireless speaker is convenient.',
+      },
+
+      {
+        heading:
+          'Bluetooth Connectivity',
+
+        body:
+          'Wireless Bluetooth connectivity allows compatible smartphones, tablets, computers, and other devices to stream audio without requiring a physical audio cable.',
+      },
+
+      {
+        heading:
+          'Who Should Buy It?',
+
+        body:
+          'The JBL Flip 6 is a good fit for people who want a portable speaker for travel, outdoor activities, casual parties, home listening, or everyday music playback. Its IP67 protection is especially useful for users who spend time outdoors.',
+      },
+
+      {
+        heading:
+          'Who Should Skip It?',
+
+        body:
+          'Users who need professional PA-level volume, extensive inputs, or a much larger soundstage may want a larger speaker or dedicated PA system instead.',
+      },
+
+      {
+        heading:
+          'Final Verdict',
+
+        body:
+          'The JBL Flip 6 is a compact portable Bluetooth speaker that combines JBL’s portable design with IP67 waterproof and dustproof protection and a claimed battery life of up to 12 hours. It is a practical choice for users who want convenient wireless audio for both indoor and outdoor use.',
+      },
+    ],
+  },
 ]
 
 export default products
