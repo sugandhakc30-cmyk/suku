@@ -916,6 +916,135 @@ export const products: Product[] = [
       },
     ],
   },
+    {
+    id: 'bose-s1-pro-plus-all-in-one-pa-speaker',
+
+    name:
+      'Bose S1 Pro+ All-in-One PA Speaker – Wireless Powered PA System',
+
+    category:
+      'Speakers & Audio',
+
+    image:
+      '/images/111.webp',
+
+    description:
+      'Bose S1 Pro+ all-in-one powered PA speaker with wireless connectivity, multiple positioning options, ergonomic carry handle, and up to 11 hours of playtime.',
+
+    summary:
+      'The Bose S1 Pro+ is a portable all-in-one PA speaker designed for musicians, presenters, DJs, events, and other users who need a flexible battery-powered sound system. Its portable design, multiple positioning options, wireless capabilities, and claimed playtime of up to 11 hours make it suitable for a range of indoor and outdoor applications.',
+
+    affiliateUrl:
+      'https://amzn.to/4qjGcsl',
+
+    published:
+      'August 2026',
+
+    heroLabel:
+      'Portable PA Speaker Review',
+
+    pros: [
+      'All-in-one powered PA system',
+      'Wireless connectivity',
+      'Portable design',
+      'Ergonomic carry handle',
+      'Multiple positioning options',
+      'Up to 11 hours of claimed playtime',
+      'Suitable for musicians and performers',
+      'Useful for presentations and events',
+      'Battery-powered operation',
+    ],
+
+    cons: [
+      'More expensive than basic portable Bluetooth speakers',
+      'Battery life varies depending on volume and usage',
+      'PA-oriented design may be unnecessary for casual listening',
+      'Larger than conventional portable Bluetooth speakers',
+      'Actual sound performance depends on room size and setup',
+    ],
+
+    reviewSections: [
+      {
+        heading:
+          'All-in-One PA System',
+
+        body:
+          'The Bose S1 Pro+ is designed as an all-in-one portable PA system rather than a conventional home Bluetooth speaker. Its format makes it suitable for performers, presenters, DJs, parties, events, and other situations where portable amplified sound is useful.',
+      },
+
+      {
+        heading:
+          'Portable Design',
+
+        body:
+          'Portability is one of the key features of the S1 Pro+. The speaker includes an ergonomic carry handle, making it easier to transport between locations. Its portable format is useful for users who regularly move their sound system between venues or events.',
+      },
+
+      {
+        heading:
+          'Multiple Positioning Options',
+
+        body:
+          'The S1 Pro+ supports multiple positioning options, allowing users to orient the speaker according to the application and environment. This flexibility can be useful when using it for performances, presentations, parties, or general event audio.',
+      },
+
+      {
+        heading:
+          'Wireless Connectivity',
+
+        body:
+          'Wireless connectivity provides additional flexibility when connecting compatible devices or accessories. This can simplify setup when physical cables are not desirable or when the speaker is being used as part of a portable event setup.',
+      },
+
+      {
+        heading:
+          'Battery Life',
+
+        body:
+          'Bose lists up to 11 hours of playtime for the S1 Pro+. Actual battery life can vary depending on volume level, audio content, connected equipment, wireless features, and other usage conditions.',
+      },
+
+      {
+        heading:
+          'For Musicians and Performers',
+
+        body:
+          'The portable PA format makes the S1 Pro+ particularly relevant to musicians and performers who need amplified sound without carrying a large traditional PA system. Its portability can also be useful for rehearsals, smaller performances, and mobile setups.',
+      },
+
+      {
+        heading:
+          'For Presentations and Events',
+
+        body:
+          'The S1 Pro+ can also be useful for presentations, meetings, parties, outdoor gatherings, and other events where portable amplified audio is required. Its positioning flexibility allows users to adapt the speaker to different environments.',
+      },
+
+      {
+        heading:
+          'Who Should Buy It?',
+
+        body:
+          'The Bose S1 Pro+ is a strong option for musicians, performers, presenters, DJs, event organizers, and users who want a portable powered PA system with battery operation and wireless capabilities.',
+      },
+
+      {
+        heading:
+          'Who Should Skip It?',
+
+        body:
+          'If you only need a small speaker for casual music listening at home, the S1 Pro+ may offer more PA functionality and size than you actually need. A conventional portable Bluetooth speaker could be more appropriate for simpler listening needs.',
+      },
+
+      {
+        heading:
+          'Final Verdict',
+
+        body:
+          'The Bose S1 Pro+ is a versatile portable PA speaker designed for users who need more than a conventional Bluetooth speaker. Its powered design, wireless capabilities, ergonomic carry handle, multiple positioning options, and claimed battery life of up to 11 hours make it particularly appealing for musicians, presenters, events, and mobile sound setups.',
+      },
+    ],
+  },
 ]
 
 export default products
