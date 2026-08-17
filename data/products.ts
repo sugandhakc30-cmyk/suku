@@ -367,6 +367,144 @@ export const products: Product[] = [
       },
     ],
   },
+    {
+    id: 'acer-nitro-v-16s-ai-anv16s-41-r2aj',
+
+    name:
+      'Acer Nitro V 16S AI Gaming Laptop – Ryzen 7 260, RTX 5060, 32GB RAM, 180Hz',
+
+    category:
+      'Gaming Laptops',
+
+    image:
+      '/images/hq270.jpg',
+
+    description:
+      'Acer Nitro V 16S AI gaming laptop featuring an AMD Ryzen 7 260 processor, NVIDIA GeForce RTX 5060 Laptop GPU, 32GB DDR5 RAM, 1TB Gen 4 SSD, and a 16-inch WUXGA 180Hz IPS display. Model ANV16S-41-R2AJ.',
+
+    summary:
+      'The Acer Nitro V 16S AI combines an AMD Ryzen 7 260 processor with an NVIDIA GeForce RTX 5060 Laptop GPU, 32GB DDR5 memory, a 1TB Gen 4 SSD, and a 16-inch 180Hz WUXGA IPS display. It is designed for gamers and users who want a capable performance laptop with modern AI and gaming hardware.',
+
+    affiliateUrl:
+      'https://amzn.to/4idusFz',
+
+    published:
+      'August 2026',
+
+    heroLabel:
+      'AI Gaming Laptop Review',
+
+    pros: [
+      'AMD Ryzen 7 260 processor',
+      'NVIDIA GeForce RTX 5060 Laptop GPU',
+      'Up to 572 AI TOPS advertised',
+      '32GB DDR5 RAM',
+      '1TB Gen 4 NVMe SSD',
+      '16-inch WUXGA IPS display',
+      '180Hz refresh rate',
+      'Wi-Fi 6 connectivity',
+      'Modern AI-focused hardware',
+      'Acer Nitro gaming design',
+    ],
+
+    cons: [
+      'WUXGA resolution is lower than WQXGA gaming laptops',
+      '1TB storage may fill quickly with large game libraries',
+      'Laptop RTX 5060 performance varies by power configuration',
+      'Battery life can vary considerably depending on workload',
+      'Exact specifications can vary by configuration and retailer',
+    ],
+
+    reviewSections: [
+      {
+        heading:
+          'AMD Ryzen 7 260 Processor',
+
+        body:
+          'The AMD Ryzen 7 260 provides the processing power for gaming, multitasking, productivity, and other demanding workloads. It is paired with dedicated NVIDIA graphics, making this configuration substantially more capable for gaming than a typical integrated-graphics laptop.',
+      },
+
+      {
+        heading:
+          'NVIDIA RTX 5060 Laptop GPU',
+
+        body:
+          'The NVIDIA GeForce RTX 5060 Laptop GPU is the main gaming component of this Nitro V 16S configuration. Dedicated RTX graphics provide the hardware needed for modern PC gaming and GPU-accelerated applications. Actual gaming performance depends on the individual game, graphics settings, resolution, cooling, and the laptop’s power configuration.',
+      },
+
+      {
+        heading:
+          'AI Performance',
+
+        body:
+          'Acer markets this configuration as an AI gaming laptop, with the RTX 5060 Laptop GPU providing dedicated AI acceleration. The listed specification advertises up to 572 AI TOPS. AI performance can be useful for supported applications, creative tools, gaming technologies, and other workloads that take advantage of dedicated AI hardware.',
+      },
+
+      {
+        heading:
+          '16-inch 180Hz WUXGA Display',
+
+        body:
+          'The 16-inch WUXGA IPS display offers a 1920 × 1200 resolution and a 180Hz refresh rate. The 16:10 aspect ratio provides additional vertical screen space compared with traditional 16:9 Full HD displays, while the high refresh rate can provide smoother motion in compatible games.',
+      },
+
+      {
+        heading:
+          '32GB DDR5 Memory',
+
+        body:
+          'The 32GB DDR5 configuration provides substantial memory capacity for gaming, multitasking, browser-heavy workflows, and demanding applications. For users who frequently keep many applications open at the same time, this amount of RAM provides useful headroom.',
+      },
+
+      {
+        heading:
+          '1TB Gen 4 SSD',
+
+        body:
+          'The included 1TB Gen 4 SSD provides fast storage for Windows, applications, and games. It offers a useful amount of space for a gaming laptop, although users with a large collection of modern AAA games may eventually need additional storage.',
+      },
+
+      {
+        heading:
+          'Gaming Experience',
+
+        body:
+          'The combination of the Ryzen 7 processor, RTX 5060 Laptop GPU, 32GB RAM, and 180Hz display creates a configuration aimed primarily at gaming and performance-oriented users. Competitive games can benefit from the high refresh rate, while demanding titles may require appropriate graphics settings to achieve high frame rates.',
+      },
+
+      {
+        heading:
+          'Wi-Fi 6 Connectivity',
+
+        body:
+          'Wi-Fi 6 provides modern wireless networking capability for compatible routers and networks. For online gaming, actual connection quality will still depend on the router, internet service, network congestion, and local wireless conditions.',
+      },
+
+      {
+        heading:
+          'Who Should Buy It?',
+
+        body:
+          'The Acer Nitro V 16S AI is a strong candidate for gamers, students who also want a gaming machine, content creators, and users who want dedicated RTX graphics with a high-refresh-rate display. The 32GB RAM and 1TB SSD configuration also makes it attractive for users who want substantial memory and storage from the beginning.',
+      },
+
+      {
+        heading:
+          'Who Should Skip It?',
+
+        body:
+          'Users who prioritize maximum battery life, an extremely lightweight design, or a higher-resolution 1600p display may want to consider other gaming laptops. Buyers should also compare the exact RTX 5060 power configuration before making a purchase.',
+      },
+
+      {
+        heading:
+          'Final Verdict',
+
+        body:
+          'The Acer Nitro V 16S AI ANV16S-41-R2AJ is a well-equipped gaming laptop configuration featuring a Ryzen 7 260 processor, RTX 5060 Laptop GPU, 32GB DDR5 RAM, 1TB Gen 4 SSD, and a 180Hz WUXGA display. Its combination of dedicated graphics, high memory capacity, fast storage, and AI-focused hardware makes it an interesting option for gamers and performance-oriented users.',
+      },
+    ],
+  },
 ]
 
 export default products
