@@ -377,7 +377,7 @@ export const products: Product[] = [
       'Gaming Laptops',
 
     image:
-      '/images/hq270.jpg',
+      '/images/r.jpg',
 
     description:
       'Acer Nitro V 16S AI gaming laptop featuring an AMD Ryzen 7 260 processor, NVIDIA GeForce RTX 5060 Laptop GPU, 32GB DDR5 RAM, 1TB Gen 4 SSD, and a 16-inch WUXGA 180Hz IPS display. Model ANV16S-41-R2AJ.',
