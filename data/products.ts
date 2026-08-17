@@ -505,6 +505,151 @@ export const products: Product[] = [
       },
     ],
   },
+    {
+    id: 'lenovo-legion-loq-i7-13650hx-rtx-5050',
+
+    name:
+      'Lenovo Legion LOQ AI Gaming Laptop – Core i7-13650HX, RTX 5050, 24GB RAM, 1TB SSD',
+
+    category:
+      'Gaming Laptops',
+
+    image:
+      '/images/55.jpg',
+
+    description:
+      'Lenovo Legion LOQ AI gaming laptop featuring an Intel Core i7-13650HX processor, NVIDIA GeForce RTX 5050 Laptop GPU, 24GB memory, 1TB storage, and a 15.6-inch FHD IPS 144Hz display with G-SYNC in Luna Grey.',
+
+    summary:
+      'The Lenovo Legion LOQ combines an Intel Core i7-13650HX processor with NVIDIA GeForce RTX 5050 graphics, 24GB memory, 1TB storage, and a 15.6-inch 144Hz FHD IPS display. It is designed for gamers and users who want a performance-focused laptop with NVIDIA graphics and G-SYNC support.',
+
+    affiliateUrl:
+      'https://amzn.to/46b8dZz',
+
+    published:
+      'August 2026',
+
+    heroLabel:
+      'AI Gaming Laptop Review',
+
+    pros: [
+      'Intel Core i7-13650HX processor',
+      'NVIDIA GeForce RTX 5050 Laptop GPU',
+      '24GB system memory',
+      '1TB storage',
+      '15.6-inch FHD IPS display',
+      '144Hz refresh rate',
+      'NVIDIA G-SYNC support',
+      'Lenovo Legion LOQ gaming design',
+      'Luna Grey finish',
+    ],
+
+    cons: [
+      'FHD resolution is lower than many premium gaming laptops',
+      '24GB memory configuration may vary by retailer',
+      'Laptop RTX 5050 performance depends on power configuration',
+      'Battery life varies depending on workload',
+      'Exact specifications can vary by model and retailer',
+    ],
+
+    reviewSections: [
+      {
+        heading:
+          'Intel Core i7-13650HX Performance',
+
+        body:
+          'The Intel Core i7-13650HX is a performance-oriented mobile processor designed for demanding workloads. Paired with dedicated NVIDIA graphics, it gives the Legion LOQ a configuration aimed at gaming, multitasking, and other performance-focused applications.',
+      },
+
+      {
+        heading:
+          'NVIDIA GeForce RTX 5050 Graphics',
+
+        body:
+          'The NVIDIA GeForce RTX 5050 Laptop GPU provides dedicated graphics acceleration for modern PC games and supported creative applications. Actual gaming performance will depend on the game, graphics settings, resolution, cooling, and the laptop power configuration.',
+      },
+
+      {
+        heading:
+          '15.6-inch 144Hz FHD Display',
+
+        body:
+          'The 15.6-inch FHD IPS display uses a 1920 × 1080 resolution and a 144Hz refresh rate. The higher refresh rate is designed to provide smoother motion than a traditional 60Hz display and is particularly useful for gaming.',
+      },
+
+      {
+        heading:
+          'G-SYNC Support',
+
+        body:
+          'NVIDIA G-SYNC support is an important feature for gaming because compatible displays can synchronize their refresh behavior with the graphics output. This can help provide a smoother gaming experience and reduce visible screen tearing in supported scenarios.',
+      },
+
+      {
+        heading:
+          '24GB Memory',
+
+        body:
+          'The listed 24GB memory configuration provides substantial capacity for gaming, multitasking, and everyday productivity. It can also provide useful headroom for users who regularly run multiple applications alongside demanding games.',
+      },
+
+      {
+        heading:
+          '1TB Storage',
+
+        body:
+          'The 1TB storage configuration provides a useful amount of space for Windows, applications, and a selection of games. Users with large modern game libraries may eventually need additional storage, depending on the available expansion options of the exact model.',
+      },
+
+      {
+        heading:
+          'AI-Powered Gaming Features',
+
+        body:
+          'The Legion LOQ is marketed as an AI-powered gaming laptop. AI-related features can assist with supported gaming and system workloads, but the specific capabilities depend on the exact configuration, software, and Lenovo features included with the model.',
+      },
+
+      {
+        heading:
+          'Gaming Experience',
+
+        body:
+          'The combination of the Core i7-13650HX, RTX 5050 Laptop GPU, 24GB memory, and 144Hz display creates a gaming-focused configuration. The FHD resolution also places a relatively manageable workload on the laptop GPU compared with higher-resolution gaming displays.',
+      },
+
+      {
+        heading:
+          'Luna Grey Design',
+
+        body:
+          'The Legion LOQ uses a Luna Grey finish that gives the laptop a relatively understated appearance compared with some gaming machines with more aggressive styling. It can work well for users who want a gaming laptop that also fits into a school, office, or general-purpose environment.',
+      },
+
+      {
+        heading:
+          'Who Should Buy It?',
+
+        body:
+          'The Lenovo Legion LOQ is a good candidate for gamers who want a dedicated NVIDIA GPU, a high-refresh-rate display, and a performance-oriented Intel processor. The 24GB memory and 1TB storage configuration also makes it attractive for users who want substantial system resources out of the box.',
+      },
+
+      {
+        heading:
+          'Who Should Skip It?',
+
+        body:
+          'Users looking for a 1600p or 4K display, extremely long battery life, or an ultraportable laptop may want to consider alternatives. Buyers should also verify the exact memory, storage, display, and GPU configuration before ordering.',
+      },
+
+      {
+        heading:
+          'Final Verdict',
+
+        body:
+          'The Lenovo Legion LOQ configuration combines an Intel Core i7-13650HX processor, NVIDIA GeForce RTX 5050 Laptop GPU, 24GB memory, 1TB storage, and a 15.6-inch 144Hz FHD IPS display with G-SYNC. It is a gaming-focused configuration aimed at users who want dedicated graphics and a high-refresh-rate screen in a Luna Grey chassis.',
+      },
+    ],
+  },
 ]
 
 export default products
