@@ -10,7 +10,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const base = meta.baseUrl.replace(/\/$/, '')
 
   const staticUrls = [
-    '',
+    '/',
     '/reviews',
     '/guides',
     '/news',
@@ -36,10 +36,12 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     ...productUrls,
     ...guideUrls,
     ...categoryUrls
-  ])]
+  ])].filter(Boolean)
 
   return uniqueUrls.map((path) => ({
-    url: `${base}${path === '' ? '' : path}`,
-    lastModified: new Date()
+    url: `${base}${path === '/' ? '' : path}`,
+    lastModified: new Date(),
+    changeFrequency: 'weekly' as const,
+    priority: path === '/' ? 1 : 0.7
   }))
 }

@@ -303,30 +303,64 @@ const metadata = {
 };
 function About() {
     return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+        className: "max-w-3xl",
         children: [
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h1", {
-                className: "text-2xl font-bold",
+                className: "text-3xl font-bold text-neutral-900",
                 children: "About Sugandha Tech"
             }),
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                className: "mt-4 text-gray-700",
-                children: "Sugandha Tech is an independent technology publication focused on thoughtful reviews and practical buying guidance for modern digital life."
+                className: "mt-4 text-lg text-neutral-700",
+                children: "Sugandha Tech is a technology publication focused on clear, research-based reviews and practical buying advice. We aim to help readers understand what matters in a product, how it compares to alternatives, and whether it fits a specific use case."
             }),
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h2", {
-                className: "mt-6 font-semibold",
-                children: "What we publish"
-            }),
-            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("ul", {
-                className: "mt-2 list-disc ml-6 text-gray-700",
+            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                className: "mt-8 space-y-6",
                 children: [
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
-                        children: "In-depth reviews"
+                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("section", {
+                        children: [
+                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h2", {
+                                className: "text-xl font-semibold text-neutral-900",
+                                children: "What we publish"
+                            }),
+                            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("ul", {
+                                className: "mt-3 list-disc pl-6 text-neutral-700 space-y-2",
+                                children: [
+                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
+                                        children: "Product reviews that explain performance, trade-offs, and who the device is best for."
+                                    }),
+                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
+                                        children: "Buying guides built around real-use scenarios, not vague marketing language."
+                                    }),
+                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
+                                        children: "Comparisons and product explainers that help readers make faster, more informed decisions."
+                                    })
+                                ]
+                            })
+                        ]
                     }),
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
-                        children: "Buying guides"
+                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("section", {
+                        children: [
+                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h2", {
+                                className: "text-xl font-semibold text-neutral-900",
+                                children: "How we work"
+                            }),
+                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                className: "mt-3 text-neutral-700",
+                                children: "Our content is informed by official product information, retailer listings, public reviews, and industry reporting. When we have not personally tested a product, we say so clearly and avoid over-claiming. We also distinguish between a product’s specs, the experience of buyers, and the claims made by manufacturers."
+                            })
+                        ]
                     }),
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
-                        children: "Technology news and analysis"
+                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("section", {
+                        children: [
+                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h2", {
+                                className: "text-xl font-semibold text-neutral-900",
+                                children: "Transparency"
+                            }),
+                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                className: "mt-3 text-neutral-700",
+                                children: "Some links on our site may be affiliate links. If you purchase through them, we may earn a commission at no extra cost to you. We disclose this clearly and keep recommendations based on value, usefulness, and reader intent, not just commission potential."
+                            })
+                        ]
                     })
                 ]
             })

@@ -252,7 +252,7 @@ const tree = {
         '[slug]',
         {
         children: ['__PAGE__', {}, {
-          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 1151)), "C:\\Users\\SUGANDHA\\Downloads\\files\\app\\categories\\[slug]\\page.tsx"],
+          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 6076)), "C:\\Users\\SUGANDHA\\Downloads\\files\\app\\categories\\[slug]\\page.tsx"],
           
         }]
       },
@@ -317,83 +317,23 @@ Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_
 
 /***/ }),
 
-/***/ 1151:
+/***/ 6076:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-// ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
-
-// EXPORTS
-__webpack_require__.d(__webpack_exports__, {
-  "default": () => (/* binding */ CategoryPage),
-  generateMetadata: () => (/* binding */ generateMetadata)
-});
-
-// EXTERNAL MODULE: external "next/dist/compiled/react/jsx-runtime"
-var jsx_runtime_ = __webpack_require__(6786);
-// EXTERNAL MODULE: ./node_modules/next/navigation.js
-var navigation = __webpack_require__(4980);
-;// CONCATENATED MODULE: ./data/categories.ts
-const categories = [
-    {
-        slug: "laptops",
-        name: "Laptops",
-        description: "Portable computing, performance reviews, and buying guidance.",
-        href: "/categories/laptops"
-    },
-    {
-        slug: "gaming-pcs",
-        name: "Gaming PCs",
-        description: "Desktop gaming builds, upgrades, and performance insights.",
-        href: "/categories/gaming-pcs"
-    },
-    {
-        slug: "graphics-cards",
-        name: "Graphics Cards",
-        description: "GPU recommendations, specs, and value comparisons.",
-        href: "/categories/graphics-cards"
-    },
-    {
-        slug: "monitors",
-        name: "Monitors",
-        description: "Refresh rates, panel types, and display quality analysis.",
-        href: "/categories/monitors"
-    },
-    {
-        slug: "projectors",
-        name: "Projectors",
-        description: "Home theater and gaming projector buying advice.",
-        href: "/categories/projectors"
-    },
-    {
-        slug: "pc-components",
-        name: "PC Components",
-        description: "Motherboards, CPUs, memory, storage, and system planning.",
-        href: "/categories/pc-components"
-    },
-    {
-        slug: "gaming-accessories",
-        name: "Gaming Accessories",
-        description: "Headsets, keyboards, mice, and upgrade essentials.",
-        href: "/categories/gaming-accessories"
-    },
-    {
-        slug: "home-electronics",
-        name: "Home Electronics",
-        description: "Smart home, media, and everyday consumer tech coverage.",
-        href: "/categories/home-electronics"
-    }
-];
-/* harmony default export */ const data_categories = ((/* unused pure expression or super */ null && (categories)));
-
-// EXTERNAL MODULE: ./data/products.ts
-var products = __webpack_require__(4615);
-// EXTERNAL MODULE: ./components/ProductCard.tsx
-var ProductCard = __webpack_require__(1408);
-// EXTERNAL MODULE: ./lib/seo.ts
-var seo = __webpack_require__(9051);
-;// CONCATENATED MODULE: ./app/categories/[slug]/page.tsx
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ CategoryPage),
+/* harmony export */   generateMetadata: () => (/* binding */ generateMetadata)
+/* harmony export */ });
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(6786);
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var next_navigation__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(4980);
+/* harmony import */ var next_navigation__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_navigation__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _data_categories__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(8152);
+/* harmony import */ var _data_products__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(4615);
+/* harmony import */ var _components_ProductCard__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(1408);
+/* harmony import */ var _lib_seo__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(9051);
 
 
 
@@ -401,7 +341,7 @@ var seo = __webpack_require__(9051);
 
 
 async function generateMetadata({ params }) {
-    const item = categories.find((c)=>c.slug === params.slug);
+    const item = _data_categories__WEBPACK_IMPORTED_MODULE_2__/* .categories */ .b.find((c)=>c.slug === params.slug);
     if (!item) return {
         title: "Category not found — Sugandha Tech"
     };
@@ -409,60 +349,60 @@ async function generateMetadata({ params }) {
         title: `${item.name} — Sugandha Tech`,
         description: item.description,
         alternates: {
-            canonical: `${(0,seo/* siteMeta */.N)().baseUrl}/categories/${item.slug}`
+            canonical: `${(0,_lib_seo__WEBPACK_IMPORTED_MODULE_5__/* .siteMeta */ .N)().baseUrl}/categories/${item.slug}`
         }
     };
 }
 function CategoryPage({ params }) {
-    const item = categories.find((c)=>c.slug === params.slug);
-    if (!item) return (0,navigation.notFound)();
-    const categoryProducts = products/* products */.R.filter((product)=>product.category === item.name);
-    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("article", {
+    const item = _data_categories__WEBPACK_IMPORTED_MODULE_2__/* .categories */ .b.find((c)=>c.slug === params.slug);
+    if (!item) return (0,next_navigation__WEBPACK_IMPORTED_MODULE_1__.notFound)();
+    const categoryProducts = _data_products__WEBPACK_IMPORTED_MODULE_3__/* .products */ .R.filter((product)=>product.category === item.name);
+    return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("article", {
         children: [
-            /*#__PURE__*/ jsx_runtime_.jsx("h1", {
+            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h1", {
                 className: "text-3xl font-bold mb-3",
                 children: item.name
             }),
-            /*#__PURE__*/ jsx_runtime_.jsx("p", {
+            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
                 className: "text-gray-700",
                 children: item.description
             }),
-            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("section", {
+            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("section", {
                 className: "mt-6",
                 children: [
-                    /*#__PURE__*/ jsx_runtime_.jsx("h2", {
+                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h2", {
                         className: "font-semibold text-xl mb-2",
                         children: "What to expect"
                     }),
-                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("ul", {
+                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("ul", {
                         className: "list-disc ml-6 text-gray-700 space-y-2",
                         children: [
-                            /*#__PURE__*/ jsx_runtime_.jsx("li", {
+                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
                                 children: "Original buying guidance"
                             }),
-                            /*#__PURE__*/ jsx_runtime_.jsx("li", {
+                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
                                 children: "Product comparisons and recommendations"
                             }),
-                            /*#__PURE__*/ jsx_runtime_.jsx("li", {
+                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
                                 children: "Helpful editorial context before purchase"
                             }),
-                            /*#__PURE__*/ jsx_runtime_.jsx("li", {
+                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
                                 children: "Relevant related reviews and guides"
                             })
                         ]
                     })
                 ]
             }),
-            categoryProducts.length > 0 && /*#__PURE__*/ (0,jsx_runtime_.jsxs)("section", {
+            categoryProducts.length > 0 && /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("section", {
                 className: "mt-8",
                 children: [
-                    /*#__PURE__*/ jsx_runtime_.jsx("h2", {
+                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h2", {
                         className: "font-semibold text-xl mb-4",
                         children: "Featured picks"
                     }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                         className: "grid gap-6 md:grid-cols-2 xl:grid-cols-3",
-                        children: categoryProducts.map((product)=>/*#__PURE__*/ jsx_runtime_.jsx(ProductCard/* default */.Z, {
+                        children: categoryProducts.map((product)=>/*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_ProductCard__WEBPACK_IMPORTED_MODULE_4__/* ["default"] */ .Z, {
                                 productId: product.id,
                                 productName: product.name,
                                 image: product.image,
@@ -487,7 +427,7 @@ function CategoryPage({ params }) {
 var __webpack_require__ = require("../../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [478,796,565,980,132,615,408], () => (__webpack_exec__(4683)));
+var __webpack_exports__ = __webpack_require__.X(0, [478,796,565,980,132,615,18], () => (__webpack_exec__(4683)));
 module.exports = __webpack_exports__;
 
 })();

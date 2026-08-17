@@ -16,7 +16,7 @@ export default function Hero() {
           </h1>
           
           <p className="text-lg text-neutral-600 leading-relaxed max-w-xl">
-            Independent technology reviews, comprehensive buying guides, and expert insights to help you make confident decisions. Trusted by thousands of tech enthusiasts.
+            Independent technology reviews, practical buying guidance, and clear comparisons to help you make more confident purchase decisions.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-3 pt-2">
@@ -28,18 +28,18 @@ export default function Hero() {
             </Link>
           </div>
           
-          <div className="flex gap-8 pt-4 text-sm">
+          <div className="flex flex-wrap gap-6 pt-4 text-sm">
             <div>
-              <div className="font-bold text-2xl text-neutral-900">500+</div>
-              <p className="text-neutral-600">In-depth reviews</p>
+              <div className="font-bold text-2xl text-neutral-900">Research-led</div>
+              <p className="text-neutral-600">Review coverage built around specs, comparisons, and real-world use.</p>
             </div>
             <div>
-              <div className="font-bold text-2xl text-neutral-900">50+</div>
-              <p className="text-neutral-600">Buying guides</p>
+              <div className="font-bold text-2xl text-neutral-900">Buying guides</div>
+              <p className="text-neutral-600">Practical advice for choosing the right tech without the noise.</p>
             </div>
             <div>
-              <div className="font-bold text-2xl text-neutral-900">100%</div>
-              <p className="text-neutral-600">Independent</p>
+              <div className="font-bold text-2xl text-neutral-900">Transparent</div>
+              <p className="text-neutral-600">Clear affiliate disclosures and editorial standards you can trust.</p>
             </div>
           </div>
         </div>

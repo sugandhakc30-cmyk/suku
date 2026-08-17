@@ -1,46 +1,48 @@
 
-'use client'
-import { useState } from 'react'
 import type { Metadata } from 'next'
 import { siteMeta } from '../../lib/seo'
 
+const contactEmail = 'hello@sugandhatech.in.net'
+
+export const metadata: Metadata = {
+  title: 'Contact Sugandha Tech',
+  description: 'Contact Sugandha Tech for product questions, feedback, editorial inquiries, and partnership opportunities.',
+  alternates: { canonical: `${siteMeta().baseUrl}/contact` }
+}
 
 export default function Contact() {
-  const [submitted, setSubmitted] = useState(false)
-  function handleSubmit(e: any) {
-    e.preventDefault()
-    // Mock submission. Replace with real email/API integration.
-    setSubmitted(true)
-  }
   return (
-    <div>
-      <h1 className="text-2xl font-bold">Contact Sugandha Tech</h1>
-      {submitted ? (
-        <div className="mt-4 p-4 border rounded bg-green-50">Thank you — your message was received. (This is a mock handler.)</div>
-      ) : (
-        <form onSubmit={handleSubmit} className="mt-4 max-w-xl">
-          <label className="block">
-            <span className="text-sm font-medium">Name</span>
-            <input required name="name" className="mt-1 block w-full border rounded px-3 py-2" />
-          </label>
-          <label className="block mt-3">
-            <span className="text-sm font-medium">Email</span>
-            <input required type="email" name="email" className="mt-1 block w-full border rounded px-3 py-2" />
-          </label>
-          <label className="block mt-3">
-            <span className="text-sm font-medium">Subject</span>
-            <input required name="subject" className="mt-1 block w-full border rounded px-3 py-2" />
-          </label>
-          <label className="block mt-3">
-            <span className="text-sm font-medium">Message</span>
-            <textarea required name="message" rows={6} className="mt-1 block w-full border rounded px-3 py-2"></textarea>
-          </label>
-          <div className="mt-4">
-            <button type="submit" className="px-4 py-2 bg-brand text-white rounded">Send Message</button>
-          </div>
-          <p className="mt-3 text-xs text-gray-500">Note: This uses a mock submission handler. Replace with a server/API integration later.</p>
-        </form>
-      )}
+    <div className="max-w-2xl">
+      <h1 className="text-3xl font-bold text-neutral-900">Contact Sugandha Tech</h1>
+      <p className="mt-3 text-neutral-600">
+        For product questions, feedback, editorial requests, and partnership opportunities, send a note using the form below. Your email app will open with a pre-filled message.
+      </p>
+
+      <form action={`mailto:${contactEmail}`} method="post" encType="text/plain" className="mt-6 space-y-4">
+        <label className="block">
+          <span className="text-sm font-medium text-neutral-700">Name</span>
+          <input required name="Name" className="mt-1 block w-full rounded-lg border border-neutral-300 bg-white px-3 py-2.5 text-neutral-900 outline-none transition focus:border-brand-500 focus:ring-2 focus:ring-brand-100" />
+        </label>
+        <label className="block">
+          <span className="text-sm font-medium text-neutral-700">Email</span>
+          <input required type="email" name="Email" className="mt-1 block w-full rounded-lg border border-neutral-300 bg-white px-3 py-2.5 text-neutral-900 outline-none transition focus:border-brand-500 focus:ring-2 focus:ring-brand-100" />
+        </label>
+        <label className="block">
+          <span className="text-sm font-medium text-neutral-700">Subject</span>
+          <input required name="Subject" className="mt-1 block w-full rounded-lg border border-neutral-300 bg-white px-3 py-2.5 text-neutral-900 outline-none transition focus:border-brand-500 focus:ring-2 focus:ring-brand-100" />
+        </label>
+        <label className="block">
+          <span className="text-sm font-medium text-neutral-700">Message</span>
+          <textarea required name="Message" rows={6} className="mt-1 block w-full rounded-lg border border-neutral-300 bg-white px-3 py-2.5 text-neutral-900 outline-none transition focus:border-brand-500 focus:ring-2 focus:ring-brand-100"></textarea>
+        </label>
+        <div className="pt-2">
+          <button type="submit" className="inline-flex items-center justify-center rounded-lg bg-brand-600 px-5 py-3 font-semibold text-white transition hover:bg-brand-700">Send Message</button>
+        </div>
+      </form>
+
+      <p className="mt-4 text-sm text-neutral-500">
+        Prefer direct email? <a href={`mailto:${contactEmail}`} className="font-medium text-brand-600 underline">{contactEmail}</a>
+      </p>
     </div>
   )
 }

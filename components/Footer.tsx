@@ -23,7 +23,7 @@ export default function Footer() {
               <h3 className="text-lg font-bold text-neutral-900">Sugandha Tech</h3>
             </div>
             <p className="text-sm text-neutral-600 leading-relaxed mb-4">
-              Independent reviews and buying guidance for modern tech choices. Trusted by thousands worldwide.
+              Independent reviews and practical buying guidance for people choosing tech with more confidence.
             </p>
             <div className="flex gap-3">
               <a href={socialLinks.youtube} target="_blank" rel="noreferrer" className="inline-flex items-center justify-center w-9 h-9 rounded-lg bg-neutral-200 hover:bg-brand-100 text-neutral-700 hover:text-brand-600 transition-colors" aria-label="YouTube">
