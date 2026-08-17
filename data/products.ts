@@ -1165,6 +1165,154 @@ export const products: Product[] = [
       },
     ],
   },
+    {
+    id: 'hp-omen-slim-16-ai-ultra-9-285h-rtx-5070',
+
+    name:
+      'HP OMEN Slim 16 AI Gaming Laptop – Ultra 9-285H, RTX 5070, 32GB RAM, 1TB SSD',
+
+    category:
+      'Gaming Laptops',
+
+    image:
+      '/images/images.jpg',
+
+    description:
+      'HP OMEN Slim 16 AI gaming laptop featuring an Intel Core Ultra 9-285H processor, NVIDIA GeForce RTX 5070 8GB graphics, 32GB DDR5 RAM, 1TB SSD, and a 16-inch WUXGA 144Hz IPS display.',
+
+    summary:
+      'The HP OMEN Slim 16 combines an Intel Core Ultra 9-285H processor with NVIDIA GeForce RTX 5070 8GB graphics, 32GB DDR5 memory, 1TB storage, and a 16-inch 144Hz WUXGA IPS display. It also includes a 4-zone RGB backlit keyboard, Wi-Fi 6E, Bluetooth 5.4, webcam, and Windows 11 Pro.',
+
+    affiliateUrl:
+      'https://amzn.to/4zrViQE',
+
+    published:
+      'August 2026',
+
+    heroLabel:
+      'AI Gaming Laptop Review',
+
+    pros: [
+      'Intel Core Ultra 9-285H processor',
+      'NVIDIA GeForce RTX 5070 8GB graphics',
+      '32GB DDR5 RAM',
+      '1TB SSD',
+      '16-inch WUXGA IPS display',
+      '144Hz refresh rate',
+      '4-zone RGB backlit keyboard',
+      'Wi-Fi 6E',
+      'Bluetooth 5.4',
+      'Windows 11 Pro',
+      'Built-in webcam',
+      'Slim OMEN design',
+    ],
+
+    cons: [
+      'WUXGA resolution is lower than 1600p gaming laptops',
+      '1TB storage may be limiting for large game libraries',
+      'Battery life varies significantly depending on workload',
+      'RTX 5070 Laptop GPU performance depends on power configuration',
+      'Exact specifications can vary by retailer or configuration',
+    ],
+
+    reviewSections: [
+      {
+        heading:
+          'Intel Core Ultra 9-285H Performance',
+
+        body:
+          'The Intel Core Ultra 9-285H is a high-performance mobile processor designed for demanding workloads. Combined with dedicated RTX graphics and 32GB of DDR5 memory, this configuration is aimed at gaming, multitasking, content creation, and other performance-intensive applications.',
+      },
+
+      {
+        heading:
+          'RTX 5070 8GB Graphics',
+
+        body:
+          'The NVIDIA GeForce RTX 5070 Laptop GPU provides dedicated graphics acceleration for modern gaming and supported creative applications. The 8GB graphics memory configuration is suited to a wide range of gaming workloads, although actual performance depends on the game, resolution, graphics settings, cooling, and laptop power limits.',
+      },
+
+      {
+        heading:
+          '16-inch 144Hz WUXGA Display',
+
+        body:
+          'The 16-inch WUXGA IPS display provides a 1920 × 1200 resolution and a 144Hz refresh rate. The 16:10 aspect ratio provides additional vertical screen space compared with a traditional 16:9 Full HD panel, while 144Hz can provide smoother motion in compatible games.',
+      },
+
+      {
+        heading:
+          '32GB DDR5 Memory',
+
+        body:
+          'The included 32GB DDR5 memory provides substantial capacity for modern gaming, multitasking, productivity, and demanding applications. This configuration gives users considerably more memory headroom than entry-level gaming laptops with lower memory capacities.',
+      },
+
+      {
+        heading:
+          '1TB SSD Storage',
+
+        body:
+          'The 1TB SSD provides fast storage for Windows, applications, and games. It offers a useful starting capacity, although users with large collections of modern AAA games may eventually need additional storage.',
+      },
+
+      {
+        heading:
+          'AI Gaming Laptop Features',
+
+        body:
+          'The OMEN Slim 16 is marketed as an AI gaming laptop and combines Intel Core Ultra hardware with NVIDIA RTX graphics. Supported AI applications and gaming technologies can take advantage of dedicated CPU, GPU, and AI acceleration capabilities. Specific AI features depend on the software and configuration being used.',
+      },
+
+      {
+        heading:
+          '4-Zone RGB Keyboard',
+
+        body:
+          'The 4-zone RGB backlit keyboard provides customizable lighting across different keyboard zones. It adds a gaming-oriented visual element while also helping with keyboard visibility in darker environments.',
+      },
+
+      {
+        heading:
+          'Connectivity',
+
+        body:
+          'This configuration includes Wi-Fi 6E and Bluetooth 5.4 connectivity. Wi-Fi 6E can provide access to compatible 6GHz wireless networks, while Bluetooth 5.4 supports connections to compatible peripherals and accessories.',
+      },
+
+      {
+        heading:
+          'Windows 11 Pro',
+
+        body:
+          'Windows 11 Pro provides additional Windows features compared with the Home edition and can be useful for users who need professional or business-oriented functionality alongside gaming.',
+      },
+
+      {
+        heading:
+          'Who Should Buy It?',
+
+        body:
+          'The HP OMEN Slim 16 is a strong candidate for gamers, creators, professionals, and power users who want a high-performance Intel Core Ultra processor, RTX 5070 graphics, 32GB RAM, and a high-refresh-rate display in a relatively slim gaming-laptop design.',
+      },
+
+      {
+        heading:
+          'Who Should Skip It?',
+
+        body:
+          'Users who prioritize maximum battery life, an ultra-lightweight laptop, or a higher-resolution 1600p display may want to consider alternatives. Buyers should also verify the exact display, GPU power configuration, storage, and warranty before purchasing.',
+      },
+
+      {
+        heading:
+          'Final Verdict',
+
+        body:
+          'The HP OMEN Slim 16 AI combines an Intel Core Ultra 9-285H processor, NVIDIA GeForce RTX 5070 8GB graphics, 32GB DDR5 RAM, 1TB SSD, and a 16-inch 144Hz WUXGA IPS display. With Wi-Fi 6E, Bluetooth 5.4, a 4-zone RGB keyboard, webcam, and Windows 11 Pro, it is a well-equipped configuration for gamers and performance-focused users.',
+      },
+    ],
+  },
 ]
 
 export default products
