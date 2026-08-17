@@ -770,6 +770,152 @@ export const products: Product[] = [
       },
     ],
   },
+    {
+    id: 'asus-rog-strix-g16-2025-g615jmr-as74',
+
+    name:
+      'ASUS ROG Strix G16 (2025) Gaming Laptop – Core i7-14650HX, RTX 5060, 16GB RAM, 1TB SSD',
+
+    category:
+      'Gaming Laptops',
+
+    image:
+      '/images/Lead-1-13.webp',
+
+    description:
+      'ASUS ROG Strix G16 (2025) gaming laptop featuring an Intel Core i7-14650HX processor, NVIDIA GeForce RTX 5060 Laptop GPU, 16GB DDR5 RAM, 1TB Gen 4 SSD, and a 16-inch FHD+ 16:10 165Hz/3ms display. Model G615JMR-AS74.',
+
+    summary:
+      'The ASUS ROG Strix G16 combines an Intel Core i7-14650HX processor with NVIDIA GeForce RTX 5060 graphics, 16GB DDR5 memory, a 1TB Gen 4 SSD, and a 16-inch 16:10 FHD+ 165Hz display with a listed 3ms response time. Wi-Fi 7 and Windows 11 Home round out the configuration.',
+
+    affiliateUrl:
+      'https://amzn.to/4x3zJEa',
+
+    published:
+      'August 2026',
+
+    heroLabel:
+      'Gaming Laptop Review',
+
+    pros: [
+      'Intel Core i7-14650HX processor',
+      'NVIDIA GeForce RTX 5060 Laptop GPU',
+      '16GB DDR5 RAM',
+      '1TB Gen 4 SSD',
+      '16-inch FHD+ 16:10 display',
+      '165Hz refresh rate',
+      '3ms listed response time',
+      'Wi-Fi 7 connectivity',
+      'Windows 11 Home',
+      'ROG Strix gaming design',
+    ],
+
+    cons: [
+      'FHD+ resolution is lower than some premium 1600p gaming laptops',
+      '16GB RAM may eventually be limiting for some demanding workloads',
+      'Gaming laptop battery life varies by workload',
+      'RTX 5060 Laptop GPU performance depends on the laptop power configuration',
+      'Exact specifications can vary by retailer or regional configuration',
+    ],
+
+    reviewSections: [
+      {
+        heading:
+          'Intel Core i7-14650HX Performance',
+
+        body:
+          'The Intel Core i7-14650HX is a performance-focused mobile processor designed for demanding applications and gaming. Combined with dedicated NVIDIA graphics, it gives the ROG Strix G16 a configuration aimed at users who need more performance than a typical productivity laptop can provide.',
+      },
+
+      {
+        heading:
+          'NVIDIA GeForce RTX 5060 Graphics',
+
+        body:
+          'The NVIDIA GeForce RTX 5060 Laptop GPU provides dedicated graphics acceleration for modern PC gaming and supported creative applications. Actual gaming performance will depend on the specific game, resolution, graphics settings, cooling system, and GPU power configuration.',
+      },
+
+      {
+        heading:
+          '16-inch FHD+ 16:10 Display',
+
+        body:
+          'The 16-inch display uses a 16:10 aspect ratio, providing additional vertical screen space compared with a traditional 16:9 panel. The FHD+ resolution is paired with a 165Hz refresh rate, making the display well suited to gaming and general use.',
+      },
+
+      {
+        heading:
+          '165Hz Refresh Rate and 3ms Response Time',
+
+        body:
+          'The listed 165Hz refresh rate is designed to provide smoother motion than standard 60Hz displays. ASUS also lists a 3ms response time for this configuration, which can be useful for fast-moving games and competitive gaming.',
+      },
+
+      {
+        heading:
+          '16GB DDR5 Memory',
+
+        body:
+          'The laptop includes 16GB of DDR5 memory. This provides a solid starting point for modern gaming, everyday productivity, multitasking, and many creative applications. Users running particularly memory-intensive workloads may eventually want more RAM if the exact model supports an upgrade.',
+      },
+
+      {
+        heading:
+          '1TB Gen 4 SSD',
+
+        body:
+          'The 1TB Gen 4 SSD provides fast storage for Windows, applications, and games. It offers a useful amount of capacity for a gaming laptop, although users with a large library of modern games may eventually need additional storage.',
+      },
+
+      {
+        heading:
+          'Wi-Fi 7 Connectivity',
+
+        body:
+          'Wi-Fi 7 provides the laptop with a newer-generation wireless networking capability when paired with a compatible router and network. Real-world wireless performance will depend on the router, internet connection, network conditions, and distance from the access point.',
+      },
+
+      {
+        heading:
+          'Gaming Experience',
+
+        body:
+          'The combination of the Core i7-14650HX, RTX 5060 Laptop GPU, 165Hz display, and fast Gen 4 SSD creates a gaming-focused configuration. The FHD+ resolution can also help the RTX 5060 deliver higher frame rates than would typically be required at higher-resolution displays, depending on the game and settings.',
+      },
+
+      {
+        heading:
+          'ROG Strix G16 Design',
+
+        body:
+          'The ROG Strix G16 is part of ASUS ROG’s performance gaming lineup. Its design is aimed at gamers who want a dedicated gaming aesthetic along with hardware suited to demanding workloads.',
+      },
+
+      {
+        heading:
+          'Who Should Buy It?',
+
+        body:
+          'The ASUS ROG Strix G16 is a good option for gamers who want an RTX 5060 Laptop GPU, a high-refresh-rate 16-inch display, and a powerful Intel HX-series processor. It can also suit students, creators, and power users who want a laptop capable of handling both gaming and productivity workloads.',
+      },
+
+      {
+        heading:
+          'Who Should Skip It?',
+
+        body:
+          'Users who prioritize an extremely lightweight design, maximum battery life, or a higher-resolution 1600p display may want to consider alternatives. Buyers who regularly run very memory-intensive applications should also consider whether 16GB RAM is sufficient for their needs.',
+      },
+
+      {
+        heading:
+          'Final Verdict',
+
+        body:
+          'The ASUS ROG Strix G16 G615JMR-AS74 combines an Intel Core i7-14650HX processor, NVIDIA GeForce RTX 5060 Laptop GPU, 16GB DDR5 RAM, 1TB Gen 4 SSD, and a 16-inch FHD+ 165Hz display with a listed 3ms response time. Wi-Fi 7 and Windows 11 Home add to the modern feature set, making this a strong configuration for users looking for a performance-oriented gaming laptop.',
+      },
+    ],
+  },
 ]
 
 export default products
