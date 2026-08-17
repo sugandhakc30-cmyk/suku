@@ -1313,6 +1313,128 @@ export const products: Product[] = [
       },
     ],
   },
+    {
+    id: 'kene-litebike-sparrow-6000w-electric-dirt-bike',
+
+    name:
+      'KENE Litebike Sparrow Adult Electric Dirt Bike – 6000W Peak, 60V 30Ah, 50 MPH',
+
+    category:
+      'Electric Dirt Bikes',
+
+    image:
+      '/images/88.jpg',
+
+    description:
+      'KENE Litebike Sparrow adult electric dirt bike featuring a claimed 6000W peak mid-drive motor, 60V 30Ah lithium battery, up to 50 MPH claimed top speed, full suspension, and hydraulic disc brakes.',
+
+    summary:
+      'The KENE Litebike Sparrow is an adult-oriented electric dirt bike designed for off-road riding. The listed configuration combines a claimed 6000W peak mid-drive motor with a 60V 30Ah lithium battery, full suspension, hydraulic disc brakes, and a claimed top speed of up to 50 MPH.',
+
+    affiliateUrl:
+      'https://amzn.to/4wvrlMQ',
+
+    published:
+      'August 2026',
+
+    heroLabel:
+      'Electric Dirt Bike Review',
+
+    pros: [
+      'Claimed 6000W peak mid-drive motor',
+      '60V 30Ah lithium battery',
+      'Claimed top speed of up to 50 MPH',
+      'Full suspension',
+      'Hydraulic disc brakes',
+      'Designed for adult riders',
+      'Off-road motorcycle-style design',
+      'Mid-drive motor configuration',
+    ],
+
+    cons: [
+      'Actual range varies with terrain, rider weight, speed, and conditions',
+      'Actual top speed may differ from the advertised figure',
+      'High-power off-road vehicle is not ideal for beginners',
+      'Large and heavier than a conventional bicycle',
+      'Charging and storage requirements should be considered',
+      'Street legality varies by location',
+      'Verify exact specifications and warranty before purchase',
+    ],
+
+    reviewSections: [
+      {
+        heading:
+          '6000W Peak Mid-Drive Motor',
+
+        body:
+          'The KENE Litebike Sparrow is advertised with a 6000W peak mid-drive motor. This places it in a high-power electric dirt-bike category. Real-world acceleration and performance depend on factors such as rider weight, terrain, battery charge, temperature, controller configuration, and riding conditions.',
+      },
+
+      {
+        heading:
+          '60V 30Ah Lithium Battery',
+
+        body:
+          'The listed 60V 30Ah lithium battery provides the energy storage for the electric powertrain. The actual riding range will depend on speed, terrain, rider weight, riding style, temperature, and other conditions, so the advertised range should not be treated as a guaranteed real-world figure.',
+      },
+
+      {
+        heading:
+          '50 MPH Claimed Top Speed',
+
+        body:
+          'The product listing advertises a top speed of up to 50 MPH. Actual maximum speed can vary depending on rider weight, battery charge, terrain, temperature, and other operating conditions. Buyers should verify the current manufacturers specifications before purchase.',
+      },
+
+      {
+        heading:
+          'Full Suspension',
+
+        body:
+          'The Sparrow features a full-suspension setup designed for off-road riding. Suspension can help absorb bumps and uneven terrain and may provide a more controlled ride when used on appropriate trails and surfaces.',
+      },
+
+      {
+        heading:
+          'Hydraulic Disc Brakes',
+
+        body:
+          'Hydraulic disc brakes are included in the listed specification. Effective braking is particularly important on a high-powered electric dirt bike, especially when riding on uneven terrain or at higher speeds.',
+      },
+
+      {
+        heading:
+          'Off-Road Design',
+
+        body:
+          'The KENE Litebike Sparrow is designed as an adult electric dirt bike for off-road use. Its motor, suspension, braking system, and motorcycle-style construction make it more appropriate for suitable trails or private riding areas than ordinary bicycle commuting.',
+      },
+
+      {
+        heading:
+          'Who Should Buy It?',
+
+        body:
+          'This model may appeal to experienced adult riders looking for a high-power electric dirt bike for appropriate off-road environments. Buyers should make sure they have a suitable and legal place to ride before purchasing.',
+      },
+
+      {
+        heading:
+          'Who Should Skip It?',
+
+        body:
+          'Beginners, riders looking for a lightweight commuter bicycle, and buyers who need a universally street-legal vehicle may want to consider other options. Local laws and regulations should be checked before riding.',
+      },
+
+      {
+        heading:
+          'Final Verdict',
+
+        body:
+          'The KENE Litebike Sparrow is a high-power adult electric dirt bike featuring a claimed 6000W peak mid-drive motor, 60V 30Ah lithium battery, up to 50 MPH claimed top speed, full suspension, and hydraulic disc brakes. It is aimed at experienced riders looking for an electric off-road motorcycle-style machine.',
+      },
+    ],
+  },
 ]
 
 export default products
