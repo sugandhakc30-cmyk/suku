@@ -46,11 +46,11 @@ export const articles: Article[] = [
     date: '2026-08-16',
     affiliateUrl: 'https://amzn.to/4qqc7r6',
     sections: [
-      { heading: 'Why Price Matters', body: 'A gaming laptop under $1,000 can still be a smart buy when you focus on the features that matter most: GPU class, display refresh rate, memory, storage, and thermal performance. In this price band, the aim is not to chase the most premium design; it is to find a setup that keeps frame rates smooth and avoids weak points that appear later.' },
+      { heading: 'Why Price Matters', body: 'A gaming laptop  can still be a smart buy when you focus on the features that matter most: GPU class, display refresh rate, memory, storage, and thermal performance. In this price band, the aim is not to chase the most premium design; it is to find a setup that keeps frame rates smooth and avoids weak points that appear later.' },
       { heading: 'What to Prioritize', body: 'The graphics card remains the biggest driver of gaming performance, followed closely by memory and display quality. A 1080p or 1440p display with a 144Hz or 165Hz refresh rate is usually the sweet spot for value, while 16GB of RAM is a practical minimum for modern gaming and multitasking.' },
       { heading: 'Where Budget Laptops Cut Corners', body: 'Low-cost gaming laptops often trim display quality, storage speed, or cooling headroom. That can cause heat throttling, noisy fan behavior, or a noticeable quality gap compared with better-configured midrange models. Before you buy, compare thermal performance and panel quality as closely as you compare the GPU.' },
       { heading: 'Who This Range Fits', body: 'This price range is a strong fit for students, casual gamers, and players who mostly game at 1080p and want a machine that handles everyday tasks without feeling underpowered. It is also useful if you want a single machine for work and play without stretching into premium pricing.' },
-      { heading: 'Final Take', body: 'The best value gaming laptop under $1,000 is the one that balances a strong GPU with an efficient cooling design and a usable display. If you can keep your expectations realistic, you can find a laptop that delivers solid gaming performance without overspending on features that are not essential.' }
+      { heading: 'Final Take', body: 'The best value gaming laptop  is the one that balances a strong GPU with an efficient cooling design and a usable display. If you can keep your expectations realistic, you can find a laptop that delivers solid gaming performance without overspending on features that are not essential.' }
     ]
   },
   {
