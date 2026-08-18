@@ -1848,6 +1848,128 @@ export const products: Product[] = [
       },
     ],
   },
+    {
+    id: 'hhh-rocket-150cc-moped-scooter',
+
+    name:
+      'HHH Rocket 150 Moped Street Gas Scooter – 150cc Automatic Motorcycle',
+
+    category:
+      'Scooters & Motorcycles',
+
+    image:
+      '/images/77.jpg',
+
+    description:
+      'HHH Rocket 150 adult gas-powered moped featuring a 150cc engine, automatic transmission, 12-inch aluminum wheels, and a street-oriented scooter design in black.',
+
+    summary:
+      'The HHH Rocket 150 is a 150cc gas-powered automatic moped designed for adult riders. It features an automatic transmission, 12-inch aluminum wheels, and a compact scooter-style design intended for street-oriented riding where legally permitted.',
+
+    affiliateUrl:
+      'https://amzn.to/4gEdNd2',
+
+    published:
+      'August 2026',
+
+    heroLabel:
+      '150cc Scooter Review',
+
+    pros: [
+      '150cc gas engine',
+      'Automatic transmission',
+      'Adult-oriented design',
+      '12-inch aluminum wheels',
+      'Moped/scooter-style configuration',
+      'Street-oriented design',
+      'Black finish',
+      'No manual clutch shifting required',
+    ],
+
+    cons: [
+      'Fuel-powered rather than electric',
+      'Registration and licensing requirements vary by location',
+      'Insurance requirements may apply',
+      'Not suitable for riders who want a lightweight bicycle',
+      'Actual fuel economy depends on riding conditions',
+      'Assembly may be required depending on the seller',
+      'Verify warranty and parts availability before purchasing',
+    ],
+
+    reviewSections: [
+      {
+        heading:
+          '150cc Engine',
+
+        body:
+          'The HHH Rocket 150 is equipped with a 150cc gasoline engine. This provides a more traditional motorcycle-style powertrain compared with electric scooters and is intended for adult riders looking for a gas-powered moped configuration.',
+      },
+
+      {
+        heading:
+          'Automatic Transmission',
+
+        body:
+          'The automatic transmission is one of the main convenience features of this scooter. Riders do not need to operate a traditional manual clutch and manually shift through gears, making the controls more straightforward for users who prefer automatic operation.',
+      },
+
+      {
+        heading:
+          '12-inch Aluminum Wheels',
+
+        body:
+          'The Rocket 150 is listed with 12-inch aluminum wheels. The wheel size contributes to the scooter-style design and is intended for use on suitable paved riding surfaces.',
+      },
+
+      {
+        heading:
+          'Adult Moped Design',
+
+        body:
+          'This model is marketed as an adult moped and motorcycle-style scooter. Its compact format can make it appealing to riders looking for an alternative to a full-size motorcycle, although buyers should verify the vehicle's dimensions, weight capacity, and other specifications before purchasing.',
+      },
+
+      {
+        heading:
+          'Street Use',
+
+        body:
+          'The product is marketed as a street scooter, but whether it can legally be operated on public roads depends on local laws. Requirements can include registration, licensing, insurance, equipment requirements, and restrictions based on engine size or vehicle classification.',
+      },
+
+      {
+        heading:
+          'Fuel-Powered Convenience',
+
+        body:
+          'Unlike an electric scooter, the Rocket 150 uses gasoline. This eliminates the need for battery charging but means owners need access to appropriate fuel and must follow the manufacturer's maintenance and fueling instructions.',
+      },
+
+      {
+        heading:
+          'Who Should Buy It?',
+
+        body:
+          'The HHH Rocket 150 may appeal to adult riders looking for a compact gasoline-powered scooter with automatic operation. It can be worth considering for buyers who have an appropriate and legal place to operate a 150cc vehicle.',
+      },
+
+      {
+        heading:
+          'Who Should Skip It?',
+
+        body:
+          'Buyers looking for an electric scooter, bicycle-style vehicle, or a machine that can be operated without motorcycle or moped licensing requirements may want to consider alternatives. Always check your local regulations before purchasing.',
+      },
+
+      {
+        heading:
+          'Final Verdict',
+
+        body:
+          'The HHH Rocket 150 is a 150cc automatic gas moped featuring 12-inch aluminum wheels and a compact scooter-style design. Its automatic transmission makes operation straightforward, while the gasoline engine provides a traditional alternative to electric scooters. Buyers should verify the exact specifications, assembly requirements, warranty, and local road-use regulations before purchasing.',
+      },
+    ],
+  },
 ]
 
 export default products
