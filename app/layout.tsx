@@ -1,5 +1,6 @@
-import type { Metadata } from 'next'
+import type { Metadata, ResolvingMetadata } from 'next'
 import type { ReactNode } from 'react'
+
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 import { siteMeta } from '../lib/seo'
@@ -9,66 +10,43 @@ const meta = siteMeta()
 
 export const metadata: Metadata = {
   metadataBase: new URL(meta.baseUrl),
-
-  title: {
-    default: 'Sugandha Tech',
-    template: '%s | Sugandha Tech',
-  },
-
-  description:
-    'Independent technology reviews and buying guidance for smarter purchase decisions.',
-
+  title: 'Sugandha Tech',
+  description: 'Independent technology reviews and buying guidance for smarter purchase decisions.',
   alternates: {
-    canonical: meta.baseUrl,
+    canonical: meta.baseUrl
   },
-
   robots: {
     index: true,
-    follow: true,
+    follow: true
   },
-
   openGraph: {
     title: 'Sugandha Tech',
-    description:
-      'Independent technology reviews and buying guidance for smarter purchase decisions.',
+    description: 'Independent technology reviews and buying guidance for smarter purchase decisions.',
     url: meta.baseUrl,
     siteName: 'Sugandha Tech',
-    type: 'website',
+    type: 'website'
   },
-
-  twitter: {
-    card: 'summary_large_image',
-    title: 'Sugandha Tech',
-    description:
-      'Independent technology reviews and buying guidance for smarter purchase decisions.',
-  },
-
   icons: {
-    icon: '/favicon.svg',
-  },
+    icon: '/favicon.svg'
+  }
 }
 
-export default function RootLayout({
-  children,
-}: {
-  children: ReactNode
-}) {
+export default function RootLayout({ children }: { children: ReactNode }) {
   const meta = siteMeta()
-
   return (
     <html lang="en">
+      <head>
+        <meta charSet="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+      </head>
       <body className="bg-white text-neutral-900 antialiased">
+        {/* JSON-LD for Organization and WebSite */}
         <JsonLd />
-
         <div className="min-h-screen flex flex-col">
           <Header siteName={meta.siteName} />
-
           <main className="flex-1 w-full">
-            <div className="container mx-auto py-6 md:py-8 px-4">
-              {children}
-            </div>
+            <div className="container mx-auto py-6 md:py-8 px-4">{children}</div>
           </main>
-
           <Footer />
         </div>
       </body>
