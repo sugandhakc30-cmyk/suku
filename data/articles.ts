@@ -39,8 +39,8 @@ export const articles: Article[] = [
     ]
   },
   {
-    slug: 'best-gaming-laptop-under-1000',
-    title: 'Best Gaming Laptop Under $1,000: What to Prioritize in 2026',
+    slug: 'best-gaming-laptop',
+    title: 'Best Gaming Laptop : What to Prioritize in 2026',
     excerpt: 'A practical guide to choosing a budget gaming laptop with the right balance of GPU power, screen quality, thermals, and long-term value.',
     category: 'Buying Guides',
     date: '2026-08-16',
