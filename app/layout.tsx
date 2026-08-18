@@ -1,6 +1,6 @@
 import type { Metadata, ResolvingMetadata } from 'next'
 import type { ReactNode } from 'react'
-
+import './styles/globals.css'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 import { siteMeta } from '../lib/seo'
