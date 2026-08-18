@@ -1926,7 +1926,7 @@ export const products: Product[] = [
           'Adult Moped Design',
 
         body:
-          'This model is marketed as an adult moped and motorcycle-style scooter. Its compact format can make it appealing to riders looking for an alternative to a full-size motorcycle, although buyers should verify the vehicle's dimensions, weight capacity, and other specifications before purchasing.',
+          'This model is marketed as an adult moped and motorcycle-style scooter. Its compact format can make it appealing to riders looking for an alternative to a full-size motorcycle, although buyers should verify the vehicles dimensions, weight capacity, and other specifications before purchasing.',
       },
 
       {
@@ -1942,7 +1942,7 @@ export const products: Product[] = [
           'Fuel-Powered Convenience',
 
         body:
-          'Unlike an electric scooter, the Rocket 150 uses gasoline. This eliminates the need for battery charging but means owners need access to appropriate fuel and must follow the manufacturer's maintenance and fueling instructions.',
+          'Unlike an electric scooter, the Rocket 150 uses gasoline. This eliminates the need for battery charging but means owners need access to appropriate fuel and must follow the manufacturers maintenance and fueling instructions.',
       },
 
       {
