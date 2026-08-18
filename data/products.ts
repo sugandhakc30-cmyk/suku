@@ -1970,6 +1970,134 @@ export const products: Product[] = [
       },
     ],
   },
+    {
+    id: 'jbl-professional-eon715-powered-pa-speaker',
+
+    name:
+      'JBL Professional EON715 Powered PA Speaker – 15-inch, 300W, Bluetooth',
+
+    category:
+      'Professional Audio & PA Speakers',
+
+    image:
+      '/images/123.jpg',
+
+    description:
+      'JBL Professional EON715 powered PA speaker featuring a 15-inch driver, 300-watt listed power output, Bluetooth connectivity, wired electric operation, and a portable loudspeaker design.',
+
+    summary:
+      'The JBL Professional EON715 is a powered PA loudspeaker designed for live performances, presentations, events, DJs, musicians, and other applications requiring amplified sound. It combines a 15-inch speaker design with Bluetooth connectivity and powered operation in a portable enclosure.',
+
+    affiliateUrl:
+      'https://amzn.to/4xhOZNO',
+
+    published:
+      'August 2026',
+
+    heroLabel:
+      'Professional PA Speaker Review',
+
+    pros: [
+      '15-inch powered PA speaker',
+      '300W listed power output',
+      'Bluetooth connectivity',
+      'Powered electric operation',
+      'Portable loudspeaker design',
+      'Suitable for live performances',
+      'Useful for presentations and events',
+      'Designed for professional audio applications',
+    ],
+
+    cons: [
+      'Requires wired electrical power',
+      'Larger and heavier than portable Bluetooth speakers',
+      'More than casual listeners may need',
+      'PA systems require appropriate setup for best results',
+      'Actual sound coverage depends on venue and speaker placement',
+    ],
+
+    reviewSections: [
+      {
+        heading:
+          '15-inch PA Speaker',
+
+        body:
+          'The JBL Professional EON715 uses a 15-inch speaker configuration designed for amplified sound applications. Its larger enclosure and driver make it more appropriate for events, performances, presentations, and other situations where greater sound coverage is required than a typical portable Bluetooth speaker can provide.',
+      },
+
+      {
+        heading:
+          '300W Power Output',
+
+        body:
+          'The supplied product listing specifies 300 watts of power. Buyers should verify whether the stated figure refers to continuous, program, or peak power when comparing this speaker with competing PA systems, as power ratings are not always directly comparable between manufacturers.',
+      },
+
+      {
+        heading:
+          'Bluetooth Connectivity',
+
+        body:
+          'Bluetooth connectivity provides a convenient way to stream compatible audio sources wirelessly. This can simplify playback for events, presentations, background music, and other applications where a wireless source is useful.',
+      },
+
+      {
+        heading:
+          'Powered Operation',
+
+        body:
+          'The EON715 is a powered PA speaker, meaning amplification is built into the speaker system. This can simplify a PA setup because users do not necessarily need a separate external power amplifier for the speaker.',
+      },
+
+      {
+        heading:
+          'Portable Design',
+
+        body:
+          'Although larger than a conventional portable Bluetooth speaker, the EON715 is designed as a portable loudspeaker for professional audio applications. Its format can be useful for musicians, DJs, presenters, event organizers, and mobile sound setups.',
+      },
+
+      {
+        heading:
+          'Live Performances',
+
+        body:
+          'The EON715 is suited to live sound applications where amplified audio is required. Musicians and performers can use powered PA speakers as part of a larger sound system, with the exact setup depending on microphones, instruments, mixers, venue size, and other equipment.',
+      },
+
+      {
+        heading:
+          'Presentations and Events',
+
+        body:
+          'The speaker can also be useful for conferences, presentations, parties, ceremonies, and other events where clear amplified audio is needed. Actual coverage will depend on venue size, room acoustics, speaker placement, and desired listening volume.',
+      },
+
+      {
+        heading:
+          'Who Should Buy It?',
+
+        body:
+          'The JBL Professional EON715 is aimed at musicians, DJs, presenters, event organizers, venues, and users who need a powered PA speaker rather than a basic consumer Bluetooth speaker.',
+      },
+
+      {
+        heading:
+          'Who Should Skip It?',
+
+        body:
+          'If you only need a small speaker for casual music listening, travel, or use around the home, a compact portable Bluetooth speaker is likely to be more convenient and easier to transport.',
+      },
+
+      {
+        heading:
+          'Final Verdict',
+
+        body:
+          'The JBL Professional EON715 is a powered 15-inch PA loudspeaker designed for professional and event-oriented audio applications. Its Bluetooth connectivity, powered operation, and portable loudspeaker format make it a flexible option for performances, presentations, DJs, and other situations requiring amplified sound.',
+      },
+    ],
+  },
 ]
 
 export default products
