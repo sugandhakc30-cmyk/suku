@@ -1513,7 +1513,7 @@ export const products: Product[] = [
           'White Joy-Con Controllers',
 
         body:
-          'This configuration includes white Joy-Con controllers. The detachable controllers support the Switch's flexible play styles and can be used for multiplayer gaming in compatible titles.',
+          'This configuration includes white Joy-Con controllers. The detachable controllers support the Switchs flexible play styles and can be used for multiplayer gaming in compatible titles.',
       },
 
       {
@@ -1553,7 +1553,7 @@ export const products: Product[] = [
           'Who Should Buy It?',
 
         body:
-          'The Nintendo Switch OLED Model is a strong choice for players who value portable gaming, Nintendo's game library, local multiplayer, and the improved OLED display. It is especially appealing to users who expect to spend significant time playing in handheld or tabletop mode.',
+          'The Nintendo Switch OLED Model is a strong choice for players who value portable gaming, Nintendos game library, local multiplayer, and the improved OLED display. It is especially appealing to users who expect to spend significant time playing in handheld or tabletop mode.',
       },
 
       {
