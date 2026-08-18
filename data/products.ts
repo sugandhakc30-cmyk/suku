@@ -1573,6 +1573,281 @@ export const products: Product[] = [
       },
     ],
   },
+    {
+    id: 'playstation-5-console-1tb-disc',
+
+    name:
+      'PlayStation 5 Console – 1TB Disc Edition with Wireless Controller',
+
+    category:
+      'Gaming Consoles',
+
+    image:
+      '/images/22.webp',
+
+    description:
+      'PlayStation 5 1TB console with integrated disc drive, wireless controller, ultra-high-speed SSD, ray tracing, HDMI cable, AC power cord, USB cable, horizontal stand feet, and Astro’s Playroom pre-installed.',
+
+    summary:
+      'The PlayStation 5 1TB Disc Edition combines an ultra-high-speed SSD with ray tracing capabilities and a built-in disc drive. This configuration includes a wireless controller, HDMI cable, AC power cord, USB cable, horizontal stand feet, printed materials, and Astro’s Playroom pre-installed.',
+
+    affiliateUrl:
+      'https://amzn.to/4x60kRj',
+
+    published:
+      'August 2026',
+
+    heroLabel:
+      'Gaming Console Review',
+
+    pros: [
+      '1TB internal SSD storage',
+      'Integrated disc drive',
+      'Ultra-high-speed SSD',
+      'Fast loading for installed PS5 games',
+      'Ray tracing support',
+      'Wireless controller included',
+      'HDMI cable included',
+      'USB cable included',
+      'Horizontal stand feet included',
+      'Astro’s Playroom pre-installed',
+    ],
+
+    cons: [
+      '1TB storage can fill quickly with large modern games',
+      'Additional storage may be needed for a large game library',
+      'Disc and digital game availability varies by title',
+      'Actual loading times vary by game',
+      'Some advanced graphics features depend on individual game support',
+    ],
+
+    reviewSections: [
+      {
+        heading:
+          '1TB SSD Storage',
+
+        body:
+          'The PlayStation 5 console includes 1TB of internal SSD storage, giving players space to install games and keep frequently played titles ready. Actual usable storage is lower than the advertised capacity because some storage is reserved for system software.',
+      },
+
+      {
+        heading:
+          'Ultra-High-Speed SSD',
+
+        body:
+          'The PS5 uses a high-speed SSD designed to significantly reduce loading times for supported installed games. The fast storage also gives game developers additional possibilities for streaming and accessing game data during gameplay.',
+      },
+
+      {
+        heading:
+          'Integrated I/O',
+
+        body:
+          'Sony designed the PS5 hardware around a custom integrated I/O architecture that works closely with its SSD. This allows supported games to access data rapidly and can enable developers to design experiences around fast asset loading and streaming.',
+      },
+
+      {
+        heading:
+          'Ray Tracing',
+
+        body:
+          'The PlayStation 5 supports hardware-accelerated ray tracing in compatible games. Ray tracing can simulate lighting, reflections, and shadows with greater visual realism, although the availability and implementation of the feature varies between individual games.',
+      },
+
+      {
+        heading:
+          'Built-in Disc Drive',
+
+        body:
+          'This configuration includes an integrated disc drive, giving users the option to play compatible physical game discs in addition to downloading digital games. The supplied listing also states that discs for games released before January 2028 can continue to be played on this console.',
+      },
+
+      {
+        heading:
+          'Wireless Controller',
+
+        body:
+          'A wireless controller is included with the console, allowing players to begin using the system without purchasing a controller separately. Controller features and supported functionality depend on the game being played.',
+      },
+
+      {
+        heading:
+          'Astro’s Playroom',
+
+        body:
+          'Astro’s Playroom is listed as a pre-installed game with this console. It provides an immediately available title for new owners to explore the system and its controller features.',
+      },
+
+      {
+        heading:
+          'What Is Included',
+
+        body:
+          'The listed package includes the PlayStation 5 1TB console with disc drive, wireless controller, two horizontal stand feet, HDMI cable, AC power cord, USB cable, printed materials, and Astro’s Playroom.',
+      },
+
+      {
+        heading:
+          'Gaming Experience',
+
+        body:
+          'The combination of fast SSD storage, dedicated graphics hardware, ray tracing support, and the PS5 software ecosystem provides a modern console gaming platform. Actual graphics quality, frame rates, and loading times vary by game and its specific performance modes.',
+      },
+
+      {
+        heading:
+          'Who Should Buy It?',
+
+        body:
+          'The PS5 1TB Disc Edition is a good choice for players who want access to PlayStation games while retaining the ability to use compatible physical game discs. It is also suitable for users who want fast SSD storage and support for modern graphics technologies such as ray tracing.',
+      },
+
+      {
+        heading:
+          'Who Should Skip It?',
+
+        body:
+          'Players who only purchase digital games may not need a disc-drive configuration. Similarly, users who already own a PS5 may want to compare the included features and storage before deciding whether another console is necessary.',
+      },
+
+      {
+        heading:
+          'Final Verdict',
+
+        body:
+          'The PlayStation 5 1TB Disc Edition is a feature-rich gaming console with an ultra-high-speed SSD, integrated disc drive, ray tracing support, wireless controller, and Astro’s Playroom pre-installed. Its combination of physical and digital game support makes it a versatile option for PlayStation gamers.',
+      },
+    ],
+  },
+    {
+    id: 'nylavee-computer-speakers-6-lighting-modes',
+
+    name:
+      'Nylavee Computer Speakers for Desktop – 6 Lighting Modes, USB Powered',
+
+    category:
+      'Computer Speakers',
+
+    image:
+      '/images/43.jpg',
+
+    description:
+      'Nylavee desktop computer speakers featuring 6 lighting modes, USB-powered operation, 3.5mm AUX connectivity, dual speaker units, and two bass-boost ports for PCs, laptops, and monitors.',
+
+    summary:
+      'The Nylavee computer speakers are designed as a compact desktop audio solution for PCs, laptops, and monitors. They feature dual speaker units, USB power, 3.5mm AUX connectivity, six lighting modes, and two bass-boost ports designed to enhance the low-frequency audio experience.',
+
+    affiliateUrl:
+      'https://amzn.to/45S9xRj',
+
+    published:
+      'August 2026',
+
+    heroLabel:
+      'Desktop Speaker Review',
+
+    pros: [
+      '6 lighting modes',
+      'USB-powered operation',
+      '3.5mm AUX connectivity',
+      'Dual speaker units',
+      'Two bass-boost ports',
+      'Designed for desktop computers',
+      'Compatible with PCs and laptops',
+      'Can be used with compatible monitors',
+      'Compact desktop setup',
+    ],
+
+    cons: [
+      'Requires USB power',
+      '3.5mm AUX connection may require an available audio output',
+      'Designed primarily for desktop use',
+      'Not intended to replace a large home theater or PA system',
+      'Bass performance depends on placement and listening environment',
+    ],
+
+    reviewSections: [
+      {
+        heading:
+          'Desktop Design',
+
+        body:
+          'The Nylavee speakers are designed specifically for desktop setups. The dual-speaker configuration can provide a wider stereo presentation than a single built-in computer speaker and can be positioned around a monitor or laptop workspace.',
+      },
+
+      {
+        heading:
+          '6 Lighting Modes',
+
+        body:
+          'The speakers feature six lighting modes that add RGB-style visual effects to a gaming or desktop setup. The lighting is primarily an aesthetic feature and can help complement other illuminated gaming peripherals.',
+      },
+
+      {
+        heading:
+          'USB Powered',
+
+        body:
+          'The speakers use USB power, making them convenient for desktop computers, laptops, monitors, and other compatible USB power sources. This avoids the need for a separate traditional power adapter in many setups.',
+      },
+
+      {
+        heading:
+          '3.5mm AUX Connectivity',
+
+        body:
+          'The 3.5mm AUX connection provides a straightforward wired audio connection for compatible PCs, laptops, monitors, and other devices with a standard analog audio output.',
+      },
+
+      {
+        heading:
+          'Bass-Boost Ports',
+
+        body:
+          'The two bass-boost ports are designed to help enhance low-frequency output from the speaker system. Actual bass performance depends on speaker placement, room acoustics, source material, and listening volume.',
+      },
+
+      {
+        heading:
+          'Gaming and Entertainment',
+
+        body:
+          'The combination of stereo speakers and customizable lighting makes the Nylavee system particularly suitable for gaming desks and general computer entertainment. It can also be used for music, videos, streaming, and everyday computer audio.',
+      },
+
+      {
+        heading:
+          'PC and Laptop Compatibility',
+
+        body:
+          'The speakers are designed for use with PCs and laptops and can also work with compatible monitors. Users should make sure their device provides the required USB power and 3.5mm audio connection before purchasing.',
+      },
+
+      {
+        heading:
+          'Who Should Buy It?',
+
+        body:
+          'The Nylavee computer speakers are a good option for users who want an affordable-style desktop speaker setup with stereo audio, simple wired connectivity, and decorative lighting. They are especially suited to gaming desks and everyday PC use.',
+      },
+
+      {
+        heading:
+          'Who Should Skip It?',
+
+        body:
+          'Users looking for professional studio monitors, a large home theater system, or powerful room-filling audio may want a larger and more specialized speaker system.',
+      },
+
+      {
+        heading:
+          'Final Verdict',
+
+        body:
+          'The Nylavee computer speakers provide a straightforward desktop audio setup with dual speaker units, USB power, 3.5mm AUX connectivity, six lighting modes, and two bass-boost ports. They are designed for PC, laptop, and compatible monitor setups and can be a practical choice for gaming and everyday desktop entertainment.',
+      },
+    ],
+  },
 ]
 
 export default products
