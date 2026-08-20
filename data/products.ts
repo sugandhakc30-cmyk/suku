@@ -2098,6 +2098,421 @@ export const products: Product[] = [
       },
     ],
   },
+    {
+    id: 'sony-playstation-5-digital-edition-825gb',
+
+    name:
+      'Sony PlayStation 5 Digital Edition – 825GB SSD, 16GB GDDR6, Wireless Controller',
+
+    category:
+      'Gaming Consoles',
+
+    image:
+      '/images/76.jpg',
+
+    description:
+      'Sony PlayStation 5 Digital Edition gaming console featuring an 825GB SSD, 16GB GDDR6 memory, wireless controller, digital game support, high-speed SSD storage, and support for high-refresh-rate gaming and compatible 8K output.',
+
+    summary:
+      'The PlayStation 5 Digital Edition is designed for players who purchase and download games digitally. This configuration includes an 825GB SSD, 16GB GDDR6 memory, a wireless controller, and a white console design. It is built around fast SSD storage and supports up to 120Hz output in compatible games and displays.',
+
+    affiliateUrl:
+      'https://amzn.to/4wAl02B',
+
+    published:
+      'August 2026',
+
+    heroLabel:
+      'Digital Gaming Console',
+
+    pros: [
+      'Digital Edition design',
+      '825GB SSD storage',
+      '16GB GDDR6 memory',
+      'Wireless controller included',
+      'Fast SSD storage',
+      'Up to 120Hz output in supported games',
+      'White console design',
+      'Digital game downloads',
+      'Ray tracing support in compatible games',
+    ],
+
+    cons: [
+      'No integrated disc drive',
+      'Digital games require sufficient storage',
+      '825GB advertised storage is not entirely available to games',
+      'Compatible display is required to take advantage of higher refresh rates',
+      '8K output features depend on compatible hardware and supported content',
+    ],
+
+    reviewSections: [
+      {
+        heading:
+          'Digital Edition Design',
+
+        body:
+          'The PS5 Digital Edition is designed for players who primarily purchase games digitally through the PlayStation Store. Unlike a disc-based PS5 configuration, this version does not include an integrated disc drive.',
+      },
+
+      {
+        heading:
+          '825GB SSD',
+
+        body:
+          'The console includes an 825GB SSD for installing games and applications. Because system software uses part of the drive, the actual available storage is lower than the advertised capacity. Players with a large digital library may eventually need additional compatible storage.',
+      },
+
+      {
+        heading:
+          '16GB GDDR6 Memory',
+
+        body:
+          'The PS5 platform includes 16GB of GDDR6 system memory. This high-bandwidth memory works alongside the console hardware to support modern games, graphics processing, and fast data handling.',
+      },
+
+      {
+        heading:
+          'High-Speed SSD Performance',
+
+        body:
+          'The PS5s custom SSD architecture is designed to reduce loading times for supported games. Fast storage also allows developers to stream game assets more efficiently and create experiences that make extensive use of high-speed data access.',
+      },
+
+      {
+        heading:
+          '120Hz Gaming',
+
+        body:
+          'The PS5 supports up to 120Hz output in compatible games and display configurations. To take advantage of higher refresh rates, users need a compatible display and appropriate connection. Actual frame rates depend on the individual game and its performance mode.',
+      },
+
+      {
+        heading:
+          '8K Output',
+
+        body:
+          'The supplied listing advertises 8K output capability. Actual 8K functionality depends on compatible displays, software, system configuration, and supported content. Buyers should not assume that every PS5 game renders natively at 8K.',
+      },
+
+      {
+        heading:
+          'Wireless Controller',
+
+        body:
+          'A wireless controller is included with the console. The controller provides the primary input method for compatible PlayStation games and supports the PS5 platforms controller features where implemented by individual titles.',
+      },
+
+      {
+        heading:
+          'Ray Tracing',
+
+        body:
+          'The PS5 supports hardware-accelerated ray tracing in compatible games. Ray tracing can improve the realism of supported lighting, shadows, and reflections, although the implementation and performance impact vary between games.',
+      },
+
+      {
+        heading:
+          'Who Should Buy It?',
+
+        body:
+          'The PS5 Digital Edition is a good fit for gamers who purchase their games digitally and want a modern PlayStation console with fast SSD storage, high-refresh-rate gaming support, and advanced graphics capabilities.',
+      },
+
+      {
+        heading:
+          'Who Should Skip It?',
+
+        body:
+          'Players who regularly buy physical game discs, use a physical game collection, or want the flexibility of playing compatible disc-based media should consider a PS5 configuration with a disc drive instead.',
+      },
+
+      {
+        heading:
+          'Final Verdict',
+
+        body:
+          'The PlayStation 5 Digital Edition provides a disc-free gaming experience built around an 825GB SSD, 16GB GDDR6 memory, wireless controller, high-refresh-rate output, and modern graphics features such as ray tracing. It is best suited to players who are comfortable purchasing and downloading their games digitally.',
+      },
+    ],
+  },
+    {
+    id: 'turtle-beach-stealth-600-wireless-gaming-headset',
+
+    name:
+      'Turtle Beach Stealth 600 Wireless Gaming Headset – 50mm Drivers, 80-Hour Battery',
+
+    category:
+      'Gaming Headsets',
+
+    image:
+      '/images/00.jpg',
+
+    description:
+      'Turtle Beach Stealth 600 wireless gaming headset with 50mm drivers, Bluetooth connectivity, up to 80 hours of claimed battery life, flip-to-mute microphone, and multiplatform compatibility for Xbox, PlayStation, PC, and mobile devices.',
+
+    summary:
+      'The Turtle Beach Stealth 600 is a wireless gaming headset designed for multiplatform gaming. It features 50mm drivers, Bluetooth connectivity, a flip-to-mute microphone, and up to 80 hours of claimed battery life. The listed configuration is white and supports Xbox Series X|S, Xbox One, PlayStation platforms, PC, and compatible mobile devices.',
+
+    affiliateUrl:
+      'https://amzn.to/4g7fgsi',
+
+    published:
+      'August 2026',
+
+    heroLabel:
+      'Wireless Gaming Headset',
+
+    pros: [
+      'Wireless gaming headset',
+      '50mm speaker drivers',
+      'Bluetooth connectivity',
+      'Up to 80 hours of claimed battery life',
+      'Flip-to-mute microphone',
+      'Multiplatform compatibility',
+      'Xbox Series X|S compatible',
+      'Xbox One compatible',
+      'PlayStation compatible',
+      'PC compatible',
+      'Mobile device compatibility',
+      'White finish',
+    ],
+
+    cons: [
+      'Battery life varies depending on usage',
+      'Wireless features depend on the connected platform',
+      'Compatibility can vary between devices and connection methods',
+      'Over-ear headsets may feel warm during long gaming sessions',
+      'Built-in microphone is designed primarily for gaming communication',
+    ],
+
+    reviewSections: [
+      {
+        heading:
+          'Wireless Gaming Experience',
+
+        body:
+          'The Turtle Beach Stealth 600 is designed to provide wireless audio for gaming without requiring a traditional wired headset connection. Wireless operation can provide greater freedom of movement while gaming.',
+      },
+
+      {
+        heading:
+          '50mm Drivers',
+
+        body:
+          'The headset uses 50mm speaker drivers designed to deliver the audio needed for gaming, music, movies, and voice communication. Actual sound characteristics depend on the game, audio settings, platform, and personal listening preferences.',
+      },
+
+      {
+        heading:
+          '80-Hour Battery Life',
+
+        body:
+          'Turtle Beach lists up to 80 hours of battery life for the headset. Actual runtime can vary depending on volume, wireless features, microphone usage, Bluetooth use, and other factors, so the advertised figure should be treated as a maximum rather than a guaranteed runtime.',
+      },
+
+      {
+        heading:
+          'Flip-to-Mute Microphone',
+
+        body:
+          'The flip-to-mute microphone provides a convenient way to disable the microphone by moving it into the appropriate position. This can be useful when switching between team communication and private listening during gaming sessions.',
+      },
+
+      {
+        heading:
+          'Bluetooth Connectivity',
+
+        body:
+          'Bluetooth connectivity provides additional flexibility for compatible devices. It can be useful when connecting the headset to supported mobile devices or other Bluetooth-enabled equipment.',
+      },
+
+      {
+        heading:
+          'Xbox Compatibility',
+
+        body:
+          'The headset is designed to work with Xbox platforms including Xbox Series X|S and Xbox One. Buyers should verify the exact connection method and supported features for their particular Xbox setup before purchasing.',
+      },
+
+      {
+        heading:
+          'PlayStation Compatibility',
+
+        body:
+          'The Stealth 600 is also listed as compatible with PlayStation platforms, including PS5 and PS4. Available features can vary depending on the connection method and platform.',
+      },
+
+      {
+        heading:
+          'PC and Mobile Use',
+
+        body:
+          'The headset can also be used with compatible PCs and mobile devices. Bluetooth connectivity can be particularly useful for supported mobile hardware, while PC compatibility depends on the available connection and operating system.',
+      },
+
+      {
+        heading:
+          'Gaming and Voice Chat',
+
+        body:
+          'The combination of wireless audio and a flip-to-mute microphone makes the Stealth 600 suitable for multiplayer gaming and voice communication. The overall experience depends on the game, platform, connection method, and network conditions.',
+      },
+
+      {
+        heading:
+          'Who Should Buy It?',
+
+        body:
+          'The Turtle Beach Stealth 600 is a good option for gamers looking for a wireless headset that can work across multiple gaming platforms. Its long claimed battery life, 50mm drivers, Bluetooth connectivity, and flip-to-mute microphone make it especially appealing for users who frequently switch between gaming devices.',
+      },
+
+      {
+        heading:
+          'Who Should Skip It?',
+
+        body:
+          'Users who prefer wired studio-style headphones, need professional audio monitoring, or want a headset specifically optimized for only one platform may want to consider alternatives.',
+      },
+
+      {
+        heading:
+          'Final Verdict',
+
+        body:
+          'The Turtle Beach Stealth 600 combines wireless gaming audio, 50mm drivers, Bluetooth connectivity, a flip-to-mute microphone, and up to 80 hours of claimed battery life. Its multiplatform focus makes it an attractive option for gamers who use Xbox, PlayStation, PC, and compatible mobile devices.',
+      },
+    ],
+  },
+    {
+    id: 'meta-quest-3s-128gb-gorilla-tag-bundle',
+
+    name:
+      'Meta Quest 3S 128GB VR Headset – Gorilla Tag Cardboard Monkenaut Bundle',
+
+    category:
+      'VR Headsets',
+
+    image:
+      '/images/333.jpg',
+
+    description:
+      'Meta Quest 3S 128GB standalone VR headset bundle featuring wireless VR gaming, a Gorilla Tag Cardboard Monkenaut themed bundle, and a 3-month trial of Meta Horizon+ with access to a catalog of games.',
+
+    summary:
+      'The Meta Quest 3S 128GB is a standalone wireless VR headset designed for immersive gaming and virtual reality experiences without requiring a gaming PC or external console for supported content. This Amazon Exclusive bundle includes Gorilla Tag-themed content and a 3-month Meta Horizon+ trial, according to the supplied product listing.',
+
+    affiliateUrl:
+      'https://amzn.to/469s9w2',
+
+    published:
+      'August 2026',
+
+    heroLabel:
+      'Standalone VR Headset',
+
+    pros: [
+      '128GB internal storage',
+      'Standalone wireless VR experience',
+      'No gaming PC required for supported standalone content',
+      'Gorilla Tag Cardboard Monkenaut bundle',
+      'Amazon Exclusive bundle',
+      '3-month Meta Horizon+ trial listed',
+      'Access to a large catalog of VR games through supported services',
+      'Designed for immersive VR gaming',
+      'Portable compared with PC-tethered VR systems',
+    ],
+
+    cons: [
+      '128GB storage can become limiting with a large game library',
+      'Battery life is limited compared with non-VR gaming devices',
+      'VR experiences may not be suitable for everyone',
+      'Some games and features may require separate purchases or subscriptions',
+      'Available content and subscription benefits can change over time',
+      'Comfort can vary depending on head shape and play duration',
+    ],
+
+    reviewSections: [
+      {
+        heading:
+          'Standalone Wireless VR',
+
+        body:
+          'The Meta Quest 3S is designed as a standalone VR headset, allowing users to experience supported virtual reality games and applications without being physically connected to a gaming PC. This wireless design provides greater freedom of movement during VR sessions.',
+      },
+
+      {
+        heading:
+          '128GB Storage',
+
+        body:
+          'This configuration includes 128GB of internal storage for compatible VR games and applications. Storage requirements vary considerably between titles, so users who plan to maintain a large installed library should consider their storage needs before purchasing.',
+      },
+
+      {
+        heading:
+          'Gorilla Tag Bundle',
+
+        body:
+          'This Amazon Exclusive configuration includes a Gorilla Tag Cardboard Monkenaut-themed bundle according to the supplied listing. Buyers should check the current Amazon product page for the exact digital or physical contents included with the specific bundle.',
+      },
+
+      {
+        heading:
+          'Meta Horizon+ Trial',
+
+        body:
+          'The supplied listing includes a 3-month trial of Meta Horizon+. Subscription benefits and the included game catalog can change over time, so buyers should verify the current terms, eligibility requirements, and included content before purchasing.',
+      },
+
+      {
+        heading:
+          'VR Gaming',
+
+        body:
+          'The Quest 3S is designed for immersive virtual reality gaming and applications. Users can interact with supported VR experiences using the included controllers and headset tracking system, with the exact experience depending on the software being used.',
+      },
+
+      {
+        heading:
+          'Wireless Freedom',
+
+        body:
+          'Because supported standalone experiences can run directly on the headset, users can move around without a traditional video cable connecting the headset to a gaming computer. Users should still maintain an appropriate and clear play area for safe VR use.',
+      },
+
+      {
+        heading:
+          'Game Library',
+
+        body:
+          'The Quest platform provides access to a broad selection of VR games and applications. Specific titles, prices, availability, and subscription benefits vary, and some content may require separate purchases.',
+      },
+
+      {
+        heading:
+          'Who Should Buy It?',
+
+        body:
+          'The Meta Quest 3S 128GB is a good option for users who want to enter standalone VR without building a gaming PC or purchasing a separate console. The Gorilla Tag bundle can be particularly appealing to fans of that game and users interested in its themed content.',
+      },
+
+      {
+        heading:
+          'Who Should Skip It?',
+
+        body:
+          'Users who need very large onboard storage, professional PC-based VR capabilities, or a headset specifically optimized for long-duration professional applications may want to consider other VR solutions.',
+      },
+
+      {
+        heading:
+          'Final Verdict',
+
+        body:
+          'The Meta Quest 3S 128GB provides a wireless standalone VR experience with access to compatible games and applications. This particular bundle adds Gorilla Tag-themed content and a listed 3-month Meta Horizon+ trial, making it an appealing package for users looking for a ready-to-use VR gaming system.',
+      },
+    ],
+  },
 ]
 
 export default products
