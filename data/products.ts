@@ -2513,6 +2513,153 @@ export const products: Product[] = [
       },
     ],
   },
+    {
+    id: 'geekom-air12-mini-pc-intel-7505',
+
+    name:
+      'GEEKOM Air12 Mini PC – Intel 7505, 8GB RAM, 256GB SSD, Triple 4K Display',
+
+    category:
+      'Mini PCs',
+
+    image:
+      '/images/678.jpg',
+
+    description:
+      'GEEKOM Air12 Mini PC featuring an Intel 7505 processor, 8GB dual-slot RAM, 256GB SSD, support for up to 64GB RAM, triple 4K display capability, 8K output support, Wi-Fi 6, SD card slot, slim design, and a listed 3-year warranty.',
+
+    summary:
+      'The GEEKOM Air12 is a compact desktop computer designed for business, work-from-home, productivity, and everyday computing. This configuration includes an Intel 7505 processor, 8GB RAM, and a 256GB SSD, with support for memory expansion, multiple displays, Wi-Fi 6, and an SD card slot.',
+
+    affiliateUrl:
+      'https://amzn.to/4wUU9Pa',
+
+    published:
+      'August 2026',
+
+    heroLabel:
+      'Mini PC Review',
+
+    pros: [
+      'Compact and slim design',
+      'Intel 7505 processor',
+      '8GB dual-slot RAM',
+      'Supports up to 64GB RAM',
+      '256GB SSD',
+      'Triple 4K display support',
+      '8K output support',
+      'Wi-Fi 6 connectivity',
+      'SD card slot',
+      'Designed for business and WFH use',
+      'Listed 3-year warranty',
+    ],
+
+    cons: [
+      '8GB RAM may be limiting for demanding multitasking',
+      '256GB storage is relatively limited',
+      'Entry-level processor is not intended for high-end gaming',
+      'Actual display support depends on the available ports and configuration',
+      'RAM and storage upgrades require additional cost',
+    ],
+
+    reviewSections: [
+      {
+        heading:
+          'Compact Mini PC Design',
+
+        body:
+          'The GEEKOM Air12 uses a compact desktop format that can save considerable desk space compared with a traditional tower PC. Its slim design makes it suitable for home offices, business workstations, study areas, and other space-conscious setups.',
+      },
+
+      {
+        heading:
+          'Intel 7505 Processor',
+
+        body:
+          'The Air12 configuration uses an Intel 7505 processor and is positioned for everyday computing, business applications, web browsing, office productivity, and work-from-home tasks. It is better suited to general productivity than demanding gaming or workstation workloads.',
+      },
+
+      {
+        heading:
+          '8GB RAM and Upgrade Potential',
+
+        body:
+          'The supplied configuration includes 8GB of RAM and uses a dual-slot memory design. The listing states support for up to 64GB of RAM, giving users the option to expand memory if their workload eventually requires more capacity.',
+      },
+
+      {
+        heading:
+          '256GB SSD',
+
+        body:
+          'The system includes a 256GB SSD for the operating system, applications, and user files. While this can be sufficient for basic office and everyday computing, users with large media collections or many applications may eventually want additional storage.',
+      },
+
+      {
+        heading:
+          'Triple 4K Display Support',
+
+        body:
+          'GEEKOM lists support for up to three 4K displays. Multi-monitor capability can be useful for productivity workflows, financial applications, office work, research, and multitasking. Actual display combinations depend on the available ports, resolutions, refresh rates, and connection types.',
+      },
+
+      {
+        heading:
+          '8K Output',
+
+        body:
+          'The supplied listing advertises 8K output support. Actual 8K capability depends on the connected display, port, refresh rate, software, and configuration. Buyers should verify the specific output specifications before purchasing if 8K connectivity is important to them.',
+      },
+
+      {
+        heading:
+          'Wi-Fi 6 Connectivity',
+
+        body:
+          'Wi-Fi 6 provides modern wireless networking capability for compatible routers and networks. This can make the Air12 suitable for wireless office environments, home offices, streaming, cloud applications, and everyday internet use.',
+      },
+
+      {
+        heading:
+          'SD Card Slot',
+
+        body:
+          'The integrated SD card slot can be useful for transferring photos, videos, documents, and other files without requiring a separate card reader. This can be particularly convenient for users working with cameras or removable storage.',
+      },
+
+      {
+        heading:
+          'Business and Work-From-Home Use',
+
+        body:
+          'The compact design, expandable memory, multi-display support, and wireless connectivity make the Air12 suitable for common business and work-from-home tasks such as email, web applications, office software, video conferencing, and document management.',
+      },
+
+      {
+        heading:
+          'Who Should Buy It?',
+
+        body:
+          'The GEEKOM Air12 is a good fit for users who want a compact desktop for office work, home-office tasks, browsing, media consumption, and everyday productivity. It is particularly attractive to buyers who value a small footprint and multi-monitor support.',
+      },
+
+      {
+        heading:
+          'Who Should Skip It?',
+
+        body:
+          'Users looking for high-end gaming performance, professional 3D rendering, advanced video production, or other demanding workloads should consider a more powerful desktop or mini PC with a higher-performance processor and dedicated graphics.',
+      },
+
+      {
+        heading:
+          'Final Verdict',
+
+        body:
+          'The GEEKOM Air12 is a compact productivity-focused mini PC featuring an Intel 7505 processor, 8GB RAM, 256GB SSD, expandable memory, multi-display support, Wi-Fi 6, and an SD card slot. Its small footprint and business-oriented feature set make it a practical option for everyday home and office computing.',
+      },
+    ],
+  },
 ]
 
 export default products
