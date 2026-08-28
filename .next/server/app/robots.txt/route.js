@@ -51,15 +51,17 @@ var app_route_module = __webpack_require__(9692);
 var route_kind = __webpack_require__(9513);
 // EXTERNAL MODULE: ./node_modules/next/server.js
 var server = __webpack_require__(514);
+// EXTERNAL MODULE: ./lib/seo.ts
+var seo = __webpack_require__(3313);
 ;// CONCATENATED MODULE: ./app/robots.ts
+
 function robots() {
-    const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || "https://sugandhatech.in.net";
+    const baseUrl = (0,seo/* siteMeta */.N)().baseUrl;
     return {
         rules: {
             userAgent: "*",
             allow: "/"
         },
-        host: baseUrl,
         sitemap: `${baseUrl}/sitemap.xml`
     };
 }
@@ -127,7 +129,7 @@ const originalPathname = "/robots.txt/route";
 var __webpack_require__ = require("../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [478,565,535], () => (__webpack_exec__(4961)));
+var __webpack_exports__ = __webpack_require__.X(0, [478,565,535,313], () => (__webpack_exec__(4961)));
 module.exports = __webpack_exports__;
 
 })();

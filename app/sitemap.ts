@@ -7,7 +7,7 @@ import { categories } from '../data/categories'
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const meta = siteMeta()
-  const base = meta.baseUrl.replace(/\/$/, '')
+  const base = meta.baseUrl
 
   const staticUrls = [
     '/',

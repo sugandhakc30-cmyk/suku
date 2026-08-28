@@ -646,11 +646,27 @@ function RootLayout({ children }) {
 /* harmony export */   N: () => (/* binding */ siteMeta)
 /* harmony export */ });
 /* unused harmony export seoDefaults */
+const fallbackBaseUrl = "https://sugandhatech.in.net";
+function getBaseUrl() {
+    const configuredBaseUrl = process.env.NEXT_PUBLIC_BASE_URL?.trim();
+    if (!configuredBaseUrl) {
+        return fallbackBaseUrl;
+    }
+    try {
+        const url = new URL(configuredBaseUrl);
+        if (url.protocol !== "http:" && url.protocol !== "https:") {
+            return fallbackBaseUrl;
+        }
+        return url.toString().replace(/\/$/, "");
+    } catch  {
+        return fallbackBaseUrl;
+    }
+}
 function siteMeta() {
     return {
         siteName: "Sugandha Tech",
         description: "Independent technology reviews and buying guidance.",
-        baseUrl: process.env.NEXT_PUBLIC_BASE_URL || "https://sugandhatech.in.net"
+        baseUrl: getBaseUrl()
     };
 }
 const seoDefaults = {
