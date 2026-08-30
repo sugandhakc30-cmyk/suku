@@ -2660,6 +2660,154 @@ export const products: Product[] = [
       },
     ],
   },
+    {
+    id: 'pyle-pphp2835b-portable-bluetooth-pa-speaker',
+
+    name:
+      'Pyle Portable Bluetooth PA Speaker System – 600W, Dual 8-inch Subwoofers, Party Lights',
+
+    category:
+      'Home Electronics',
+
+    image:
+      '/images/uu.jpg',
+
+    description:
+      'Pyle PPHP2835B portable Bluetooth PA speaker system featuring a listed 600W output, dual 8-inch subwoofers, 1-inch tweeter, rechargeable battery, Bluetooth connectivity, microphone input, USB, radio, remote control, and party lighting.',
+
+    summary:
+      'The Pyle PPHP2835B is a portable Bluetooth PA speaker system designed for indoor and outdoor events, parties, presentations, karaoke, and general entertainment. It combines dual 8-inch subwoofers with a 1-inch tweeter, rechargeable operation, Bluetooth connectivity, microphone input, USB playback, radio, remote control, and built-in party lights.',
+
+    affiliateUrl:
+      'https://amzn.to/4ciggaL',
+
+    published:
+      'August 2026',
+
+    heroLabel:
+      'Portable PA Speaker',
+
+    pros: [
+      '600W listed power output',
+      'Dual 8-inch subwoofers',
+      '1-inch tweeter',
+      'Rechargeable portable design',
+      'Bluetooth connectivity',
+      'Microphone input',
+      'USB connectivity',
+      'Built-in radio',
+      'Remote control included',
+      'Party lighting effects',
+      'Suitable for indoor and outdoor use',
+    ],
+
+    cons: [
+      'Large compared with standard portable Bluetooth speakers',
+      'Battery runtime varies with volume and usage',
+      'Actual sound coverage depends on the environment',
+      '600W rating should be verified against continuous/peak specifications',
+      'May be more equipment than casual listeners need',
+      'Bass response depends on placement and listening environment',
+    ],
+
+    reviewSections: [
+      {
+        heading:
+          'Portable PA Design',
+
+        body:
+          'The Pyle PPHP2835B is designed as a portable PA system rather than a conventional compact Bluetooth speaker. Its larger enclosure and dual 8-inch subwoofers are intended to provide a more substantial audio presentation for parties, events, presentations, and entertainment.',
+      },
+
+      {
+        heading:
+          'Dual 8-inch Subwoofers',
+
+        body:
+          'The system features two 8-inch subwoofers paired with a 1-inch tweeter. The larger speaker configuration is designed to provide stronger low-frequency output and broader sound compared with small desktop or portable speakers. Actual bass performance depends on placement, room acoustics, source material, and volume.',
+      },
+
+      {
+        heading:
+          '600W Listed Output',
+
+        body:
+          'The supplied product listing specifies 600 watts of output. When comparing PA speakers, buyers should check whether the manufacturer refers to peak, program, or continuous power because these ratings are not directly interchangeable.',
+      },
+
+      {
+        heading:
+          'Bluetooth Connectivity',
+
+        body:
+          'Bluetooth connectivity allows compatible smartphones, tablets, and other devices to stream audio wirelessly. This makes the speaker convenient for music playback at parties, gatherings, presentations, and other events.',
+      },
+
+      {
+        heading:
+          'Microphone Input',
+
+        body:
+          'The microphone input expands the system beyond music playback and can make it useful for announcements, karaoke, presentations, and other applications where a microphone is required.',
+      },
+
+      {
+        heading:
+          'Rechargeable Battery',
+
+        body:
+          'The portable system includes rechargeable operation, allowing it to be used in locations where continuous AC power may not be convenient. Actual battery runtime depends on factors such as volume, playback content, lighting, and other connected features.',
+      },
+
+      {
+        heading:
+          'Party Lights',
+
+        body:
+          'Built-in party lighting adds visual effects to the speaker system and can complement parties and entertainment setups. The lighting is primarily an aesthetic feature rather than an audio-performance feature.',
+      },
+
+      {
+        heading:
+          'USB, Radio and Remote Control',
+
+        body:
+          'The PPHP2835B includes additional playback and control options including USB connectivity, radio functionality, and a remote control. These features provide alternatives to Bluetooth streaming and can be useful in different event environments.',
+      },
+
+      {
+        heading:
+          'Indoor and Outdoor Use',
+
+        body:
+          'The portable format makes the system suitable for a range of indoor and outdoor applications. Actual outdoor sound coverage depends on the surrounding environment, speaker placement, competing background noise, and desired listening volume.',
+      },
+
+      {
+        heading:
+          'Who Should Buy It?',
+
+        body:
+          'The Pyle PPHP2835B is a good option for users looking for a portable PA system for parties, karaoke, announcements, presentations, small events, and general entertainment. The microphone input and multiple playback options make it more versatile than a basic Bluetooth speaker.',
+      },
+
+      {
+        heading:
+          'Who Should Skip It?',
+
+        body:
+          'Users who only need a small speaker for personal listening, travel, or a desktop setup may prefer a smaller Bluetooth speaker. Professional touring musicians and larger venues may also require a more specialized PA system with additional inputs and greater system flexibility.',
+      },
+
+      {
+        heading:
+          'Final Verdict',
+
+        body:
+          'The Pyle PPHP2835B combines a portable PA format with dual 8-inch subwoofers, a 1-inch tweeter, Bluetooth connectivity, rechargeable operation, microphone input, USB, radio, remote control, and party lighting. It is designed for users who want a versatile portable sound system for events, parties, presentations, and entertainment.',
+      },
+    ],
+  },
 ]
 
 export default products
