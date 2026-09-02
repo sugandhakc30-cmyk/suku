@@ -2911,7 +2911,7 @@ export const products: Product[] = [
           'All-Terrain Design',
 
         body:
-          'The Flydone R8 is marketed as an all-terrain electric dirt bike. Its intended off-road design makes it more suitable for appropriate dirt trails and private riding areas than ordinary commuter bicycles, but riders should verify the manufacturer's recommended terrain and operating conditions.',
+          'The Flydone R8 is marketed as an all-terrain electric dirt bike. Its intended off-road design makes it more suitable for appropriate dirt trails and private riding areas than ordinary commuter bicycles, but riders should verify the manufacturers recommended terrain and operating conditions.',
       },
 
       {
