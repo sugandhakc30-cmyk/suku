@@ -2808,6 +2808,145 @@ export const products: Product[] = [
       },
     ],
   },
+    {
+    id: 'flydone-r8-48v-27ah-electric-dirt-bike',
+
+    name:
+      'Flydone R8 Electric Dirt Bike – 48V 27Ah, 4000W Peak Motor, Up to 35 MPH',
+
+    category:
+      'Electric Dirt Bikes',
+
+    image:
+      '/images/UUUU.jpg',
+
+    description:
+      'Flydone R8 electric dirt bike for adults featuring a 48V 27Ah battery, 4000W peak motor, claimed top speed of up to 35 MPH, NFC functionality, LCD display, full suspension, and an all-terrain electric motorcycle design.',
+
+    summary:
+      'The Flydone R8 is an adult-oriented electric dirt bike designed for off-road and all-terrain riding. It features a 48V 27Ah battery, a motor advertised at up to 4000W peak power, a claimed top speed of up to 35 MPH, NFC functionality, an LCD display, and full suspension. Actual range and performance depend heavily on rider weight, terrain, speed, temperature, and riding conditions.',
+
+    affiliateUrl:
+      'https://amzn.to/4h4Wp1o',
+
+    published:
+      'September 2026',
+
+    heroLabel:
+      'Electric Dirt Bike',
+
+    pros: [
+      '48V 27Ah battery',
+      '4000W peak motor rating',
+      'Claimed top speed up to 35 MPH',
+      'NFC functionality',
+      'LCD display',
+      'Full suspension',
+      'All-terrain design',
+      'Adult-oriented electric motorcycle format',
+      'Designed for off-road riding',
+    ],
+
+    cons: [
+      'Actual range varies significantly with riding conditions',
+      '35 MPH is a claimed maximum and is not guaranteed in every situation',
+      'Charging time and battery performance depend on conditions',
+      'Requires appropriate protective riding equipment',
+      'Public-road legality varies by location',
+      'Riders should verify weight capacity before purchasing',
+      'Off-road use can increase wear on tires, suspension, brakes, and drivetrain',
+    ],
+
+    reviewSections: [
+      {
+        heading:
+          '4000W Peak Motor',
+
+        body:
+          'The Flydone R8 is advertised with a motor capable of up to 4000W peak power. Peak power should not be confused with continuous motor output, and real-world acceleration and performance depend on rider weight, battery charge, terrain, temperature, and riding conditions.',
+      },
+
+      {
+        heading:
+          '48V 27Ah Battery',
+
+        body:
+          'The R8 uses a 48V 27Ah battery configuration. Battery capacity is an important factor for an electric dirt bike, but advertised riding range can vary substantially depending on speed, terrain, rider weight, temperature, and riding style.',
+      },
+
+      {
+        heading:
+          'Up to 35 MPH',
+
+        body:
+          'The supplied listing advertises a maximum speed of up to 35 MPH. Actual speed can vary based on rider weight, terrain, battery charge, riding conditions, and other factors. Riders should always follow applicable speed limits and operate the bike in appropriate areas.',
+      },
+
+      {
+        heading:
+          'Claimed 150-Mile Range',
+
+        body:
+          'The product listing mentions a 150-mile range claim. This should be treated cautiously because electric-bike range can vary dramatically depending on the test conditions. Buyers should check the manufacturers testing methodology and determine whether the stated figure represents a particular low-speed or ideal-condition scenario.',
+      },
+
+      {
+        heading:
+          'Full Suspension',
+
+        body:
+          'The full-suspension design is intended to improve comfort and control when riding over uneven terrain. Suspension performance depends on the riding surface, rider weight, suspension setup, and overall vehicle configuration.',
+      },
+
+      {
+        heading:
+          'NFC and LCD Display',
+
+        body:
+          'The R8 includes NFC functionality and an LCD display according to the supplied listing. These features can add convenience by providing electronic access and displaying information such as riding or system data, depending on the exact implementation.',
+      },
+
+      {
+        heading:
+          'All-Terrain Design',
+
+        body:
+          'The Flydone R8 is marketed as an all-terrain electric dirt bike. Its intended off-road design makes it more suitable for appropriate dirt trails and private riding areas than ordinary commuter bicycles, but riders should verify the manufacturer's recommended terrain and operating conditions.',
+      },
+
+      {
+        heading:
+          'Who Should Buy It?',
+
+        body:
+          'The Flydone R8 may appeal to adult riders looking for an electric dirt-bike-style vehicle with a relatively high peak motor rating, full suspension, a large battery configuration, and an advertised top speed of up to 35 MPH.',
+      },
+
+      {
+        heading:
+          'Who Should Skip It?',
+
+        body:
+          'Buyers primarily looking for a lightweight commuter e-bike, bicycle-style handling, or a vehicle that is automatically legal for public-road use may want to consider a different category of electric vehicle.',
+      },
+
+      {
+        heading:
+          'Safety and Legal Considerations',
+
+        body:
+          'Before purchasing or riding, check local laws regarding electric motorcycles and dirt bikes, including registration, licensing, insurance, helmet requirements, age restrictions, and where the vehicle may legally be operated. Appropriate protective equipment and a suitable riding environment are also important.',
+      },
+
+      {
+        heading:
+          'Final Verdict',
+
+        body:
+          'The Flydone R8 combines a 48V 27Ah battery, advertised 4000W peak motor, claimed 35 MPH top speed, full suspension, LCD display, and NFC functionality in an adult-oriented electric dirt-bike format. Its advertised range should be evaluated carefully because real-world electric-bike range can differ substantially from ideal test conditions.',
+      },
+    ],
+  },
 ]
 
 export default products
