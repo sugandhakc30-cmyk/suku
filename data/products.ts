@@ -2812,7 +2812,7 @@ export const products: Product[] = [
     id: 'flydone-r8-48v-27ah-electric-dirt-bike',
 
     name:
-      'Flydone R8 Electric Dirt Bike – 48V 27Ah, 4000W Peak Motor, Up to 35 MPH',
+      'Flydone R8 Electric Dirt Bike – 48V 27Ah, 4000W Peak Motor, Up to 35 MPH Electric Dirt Bike',
 
     category:
       'Electric Dirt Bikes',
