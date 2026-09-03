@@ -2951,7 +2951,7 @@ export const products: Product[] = [
   id: "hopcycle-26-electric-bike-1500w-80-mile",
   name: "HopCycle 26\" Electric Bike – 1500W Peak Motor, Up to 80 Miles Range",
   category: "Electric Bikes",
-  image: "/images/hopcycle-26-electric-bike.webp",
+  image: "/images/mio.jpg",
   description:
     "HopCycle 26-inch electric bike featuring a 1500W peak motor, removable battery, claimed range of up to 80 miles, app control, 7-speed gearing, and front fork suspension.",
   summary:
