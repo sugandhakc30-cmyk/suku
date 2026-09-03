@@ -2947,6 +2947,70 @@ export const products: Product[] = [
       },
     ],
   },
+  {
+  id: "hopcycle-26-electric-bike-1500w-80-mile",
+  name: "HopCycle 26\" Electric Bike – 1500W Peak Motor, Up to 80 Miles Range",
+  category: "Electric Bikes",
+  image: "/images/hopcycle-26-electric-bike.webp",
+  description:
+    "HopCycle 26-inch electric bike featuring a 1500W peak motor, removable battery, claimed range of up to 80 miles, app control, 7-speed gearing, and front fork suspension.",
+  summary:
+    "The HopCycle 26-inch electric bike is designed for riders looking for a versatile commuter and recreational e-bike with a removable battery, app connectivity, 7-speed drivetrain, and front suspension. Its advertised range can reach up to 80 miles depending on riding conditions and configuration.",
+  pros: [
+    "1500W peak motor rating",
+    "Claimed range of up to 80 miles",
+    "Removable battery",
+    "App control and connectivity",
+    "7-speed gearing",
+    "Front fork suspension",
+    "26-inch tires"
+  ],
+  cons: [
+    "Actual range can vary significantly with rider weight, terrain, speed, and weather",
+    "Large 26-inch design may be less convenient for compact storage",
+    "Peak motor power should not be confused with continuous rated power"
+  ],
+  affiliateUrl: "https://amzn.to/4xwFISg",
+  published: "2026-09-03",
+  heroLabel: "Long-Range Electric Bike",
+  reviewSections: [
+    {
+      heading: "1500W Peak Motor",
+      body:
+        "The HopCycle electric bike is advertised with a 1500W peak motor, giving it a performance-oriented setup for commuting, recreational riding, and a variety of everyday routes. Actual performance depends on rider weight, terrain, battery charge, and local regulations."
+    },
+    {
+      heading: "Up to 80 Miles of Range",
+      body:
+        "The manufacturer listing advertises up to 80 miles of range. This should be treated as a maximum claimed figure rather than guaranteed real-world range, since factors such as riding speed, hills, rider weight, temperature, assist level, and tire pressure can substantially affect battery performance."
+    },
+    {
+      heading: "Removable Battery",
+      body:
+        "The removable battery makes charging more convenient because riders can remove the battery from the bike instead of bringing the entire bike indoors. It can also make storage and charging more flexible."
+    },
+    {
+      heading: "7-Speed Drivetrain and Front Suspension",
+      body:
+        "A 7-speed drivetrain provides multiple gearing options for different riding conditions, while the front fork suspension is designed to absorb bumps and improve comfort on uneven pavement and recreational trails."
+    },
+    {
+      heading: "App Control",
+      body:
+        "App control adds a connected feature to the riding experience, potentially allowing riders to manage or monitor supported bike functions through a compatible smartphone application. Available features depend on the specific app and model."
+    },
+    {
+      heading: "Who Should Consider It?",
+      body:
+        "This electric bike may be a good fit for commuters, recreational riders, and users who value a removable battery, long advertised range, multiple gears, and front suspension. Buyers should confirm the bike's weight, battery capacity, top speed, included accessories, and local e-bike regulations before purchasing."
+    },
+    {
+      heading: "Final Verdict",
+      body:
+        "The HopCycle 26-inch electric bike combines a 1500W peak motor rating, removable battery, 7-speed gearing, front suspension, app connectivity, and an advertised range of up to 80 miles. Its long-range claim is particularly attractive, but real-world range will vary considerably depending on riding conditions."
+    }
+  ]
+},
 ]
 
 export default products
