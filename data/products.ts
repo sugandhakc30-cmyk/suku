@@ -3155,6 +3155,78 @@ export const products: Product[] = [
     }
   ]
 },
+{
+  id: "womier-m68he-pro-60-hall-effect-keyboard",
+  name: "Womier M68HE PRO 60% Hall Effect Gaming Keyboard – 8000Hz Rapid Trigger",
+  category: "Gaming Keyboards",
+  image: "/images/oo.jpg",
+  description:
+    "Womier M68HE PRO 60% gaming keyboard featuring Hall Effect magnetic switches, Rapid Trigger functionality, an 8000Hz polling rate, RGB lighting, PBT keycaps, and a compact wired design for Mac and Windows.",
+  summary:
+    "The Womier M68HE PRO is a compact 60% gaming keyboard designed for competitive players and enthusiasts who want fast input response, adjustable magnetic switches, Rapid Trigger functionality, and customizable RGB lighting in a space-saving layout.",
+  pros: [
+    "60% compact keyboard layout",
+    "Hall Effect magnetic switches",
+    "Rapid Trigger gaming functionality",
+    "Up to 8000Hz polling rate",
+    "RGB backlighting",
+    "PBT keycaps",
+    "Wired connection",
+    "Compatible with Mac and Windows",
+    "Compact design leaves more room for mouse movement"
+  ],
+  cons: [
+    "60% layout omits dedicated function and navigation keys",
+    "Wired-only design may not suit users wanting wireless connectivity",
+    "Hall Effect features can require software configuration",
+    "Compact layout may require an adjustment period for productivity tasks"
+  ],
+  affiliateUrl: "https://amzn.to/4yg2ZYC",
+  published: "2026-09-05",
+  heroLabel: "8000Hz Hall Effect Gaming Keyboard",
+  reviewSections: [
+    {
+      heading: "Hall Effect Magnetic Switches",
+      body:
+        "The Womier M68HE PRO uses Hall Effect magnetic switch technology, which detects key movement magnetically rather than relying on traditional mechanical contact points. This technology enables gaming-focused features such as adjustable actuation and Rapid Trigger functionality on supported configurations."
+    },
+    {
+      heading: "Rapid Trigger for Competitive Gaming",
+      body:
+        "Rapid Trigger is designed to register key releases and subsequent presses with very little physical movement. This can be particularly useful in competitive games where fast directional changes and repeated key inputs are important."
+    },
+    {
+      heading: "8000Hz Polling Rate",
+      body:
+        "The keyboard is advertised with an 8000Hz polling rate, allowing the keyboard to report input events to the computer at a very high frequency. The practical benefit depends on the game, computer configuration, firmware, and software."
+    },
+    {
+      heading: "Compact 60% Layout",
+      body:
+        "The 60% layout removes dedicated function-row, navigation, and number-pad sections to create a much smaller footprint. This can give gamers additional desk space for mouse movement, although users who frequently use dedicated navigation or function keys may need time to adapt."
+    },
+    {
+      heading: "RGB Lighting and PBT Keycaps",
+      body:
+        "RGB lighting gives the keyboard a customizable gaming appearance, while PBT keycaps are generally valued for their durability and resistance to developing a glossy surface from extended use."
+    },
+    {
+      heading: "Mac and Windows Compatibility",
+      body:
+        "The keyboard is designed for use with both Windows and Mac systems. Because advanced Hall Effect and Rapid Trigger features can depend on software support, buyers should check the current configuration software and compatibility details before purchasing."
+    },
+    {
+      heading: "Who Should Consider It?",
+      body:
+        "The Womier M68HE PRO is best suited to competitive gamers, FPS players, keyboard enthusiasts, and users who prefer compact layouts and magnetic-switch technology. It may be less suitable for users who need a full-size keyboard or frequently rely on dedicated function and navigation keys."
+    },
+    {
+      heading: "Final Verdict",
+      body:
+        "The Womier M68HE PRO combines a compact 60% design with Hall Effect magnetic switches, Rapid Trigger functionality, RGB lighting, PBT keycaps, and an advertised 8000Hz polling rate. It is a feature-focused option for gamers looking for fast and highly configurable keyboard input."
+    }
+  ]
+},
 ]
 
 export default products
