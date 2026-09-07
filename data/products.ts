@@ -3300,7 +3300,77 @@ export const products: Product[] = [
     }
   ]
 }, 
- 
+ {
+  id: "thermaltake-lcgs-versa-i1460s-rtx-5060",
+  name: "Thermaltake LCGS Versa i1460S Gaming Desktop – Core i5-14400F, RTX 5060, 32GB DDR5",
+  category: "Gaming Desktops",
+  image: "/images/6666.jpg",
+  description:
+    "Thermaltake LCGS Versa i1460S gaming desktop featuring an Intel Core i5-14400F processor, 32GB 6000MT/s DDR5 RGB memory, NVIDIA GeForce RTX 5060 graphics, 1TB NVMe M.2 storage, WiFi, and Windows 11.",
+  summary:
+    "The Thermaltake LCGS Versa i1460S is a prebuilt gaming desktop aimed at gamers and PC users who want modern Intel processing, dedicated NVIDIA graphics, fast DDR5 memory, and NVMe storage in a ready-to-use system. Its RTX 5060 GPU and 32GB memory configuration make it suitable for gaming, everyday productivity, and demanding applications.",
+  pros: [
+    "Intel Core i5-14400F processor",
+    "NVIDIA GeForce RTX 5060 graphics",
+    "32GB DDR5 RGB memory",
+    "6000MT/s memory speed",
+    "1TB NVMe M.2 SSD",
+    "Built-in WiFi connectivity",
+    "Windows 11 preinstalled",
+    "Ready-to-use prebuilt gaming system"
+  ],
+  cons: [
+    "Core i5-14400F does not include integrated graphics",
+    "Prebuilt systems can offer less component customization than self-built PCs",
+    "Actual gaming performance varies by game, resolution, and graphics settings",
+    "Storage capacity may become limiting for users with large game libraries"
+  ],
+  affiliateUrl: "https://amzn.to/4zUTb8h",
+  published: "2026-09-07",
+  heroLabel: "RTX 5060 Gaming Desktop",
+  reviewSections: [
+    {
+      heading: "Intel Core i5-14400F Performance",
+      body:
+        "The Versa i1460S uses Intel's Core i5-14400F processor, providing a modern desktop CPU platform for gaming, productivity, multitasking, and general demanding workloads. The processor pairs with the dedicated RTX 5060 graphics card to create a balanced gaming-focused configuration."
+    },
+    {
+      heading: "NVIDIA GeForce RTX 5060 Graphics",
+      body:
+        "The dedicated NVIDIA GeForce RTX 5060 is the main gaming component of this desktop. It is designed to handle modern PC games with hardware-accelerated graphics features and NVIDIA technologies. Actual frame rates will depend on the game, resolution, graphics settings, drivers, and other system factors."
+    },
+    {
+      heading: "32GB DDR5 RGB Memory",
+      body:
+        "The system comes with 32GB of DDR5 memory rated at 6000MT/s according to the supplied configuration. This provides plenty of memory for modern gaming, multitasking, streaming, productivity applications, and many content-creation workloads."
+    },
+    {
+      heading: "1TB NVMe M.2 Storage",
+      body:
+        "A 1TB NVMe M.2 SSD provides fast storage for Windows, applications, and a selection of games. NVMe storage can deliver substantially faster responsiveness than traditional hard drives, although available space can fill quickly when installing multiple large modern games."
+    },
+    {
+      heading: "WiFi and Windows 11",
+      body:
+        "Built-in WiFi provides convenient wireless network connectivity, while Windows 11 comes preinstalled for a ready-to-use desktop experience. Users can connect their preferred gaming peripherals and begin configuring the system without building a PC from individual components."
+    },
+    {
+      heading: "Prebuilt Gaming Convenience",
+      body:
+        "One of the main advantages of the LCGS Versa i1460S is its prebuilt format. Instead of selecting and assembling individual components, buyers receive a complete desktop configured around the Core i5-14400F and RTX 5060."
+    },
+    {
+      heading: "Who Should Consider It?",
+      body:
+        "This desktop may suit gamers who want a modern RTX 5060 system without building a PC themselves. It can also appeal to students, streamers, creators, and general power users who need more performance than an integrated-graphics desktop can provide."
+    },
+    {
+      heading: "Final Verdict",
+      body:
+        "The Thermaltake LCGS Versa i1460S combines an Intel Core i5-14400F CPU, RTX 5060 graphics, 32GB of fast DDR5 RGB memory, and a 1TB NVMe SSD in a ready-to-use gaming desktop. It is a practical option for users seeking a modern prebuilt PC without the complexity of assembling one from scratch."
+    }
+  ]
+},
 ]
 
 export default products
