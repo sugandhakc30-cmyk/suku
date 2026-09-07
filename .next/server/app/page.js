@@ -792,6 +792,7 @@ function Home() {
                         className: "grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3",
                         children: products/* products */.R.map((product)=>/*#__PURE__*/ jsx_runtime_.jsx(ProductCard/* default */.Z, {
                                 productId: product.id,
+                                reviewSlug: product.reviewSlug,
                                 productName: product.name,
                                 image: product.image,
                                 description: product.description,

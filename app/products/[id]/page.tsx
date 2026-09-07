@@ -1,4 +1,4 @@
-import { notFound } from 'next/navigation'
+import { notFound, redirect } from 'next/navigation'
 import Link from 'next/link'
 import Image from 'next/image'
 import { products } from '../../../data/products'
@@ -37,6 +37,7 @@ export default function ProductDetailPage({ params }: { params: { id: string } }
   const item = products.find((product) => product.id === params.id)
 
   if (!item) return notFound()
+  if (item.reviewSlug) redirect(`/reviews/${item.reviewSlug}`)
 
   return (
     <main className="min-h-screen bg-white text-slate-900">

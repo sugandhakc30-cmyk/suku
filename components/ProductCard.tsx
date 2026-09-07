@@ -4,6 +4,7 @@ import Link from 'next/link'
 type Props = {
   productName: string
   productId?: string
+  reviewSlug?: string
   image?: string
   description?: string
   category?: string
@@ -16,13 +17,18 @@ type Props = {
 export default function ProductCard({
   productName,
   productId,
+  reviewSlug,
   image,
   description,
   category,
   affiliateUrl = '#',
   ctaText = 'Check Price on Amazon →'
 }: Props) {
-  const detailHref = productId ? `/products/${productId}` : '#'
+  const detailHref = reviewSlug
+    ? `/reviews/${reviewSlug}`
+    : productId
+      ? `/products/${productId}`
+      : '#'
 
   return (
     <div className="group border border-neutral-200 rounded-xl overflow-hidden bg-white hover:border-brand-300 hover:shadow-lg transition-all duration-300">

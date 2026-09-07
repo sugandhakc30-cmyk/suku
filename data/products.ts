@@ -1,6 +1,7 @@
 
 export type Product = {
   id: string
+  reviewSlug?: string
   name: string
   category: string
   image?: string
@@ -17,6 +18,7 @@ export type Product = {
 export const products: Product[] = [
   {
     id: 'hp-omen-16-rtx-5070-ryzen-9-8940hx-review',
+    reviewSlug: 'hp-omen-rtx-5070-gaming-laptop-review',
     name: 'HP OMEN 16 RTX 5070 Review – Ryzen 9 8940HX, 32GB RAM, 240Hz WQXGA',
     category: 'Gaming Laptops',
     description: 'HP OMEN 16 gaming laptop review featuring AMD Ryzen 9 8940HX, NVIDIA RTX 5070, 32GB DDR5 RAM, 1TB SSD, and a 16-inch 240Hz WQXGA display.',
@@ -3297,7 +3299,8 @@ export const products: Product[] = [
         "The JSAUX FlipGo Pro combines dual 16-inch 2.5K IPS displays with a magnetic design, DisplayLink support, and a one-cable dual-screen setup. For users who need extra screen space while traveling, it offers a compact alternative to carrying separate monitors."
     }
   ]
-},
+}, 
+ 
 ]
 
 export default products

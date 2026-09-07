@@ -404,6 +404,7 @@ function CategoryPage({ params }) {
                         className: "grid gap-6 md:grid-cols-2 xl:grid-cols-3",
                         children: categoryProducts.map((product)=>/*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_ProductCard__WEBPACK_IMPORTED_MODULE_4__/* ["default"] */ .Z, {
                                 productId: product.id,
+                                reviewSlug: product.reviewSlug,
                                 productName: product.name,
                                 image: product.image,
                                 description: product.description,

@@ -86,6 +86,7 @@ export default function Home() {
             <ProductCard
               key={product.id}
               productId={product.id}
+              reviewSlug={product.reviewSlug}
               productName={product.name}
               image={product.image}
               description={product.description}

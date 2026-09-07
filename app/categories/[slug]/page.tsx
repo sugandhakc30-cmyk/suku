@@ -44,6 +44,7 @@ export default function CategoryPage({ params }: { params: { slug: string } }) {
               <ProductCard
                 key={product.id}
                 productId={product.id}
+                reviewSlug={product.reviewSlug}
                 productName={product.name}
                 image={product.image}
                 description={product.description}

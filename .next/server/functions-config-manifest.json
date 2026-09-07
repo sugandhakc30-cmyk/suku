@@ -3,14 +3,14 @@
   "functions": {
     "/about": {},
     "/affiliate-disclosure": {},
-    "/best": {},
     "/contact": {},
-    "/cookie-policy": {},
+    "/best": {},
     "/editorial-policy": {},
+    "/cookie-policy": {},
     "/guides": {},
     "/news": {},
-    "/": {},
     "/privacy-policy": {},
+    "/": {},
     "/reviews": {},
     "/search": {},
     "/terms": {}

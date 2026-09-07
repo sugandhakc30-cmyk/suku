@@ -412,6 +412,7 @@ async function generateMetadata({ params }) {
 function ProductDetailPage({ params }) {
     const item = _data_products__WEBPACK_IMPORTED_MODULE_4__/* .products */ .R.find((product)=>product.id === params.id);
     if (!item) return (0,next_navigation__WEBPACK_IMPORTED_MODULE_1__.notFound)();
+    if (item.reviewSlug) (0,next_navigation__WEBPACK_IMPORTED_MODULE_1__.redirect)(`/reviews/${item.reviewSlug}`);
     return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("main", {
         className: "min-h-screen bg-white text-slate-900",
         children: [

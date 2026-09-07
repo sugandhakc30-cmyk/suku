@@ -15,8 +15,8 @@ exports.modules = {
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
 
 
-function ProductCard({ productName, productId, image, description, category, affiliateUrl = "#", ctaText = "Check Price on Amazon →" }) {
-    const detailHref = productId ? `/products/${productId}` : "#";
+function ProductCard({ productName, productId, reviewSlug, image, description, category, affiliateUrl = "#", ctaText = "Check Price on Amazon →" }) {
+    const detailHref = reviewSlug ? `/reviews/${reviewSlug}` : productId ? `/products/${productId}` : "#";
     return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
         className: "group border border-neutral-200 rounded-xl overflow-hidden bg-white hover:border-brand-300 hover:shadow-lg transition-all duration-300",
         children: [

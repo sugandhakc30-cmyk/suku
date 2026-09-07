@@ -26,7 +26,9 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   ]
 
   const reviewUrls = articles.map((article) => `/reviews/${article.slug}`)
-  const productUrls = products.map((product) => `/products/${product.id}`)
+  const productUrls = products
+    .filter((product) => !product.reviewSlug)
+    .map((product) => `/products/${product.id}`)
   const guideUrls = guides.map((guide) => `/guides/${guide.slug}`)
   const categoryUrls = categories.map((category) => category.href)
 
