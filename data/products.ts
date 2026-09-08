@@ -3374,7 +3374,7 @@ export const products: Product[] = [
 {
   id: "gigabyte-gs25f2a-24-5-240hz-gaming-monitor",
   name: "GIGABYTE GS25F2A 24.5\" FHD IPS Gaming Monitor – 240Hz, 1ms",
-  category: "Gaming Monitors",
+  category: "Monitors",
   image: "/images/mk.jpg",
   description:
     "GIGABYTE GS25F2A 24.5-inch SuperSpeed FHD IPS gaming monitor featuring 1920x1080 resolution, a 240Hz refresh rate, 1ms GTG response time, AMD FreeSync Premium, HDMI and DisplayPort connectivity, and a tilt-adjustable stand.",
