@@ -15,15 +15,18 @@ export async function generateMetadata({ params }: { params: { id: string } }): 
   }
 
   const base = siteMeta().baseUrl || 'https://sugandhatech.in.net'
+  const canonicalPath = item.reviewSlug
+    ? `/reviews/${item.reviewSlug}`
+    : `/products/${item.id}`
 
   return {
     title: `${item.name} — Sugandha Tech`,
     description: item.description || 'Product review and buying guide.',
-    alternates: { canonical: `${base}/products/${item.id}` },
+    alternates: { canonical: `${base}${canonicalPath}` },
     openGraph: {
       title: item.name,
       description: item.description || 'Product review and buying guide.',
-      url: `${base}/products/${item.id}`
+      url: `${base}${canonicalPath}`
     },
     keywords: [
       `${item.name} review`,
