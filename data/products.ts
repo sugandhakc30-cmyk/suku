@@ -3549,6 +3549,148 @@ export const products: Product[] = [
     }
   ]
 },
+{
+  id: "vividstorm-s-pro-100-inch-ust-alr-projector-screen",
+
+  name:
+    'VIVIDSTORM S PRO 100" Motorized Tension Floor Rising UST ALR Projector Screen',
+
+  category:
+    "Projector Screens",
+
+  image:
+    "/images/yy.jpg",
+
+  description:
+    'VIVIDSTORM S PRO 100-inch motorized tension floor-rising projector screen with UST ambient-light-rejecting material, 0.6 gain, 170-degree viewing angle, 16:9 aspect ratio, black housing, and support for compatible 4K/8K projection systems.',
+
+  summary:
+    'The VIVIDSTORM S PRO is a premium floor-rising projection screen designed specifically for ultra-short-throw laser projectors. The 100-inch configuration uses tensioned ALR material designed to improve image visibility in rooms with ambient ceiling light while providing a clean, space-saving home theater setup.',
+
+  pros: [
+    "100-inch screen size",
+    "16:9 aspect ratio",
+    "Motorized floor-rising design",
+    "UST ambient light rejecting material",
+    "0.6 gain",
+    "170-degree viewing angle",
+    "Tab-tensioned screen surface",
+    "Black housing",
+    "No ceiling or wall drilling required",
+    "Designed for UST laser projectors",
+    "Supports compatible 4K and 8K projection",
+    "Suitable for home cinema setups"
+  ],
+
+  cons: [
+    "Designed specifically for UST projectors",
+    "Not suitable for conventional long-throw projector placement",
+    "Large 100-inch screen requires substantial floor space",
+    "Motorized design is more expensive than basic manual screens",
+    "Heavy compared with conventional portable projector screens",
+    "ALR performance depends on projector placement and room lighting",
+    "Screen should be matched carefully with the specific UST projector"
+  ],
+
+  affiliateUrl:
+    "https://amzn.to/4A7b17S",
+
+  published:
+    "September 2026",
+
+  heroLabel:
+    "100-inch UST ALR Projector Screen",
+
+  reviewSections: [
+    {
+      heading:
+        "100-Inch Home Cinema Screen",
+
+      body:
+        'The VIVIDSTORM S PRO provides a 100-inch diagonal projection surface in a 16:9 format. This size is well suited to dedicated home theater rooms and living-room UST setups where users want a large-screen experience without installing a traditional television.'
+    },
+
+    {
+      heading:
+        "Motorized Floor-Rising Design",
+
+      body:
+        "Instead of hanging from a ceiling or permanently mounting to a wall, the screen rises from its floor housing when activated. This makes it particularly useful for rooms where a permanent wall-mounted screen is undesirable. The motorized mechanism also allows the screen to be stored when it is not being used."
+    },
+
+    {
+      heading:
+        "UST Ambient Light Rejecting Material",
+
+      body:
+        "The screen uses an optical ALR surface designed specifically for ultra-short-throw laser projectors. Its optical structure is intended to direct projected light toward the viewing area while reducing the effect of certain ambient light sources, particularly light coming from above."
+    },
+
+    {
+      heading:
+        "0.6 Gain and 170-Degree Viewing Angle",
+
+      body:
+        "The VIVIDSTORM specification lists a 0.6 gain and a 170-degree viewing angle. A wide viewing angle can help maintain a consistent image for viewers seated away from the center of the screen, while the lower gain is part of the screen's optical design for UST projection."
+    },
+
+    {
+      heading:
+        "Tab-Tensioned Surface",
+
+      body:
+        "The tab-tensioned construction is designed to keep the projection surface flat as it rises. A flatter screen can help reduce visible waves or wrinkles that can otherwise distract from a large projected image."
+    },
+
+    {
+      heading:
+        "4K and 8K Projection Support",
+
+      body:
+        "The supplied product specifications advertise compatibility with 4K and 8K projection. The screen itself does not create resolution; the final image quality depends on the connected projector, source material, projector settings, viewing distance, and room conditions."
+    },
+
+    {
+      heading:
+        "Best Used With UST Laser Projectors",
+
+      body:
+        "The S PRO is specifically designed for ultra-short-throw laser projectors. Buyers using a conventional long-throw or ceiling-mounted projector should choose a screen designed for that projection geometry instead."
+    },
+
+    {
+      heading:
+        "No Drilling Installation",
+
+      body:
+        "The floor-rising format can simplify installation because the screen does not need to be permanently attached to a wall or ceiling. This makes it attractive for living rooms and other spaces where homeowners want a large projection system without extensive installation work."
+    },
+
+    {
+      heading:
+        "Who Should Consider It?",
+
+      body:
+        "The VIVIDSTORM S PRO 100-inch model is best suited to home theater enthusiasts using a compatible UST laser projector. It is particularly appealing to users who want a large screen that can disappear when the projector system is not in use."
+    },
+
+    {
+      heading:
+        "Who Should Skip It?",
+
+      body:
+        "Users with a conventional long-throw projector, limited floor space, or a tight budget may want a different projection screen. Buyers should also confirm that their projector is compatible with the screen's UST ALR optical characteristics before purchasing."
+    },
+
+    {
+      heading:
+        "Final Verdict",
+
+      body:
+        "The VIVIDSTORM S PRO 100-inch combines a motorized floor-rising mechanism with a tab-tensioned UST ALR screen surface. Its 0.6 gain, 170-degree viewing angle, 16:9 format, and space-saving design make it a strong match for premium UST laser projector home cinema setups."
+    }
+  ]
+},
 ]
 
 export default products
