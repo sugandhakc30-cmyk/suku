@@ -3442,6 +3442,113 @@ export const products: Product[] = [
     }
   ]
 },
+{
+  id: "msi-codex-r2-ultra-7-265-rtx-5060-ti",
+  name: "MSI Codex R2 Gaming Desktop – Intel Ultra 7 265, RTX 5060 Ti, 32GB RAM, 2TB SSD",
+  category: "Gaming Desktops",
+  image: "/images/jj.jpg",
+
+  description:
+    "MSI Codex R2 gaming desktop featuring an Intel Core Ultra 7 265 processor with 20 cores, NVIDIA GeForce RTX 5060 Ti graphics, 32GB DDR5 RAM, 2TB SSD storage, WiFi 6E, Windows 11 Pro, and included keyboard and mouse.",
+
+  summary:
+    "The MSI Codex R2 is a performance-focused prebuilt gaming desktop designed for gaming, multitasking, content creation, and demanding everyday workloads. With an Intel Core Ultra 7 265 processor, RTX 5060 Ti graphics, 32GB DDR5 memory, and a 2TB SSD, it provides a strong combination of processing power, graphics performance, and storage capacity.",
+
+  pros: [
+    "Intel Core Ultra 7 265 processor",
+    "20-core CPU configuration",
+    "NVIDIA GeForce RTX 5060 Ti graphics",
+    "32GB DDR5 RAM",
+    "2TB SSD storage",
+    "Windows 11 Pro",
+    "WiFi 6E connectivity",
+    "Keyboard and mouse included",
+    "Suitable for gaming and multitasking",
+    "Prebuilt and ready to use"
+  ],
+
+  cons: [
+    "Prebuilt configuration offers less customization than a self-built PC",
+    "Actual gaming performance varies by game and graphics settings",
+    "2TB storage can still fill quickly with a large modern game library",
+    "Thermal and upgrade options depend on the exact Codex R2 configuration",
+    "Dedicated graphics performance depends on the specific RTX 5060 Ti implementation"
+  ],
+
+  affiliateUrl: "https://amzn.to/3UPAqms",
+
+  published: "September 2026",
+
+  heroLabel: "RTX 5060 Ti Gaming Desktop",
+
+  reviewSections: [
+    {
+      heading: "Intel Core Ultra 7 265 Performance",
+      body:
+        "The MSI Codex R2 uses Intel's Core Ultra 7 265 processor with a 20-core configuration. This gives the system substantial CPU resources for gaming, multitasking, productivity applications, and other demanding workloads."
+    },
+
+    {
+      heading: "NVIDIA RTX 5060 Ti Graphics",
+      body:
+        "The dedicated NVIDIA GeForce RTX 5060 Ti provides the graphics performance needed for modern PC gaming and GPU-accelerated applications. Actual frame rates depend on the game, resolution, graphics settings, drivers, and the specific configuration of the graphics card."
+    },
+
+    {
+      heading: "32GB DDR5 Memory",
+      body:
+        "With 32GB of DDR5 RAM, the Codex R2 has a generous amount of memory for modern gaming, multitasking, streaming, productivity applications, and many content-creation workloads. This capacity also provides more headroom than typical entry-level gaming desktops."
+    },
+
+    {
+      heading: "2TB SSD Storage",
+      body:
+        "The included 2TB SSD provides substantial space for Windows, applications, games, and personal files. For gamers with large libraries, the 2TB capacity offers considerably more room than many 1TB prebuilt systems."
+    },
+
+    {
+      heading: "Windows 11 Pro",
+      body:
+        "Windows 11 Pro comes installed on the system, providing a professional version of Microsoft's desktop operating system. This makes the Codex R2 suitable not only for gaming but also for users who need their PC for work and productivity."
+    },
+
+    {
+      heading: "WiFi 6E Connectivity",
+      body:
+        "WiFi 6E provides access to compatible 6GHz wireless networks in addition to supported 2.4GHz and 5GHz bands. A compatible router and network environment are required to take advantage of the available 6GHz connectivity."
+    },
+
+    {
+      heading: "Gaming and Multitasking",
+      body:
+        "The combination of the Core Ultra 7 processor, RTX 5060 Ti graphics, 32GB DDR5 memory, and 2TB SSD makes this configuration suitable for users who want one desktop for gaming and demanding multitasking. It can also handle workloads such as streaming, editing, and productivity applications."
+    },
+
+    {
+      heading: "Keyboard and Mouse Included",
+      body:
+        "The supplied configuration includes a keyboard and mouse, which means buyers can get started without immediately purchasing basic input peripherals. Enthusiasts may still prefer to replace them with specialized gaming peripherals."
+    },
+
+    {
+      heading: "Who Should Consider It?",
+      body:
+        "The MSI Codex R2 is a good option for gamers and power users who want a ready-to-use desktop with a modern Intel processor, dedicated RTX 5060 Ti graphics, 32GB of memory, and 2TB of storage. It is particularly convenient for buyers who do not want to build a PC themselves."
+    },
+
+    {
+      heading: "Who Should Skip It?",
+      body:
+        "Users who enjoy selecting every individual component, require extensive customization, or want the maximum performance-per-dollar from a custom-built system may prefer building their own desktop. Buyers should also check the exact upgrade options of the specific Codex R2 configuration."
+    },
+
+    {
+      heading: "Final Verdict",
+      body:
+        "The MSI Codex R2 combines an Intel Core Ultra 7 265 processor, RTX 5060 Ti graphics, 32GB DDR5 RAM, 2TB SSD storage, WiFi 6E, and Windows 11 Pro in a ready-to-use gaming desktop. It offers a balanced feature set for gaming, multitasking, and demanding everyday computing."
+    }
+  ]
+},
 ]
 
 export default products
