@@ -3690,6 +3690,153 @@ export const products: Product[] = [
         "The VIVIDSTORM S PRO 100-inch combines a motorized floor-rising mechanism with a tab-tensioned UST ALR screen surface. Its 0.6 gain, 170-degree viewing angle, 16:9 format, and space-saving design make it a strong match for premium UST laser projector home cinema setups."
     }
   ]
+},{
+  id: "ts-tst-grp-llc-retro-fat-tire-electric-bike-48v",
+  name:
+    'Retro Electric Bike for Adults – 48V Removable Battery, 2000W Peak Motor, 20"x4" Fat Tires',
+
+  category:
+    "Electric Bikes",
+
+  image:
+    "/images/m.jpg",
+
+  description:
+    'Adult electric bike with a 48V removable battery, 2000W peak motor, claimed 28 MPH top speed, 20"x4" fat tires, dual suspension, 7-speed drivetrain, APP control, and advertised range of 65/120 miles.',
+
+  summary:
+    "This retro-style fat-tire electric bike is designed for adults who want a combination of city commuting and recreational off-road capability. Its 48V removable battery, 2000W peak motor, 20x4-inch fat tires, dual suspension, 7-speed drivetrain, and APP connectivity give it a versatile feature set for riders looking for comfort and flexibility.",
+
+  pros: [
+    "48V removable battery",
+    "2000W peak motor rating",
+    "Claimed top speed up to 28 MPH",
+    '20"x4" fat tires',
+    "Dual suspension",
+    "7-speed drivetrain",
+    "APP control",
+    "Retro-inspired design",
+    "Suitable for city commuting",
+    "Designed for off-road riding",
+    "Multiple advertised range configurations"
+  ],
+
+  cons: [
+    "Actual range varies significantly with riding conditions",
+    "28 MPH is a claimed maximum speed",
+    "Fat tires can add rolling resistance and weight",
+    "Peak motor rating does not represent continuous motor output",
+    "Dual-suspension systems can increase overall bike weight",
+    "Public-road legality depends on local e-bike regulations",
+    "Buyers should verify the exact battery and range configuration before ordering"
+  ],
+
+  affiliateUrl:
+    "https://amzn.to/4dD40lz",
+
+  published:
+    "September 2026",
+
+  heroLabel:
+    "Retro Fat-Tire Electric Bike",
+
+  reviewSections: [
+    {
+      heading:
+        "2000W Peak Motor",
+
+      body:
+        "The bike is advertised with a 2000W peak motor, giving it a performance-oriented configuration for commuting and recreational riding. Peak power should not be interpreted as continuous motor output, and real-world acceleration depends on rider weight, terrain, battery charge, temperature, and riding mode."
+    },
+
+    {
+      heading:
+        "48V Removable Battery",
+
+      body:
+        "The removable 48V battery is one of the practical features of this e-bike. Being able to remove the battery can make charging and storage more convenient, particularly for riders who cannot easily bring the entire bike indoors."
+    },
+
+    {
+      heading:
+        "Up to 28 MPH",
+
+      body:
+        "The supplied listing advertises a top speed of up to 28 MPH. Actual speed can vary depending on rider weight, terrain, battery charge, riding mode, and other conditions. Riders should follow applicable local speed and e-bike regulations."
+    },
+
+    {
+      heading:
+        "65/120-Mile Advertised Range",
+
+      body:
+        "The listing advertises range figures of 65 and 120 miles. These should be treated as claimed maximum figures rather than guaranteed real-world range. Actual battery range can change substantially based on speed, terrain, rider weight, temperature, tire pressure, assist level, and riding conditions."
+    },
+
+    {
+      heading:
+        '20"x4" Fat Tires',
+
+      body:
+        "The 20x4-inch fat tires are designed to provide a wider contact patch and can be useful on uneven surfaces, dirt paths, gravel, and other recreational terrain. Their larger size can also contribute to additional weight and rolling resistance compared with narrower commuter tires."
+    },
+
+    {
+      heading:
+        "Dual Suspension",
+
+      body:
+        "The dual-suspension setup is designed to improve comfort when riding across rougher surfaces. Suspension can help absorb bumps and vibrations, although the overall riding experience will still depend on terrain, tire pressure, suspension setup, and rider weight."
+    },
+
+    {
+      heading:
+        "7-Speed Drivetrain",
+
+      body:
+        "The 7-speed drivetrain gives riders multiple gearing options for different terrain and riding conditions. Lower gears can be useful for climbing while higher gears can provide a more comfortable cadence on flatter routes."
+    },
+
+    {
+      heading:
+        "APP Control",
+
+      body:
+        "APP connectivity adds a connected element to the bike and may allow riders to access supported settings or riding information through a compatible smartphone. Available app functions can vary, so buyers should verify the current application and supported features for the specific model."
+    },
+
+    {
+      heading:
+        "City Commuting and Off-Road Riding",
+
+      body:
+        "The combination of fat tires, suspension, multiple gears, and a relatively powerful motor makes this bike versatile for both commuting and recreational riding. However, buyers should verify the manufacturer's recommended terrain and local regulations before using it on public roads or trails."
+    },
+
+    {
+      heading:
+        "Who Should Consider It?",
+
+      body:
+        "This electric bike may appeal to adults who want a retro-inspired design with fat tires, suspension, removable-battery convenience, and app connectivity. It is particularly interesting for riders who want one bike for commuting and recreational off-road use."
+    },
+
+    {
+      heading:
+        "Who Should Skip It?",
+
+      body:
+        "Riders looking for a lightweight traditional bicycle, compact commuter e-bike, or a model with guaranteed long-distance range may prefer a different design. Buyers should also check the bike's weight, payload capacity, exact battery specification, and local classification before purchasing."
+    },
+
+    {
+      heading:
+        "Final Verdict",
+
+      body:
+        'This retro electric bike combines a 48V removable battery, 2000W peak motor, claimed 28 MPH top speed, 20x4-inch fat tires, dual suspension, 7-speed gearing, and APP control. It offers a feature-rich setup for adults interested in commuting and recreational riding, while the advertised range should be evaluated carefully against real-world riding conditions.'
+    }
+  ]
 },
 ]
 
