@@ -1,3 +1,4 @@
+
 import Link from 'next/link'
 
 export default function AffiliateButton({ href, children }: { href: string; children: React.ReactNode }) {
