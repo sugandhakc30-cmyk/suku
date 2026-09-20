@@ -1,3 +1,4 @@
+
 export default function ProsCons({ pros = [], cons = [] }: { pros?: string[]; cons?: string[] }) {
   return (
     <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">

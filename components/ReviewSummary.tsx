@@ -1,3 +1,4 @@
+
 type Props = {
   bestFor?: string
   keyStrength?: string

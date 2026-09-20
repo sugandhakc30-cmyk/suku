@@ -2002,10 +2002,20 @@ async function adapter(params) {
 
 ;// CONCATENATED MODULE: ./middleware.ts
 
+const canonicalHost = "sugandhatech.in.net";
 const canonicalProductRedirects = {
     "hp-omen-16-rtx-5070-ryzen-9-8940hx-review": "/reviews/hp-omen-rtx-5070-gaming-laptop-review"
 };
 function middleware(request) {
+    const { nextUrl } = request;
+    const forwardedProto = request.headers.get("x-forwarded-proto");
+    const isProductionHost = nextUrl.hostname === canonicalHost || nextUrl.hostname === `www.${canonicalHost}`;
+    if (isProductionHost && (nextUrl.hostname !== canonicalHost || nextUrl.protocol === "http:" || forwardedProto === "http")) {
+        const canonicalUrl = nextUrl.clone();
+        canonicalUrl.hostname = canonicalHost;
+        canonicalUrl.protocol = "https:";
+        return NextResponse.redirect(canonicalUrl, 308);
+    }
     const productId = request.nextUrl.pathname.split("/")[2];
     const reviewPath = canonicalProductRedirects[productId];
     if (reviewPath) {

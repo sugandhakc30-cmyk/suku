@@ -575,9 +575,6 @@ const metadata = {
     metadataBase: new URL(meta.baseUrl),
     title: "Sugandha Tech",
     description: "Independent technology reviews and buying guidance for smarter purchase decisions.",
-    alternates: {
-        canonical: meta.baseUrl
-    },
     robots: {
         index: true,
         follow: true

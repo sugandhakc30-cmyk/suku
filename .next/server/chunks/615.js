@@ -2106,6 +2106,245 @@ const products = [
                 body: "The GIGABYTE GS25F2A combines a 24.5-inch FHD IPS panel with a 240Hz refresh rate, advertised 1ms GTG response time, and AMD FreeSync Premium. For gamers focused on smooth high-refresh-rate 1080p gameplay, it offers a straightforward feature set with HDMI and DisplayPort connectivity."
             }
         ]
+    },
+    {
+        id: "msi-codex-r2-ultra-7-265-rtx-5060-ti",
+        name: "MSI Codex R2 Gaming Desktop – Intel Ultra 7 265, RTX 5060 Ti, 32GB RAM, 2TB SSD",
+        category: "Gaming Desktops",
+        image: "/images/jj.jpg",
+        description: "MSI Codex R2 gaming desktop featuring an Intel Core Ultra 7 265 processor with 20 cores, NVIDIA GeForce RTX 5060 Ti graphics, 32GB DDR5 RAM, 2TB SSD storage, WiFi 6E, Windows 11 Pro, and included keyboard and mouse.",
+        summary: "The MSI Codex R2 is a performance-focused prebuilt gaming desktop designed for gaming, multitasking, content creation, and demanding everyday workloads. With an Intel Core Ultra 7 265 processor, RTX 5060 Ti graphics, 32GB DDR5 memory, and a 2TB SSD, it provides a strong combination of processing power, graphics performance, and storage capacity.",
+        pros: [
+            "Intel Core Ultra 7 265 processor",
+            "20-core CPU configuration",
+            "NVIDIA GeForce RTX 5060 Ti graphics",
+            "32GB DDR5 RAM",
+            "2TB SSD storage",
+            "Windows 11 Pro",
+            "WiFi 6E connectivity",
+            "Keyboard and mouse included",
+            "Suitable for gaming and multitasking",
+            "Prebuilt and ready to use"
+        ],
+        cons: [
+            "Prebuilt configuration offers less customization than a self-built PC",
+            "Actual gaming performance varies by game and graphics settings",
+            "2TB storage can still fill quickly with a large modern game library",
+            "Thermal and upgrade options depend on the exact Codex R2 configuration",
+            "Dedicated graphics performance depends on the specific RTX 5060 Ti implementation"
+        ],
+        affiliateUrl: "https://amzn.to/3UPAqms",
+        published: "September 2026",
+        heroLabel: "RTX 5060 Ti Gaming Desktop",
+        reviewSections: [
+            {
+                heading: "Intel Core Ultra 7 265 Performance",
+                body: "The MSI Codex R2 uses Intel's Core Ultra 7 265 processor with a 20-core configuration. This gives the system substantial CPU resources for gaming, multitasking, productivity applications, and other demanding workloads."
+            },
+            {
+                heading: "NVIDIA RTX 5060 Ti Graphics",
+                body: "The dedicated NVIDIA GeForce RTX 5060 Ti provides the graphics performance needed for modern PC gaming and GPU-accelerated applications. Actual frame rates depend on the game, resolution, graphics settings, drivers, and the specific configuration of the graphics card."
+            },
+            {
+                heading: "32GB DDR5 Memory",
+                body: "With 32GB of DDR5 RAM, the Codex R2 has a generous amount of memory for modern gaming, multitasking, streaming, productivity applications, and many content-creation workloads. This capacity also provides more headroom than typical entry-level gaming desktops."
+            },
+            {
+                heading: "2TB SSD Storage",
+                body: "The included 2TB SSD provides substantial space for Windows, applications, games, and personal files. For gamers with large libraries, the 2TB capacity offers considerably more room than many 1TB prebuilt systems."
+            },
+            {
+                heading: "Windows 11 Pro",
+                body: "Windows 11 Pro comes installed on the system, providing a professional version of Microsoft's desktop operating system. This makes the Codex R2 suitable not only for gaming but also for users who need their PC for work and productivity."
+            },
+            {
+                heading: "WiFi 6E Connectivity",
+                body: "WiFi 6E provides access to compatible 6GHz wireless networks in addition to supported 2.4GHz and 5GHz bands. A compatible router and network environment are required to take advantage of the available 6GHz connectivity."
+            },
+            {
+                heading: "Gaming and Multitasking",
+                body: "The combination of the Core Ultra 7 processor, RTX 5060 Ti graphics, 32GB DDR5 memory, and 2TB SSD makes this configuration suitable for users who want one desktop for gaming and demanding multitasking. It can also handle workloads such as streaming, editing, and productivity applications."
+            },
+            {
+                heading: "Keyboard and Mouse Included",
+                body: "The supplied configuration includes a keyboard and mouse, which means buyers can get started without immediately purchasing basic input peripherals. Enthusiasts may still prefer to replace them with specialized gaming peripherals."
+            },
+            {
+                heading: "Who Should Consider It?",
+                body: "The MSI Codex R2 is a good option for gamers and power users who want a ready-to-use desktop with a modern Intel processor, dedicated RTX 5060 Ti graphics, 32GB of memory, and 2TB of storage. It is particularly convenient for buyers who do not want to build a PC themselves."
+            },
+            {
+                heading: "Who Should Skip It?",
+                body: "Users who enjoy selecting every individual component, require extensive customization, or want the maximum performance-per-dollar from a custom-built system may prefer building their own desktop. Buyers should also check the exact upgrade options of the specific Codex R2 configuration."
+            },
+            {
+                heading: "Final Verdict",
+                body: "The MSI Codex R2 combines an Intel Core Ultra 7 265 processor, RTX 5060 Ti graphics, 32GB DDR5 RAM, 2TB SSD storage, WiFi 6E, and Windows 11 Pro in a ready-to-use gaming desktop. It offers a balanced feature set for gaming, multitasking, and demanding everyday computing."
+            }
+        ]
+    },
+    {
+        id: "vividstorm-s-pro-100-inch-ust-alr-projector-screen",
+        name: 'VIVIDSTORM S PRO 100" Motorized Tension Floor Rising UST ALR Projector Screen',
+        category: "Projector Screens",
+        image: "/images/yy.jpg",
+        description: "VIVIDSTORM S PRO 100-inch motorized tension floor-rising projector screen with UST ambient-light-rejecting material, 0.6 gain, 170-degree viewing angle, 16:9 aspect ratio, black housing, and support for compatible 4K/8K projection systems.",
+        summary: "The VIVIDSTORM S PRO is a premium floor-rising projection screen designed specifically for ultra-short-throw laser projectors. The 100-inch configuration uses tensioned ALR material designed to improve image visibility in rooms with ambient ceiling light while providing a clean, space-saving home theater setup.",
+        pros: [
+            "100-inch screen size",
+            "16:9 aspect ratio",
+            "Motorized floor-rising design",
+            "UST ambient light rejecting material",
+            "0.6 gain",
+            "170-degree viewing angle",
+            "Tab-tensioned screen surface",
+            "Black housing",
+            "No ceiling or wall drilling required",
+            "Designed for UST laser projectors",
+            "Supports compatible 4K and 8K projection",
+            "Suitable for home cinema setups"
+        ],
+        cons: [
+            "Designed specifically for UST projectors",
+            "Not suitable for conventional long-throw projector placement",
+            "Large 100-inch screen requires substantial floor space",
+            "Motorized design is more expensive than basic manual screens",
+            "Heavy compared with conventional portable projector screens",
+            "ALR performance depends on projector placement and room lighting",
+            "Screen should be matched carefully with the specific UST projector"
+        ],
+        affiliateUrl: "https://amzn.to/4A7b17S",
+        published: "September 2026",
+        heroLabel: "100-inch UST ALR Projector Screen",
+        reviewSections: [
+            {
+                heading: "100-Inch Home Cinema Screen",
+                body: "The VIVIDSTORM S PRO provides a 100-inch diagonal projection surface in a 16:9 format. This size is well suited to dedicated home theater rooms and living-room UST setups where users want a large-screen experience without installing a traditional television."
+            },
+            {
+                heading: "Motorized Floor-Rising Design",
+                body: "Instead of hanging from a ceiling or permanently mounting to a wall, the screen rises from its floor housing when activated. This makes it particularly useful for rooms where a permanent wall-mounted screen is undesirable. The motorized mechanism also allows the screen to be stored when it is not being used."
+            },
+            {
+                heading: "UST Ambient Light Rejecting Material",
+                body: "The screen uses an optical ALR surface designed specifically for ultra-short-throw laser projectors. Its optical structure is intended to direct projected light toward the viewing area while reducing the effect of certain ambient light sources, particularly light coming from above."
+            },
+            {
+                heading: "0.6 Gain and 170-Degree Viewing Angle",
+                body: "The VIVIDSTORM specification lists a 0.6 gain and a 170-degree viewing angle. A wide viewing angle can help maintain a consistent image for viewers seated away from the center of the screen, while the lower gain is part of the screen's optical design for UST projection."
+            },
+            {
+                heading: "Tab-Tensioned Surface",
+                body: "The tab-tensioned construction is designed to keep the projection surface flat as it rises. A flatter screen can help reduce visible waves or wrinkles that can otherwise distract from a large projected image."
+            },
+            {
+                heading: "4K and 8K Projection Support",
+                body: "The supplied product specifications advertise compatibility with 4K and 8K projection. The screen itself does not create resolution; the final image quality depends on the connected projector, source material, projector settings, viewing distance, and room conditions."
+            },
+            {
+                heading: "Best Used With UST Laser Projectors",
+                body: "The S PRO is specifically designed for ultra-short-throw laser projectors. Buyers using a conventional long-throw or ceiling-mounted projector should choose a screen designed for that projection geometry instead."
+            },
+            {
+                heading: "No Drilling Installation",
+                body: "The floor-rising format can simplify installation because the screen does not need to be permanently attached to a wall or ceiling. This makes it attractive for living rooms and other spaces where homeowners want a large projection system without extensive installation work."
+            },
+            {
+                heading: "Who Should Consider It?",
+                body: "The VIVIDSTORM S PRO 100-inch model is best suited to home theater enthusiasts using a compatible UST laser projector. It is particularly appealing to users who want a large screen that can disappear when the projector system is not in use."
+            },
+            {
+                heading: "Who Should Skip It?",
+                body: "Users with a conventional long-throw projector, limited floor space, or a tight budget may want a different projection screen. Buyers should also confirm that their projector is compatible with the screen's UST ALR optical characteristics before purchasing."
+            },
+            {
+                heading: "Final Verdict",
+                body: "The VIVIDSTORM S PRO 100-inch combines a motorized floor-rising mechanism with a tab-tensioned UST ALR screen surface. Its 0.6 gain, 170-degree viewing angle, 16:9 format, and space-saving design make it a strong match for premium UST laser projector home cinema setups."
+            }
+        ]
+    },
+    {
+        id: "ts-tst-grp-llc-retro-fat-tire-electric-bike-48v",
+        name: 'Retro Electric Bike for Adults – 48V Removable Battery, 2000W Peak Motor, 20"x4" Fat Tires',
+        category: "Electric Bikes",
+        image: "/images/m.jpg",
+        description: 'Adult electric bike with a 48V removable battery, 2000W peak motor, claimed 28 MPH top speed, 20"x4" fat tires, dual suspension, 7-speed drivetrain, APP control, and advertised range of 65/120 miles.',
+        summary: "This retro-style fat-tire electric bike is designed for adults who want a combination of city commuting and recreational off-road capability. Its 48V removable battery, 2000W peak motor, 20x4-inch fat tires, dual suspension, 7-speed drivetrain, and APP connectivity give it a versatile feature set for riders looking for comfort and flexibility.",
+        pros: [
+            "48V removable battery",
+            "2000W peak motor rating",
+            "Claimed top speed up to 28 MPH",
+            '20"x4" fat tires',
+            "Dual suspension",
+            "7-speed drivetrain",
+            "APP control",
+            "Retro-inspired design",
+            "Suitable for city commuting",
+            "Designed for off-road riding",
+            "Multiple advertised range configurations"
+        ],
+        cons: [
+            "Actual range varies significantly with riding conditions",
+            "28 MPH is a claimed maximum speed",
+            "Fat tires can add rolling resistance and weight",
+            "Peak motor rating does not represent continuous motor output",
+            "Dual-suspension systems can increase overall bike weight",
+            "Public-road legality depends on local e-bike regulations",
+            "Buyers should verify the exact battery and range configuration before ordering"
+        ],
+        affiliateUrl: "https://amzn.to/4dD40lz",
+        published: "September 2026",
+        heroLabel: "Retro Fat-Tire Electric Bike",
+        reviewSections: [
+            {
+                heading: "2000W Peak Motor",
+                body: "The bike is advertised with a 2000W peak motor, giving it a performance-oriented configuration for commuting and recreational riding. Peak power should not be interpreted as continuous motor output, and real-world acceleration depends on rider weight, terrain, battery charge, temperature, and riding mode."
+            },
+            {
+                heading: "48V Removable Battery",
+                body: "The removable 48V battery is one of the practical features of this e-bike. Being able to remove the battery can make charging and storage more convenient, particularly for riders who cannot easily bring the entire bike indoors."
+            },
+            {
+                heading: "Up to 28 MPH",
+                body: "The supplied listing advertises a top speed of up to 28 MPH. Actual speed can vary depending on rider weight, terrain, battery charge, riding mode, and other conditions. Riders should follow applicable local speed and e-bike regulations."
+            },
+            {
+                heading: "65/120-Mile Advertised Range",
+                body: "The listing advertises range figures of 65 and 120 miles. These should be treated as claimed maximum figures rather than guaranteed real-world range. Actual battery range can change substantially based on speed, terrain, rider weight, temperature, tire pressure, assist level, and riding conditions."
+            },
+            {
+                heading: '20"x4" Fat Tires',
+                body: "The 20x4-inch fat tires are designed to provide a wider contact patch and can be useful on uneven surfaces, dirt paths, gravel, and other recreational terrain. Their larger size can also contribute to additional weight and rolling resistance compared with narrower commuter tires."
+            },
+            {
+                heading: "Dual Suspension",
+                body: "The dual-suspension setup is designed to improve comfort when riding across rougher surfaces. Suspension can help absorb bumps and vibrations, although the overall riding experience will still depend on terrain, tire pressure, suspension setup, and rider weight."
+            },
+            {
+                heading: "7-Speed Drivetrain",
+                body: "The 7-speed drivetrain gives riders multiple gearing options for different terrain and riding conditions. Lower gears can be useful for climbing while higher gears can provide a more comfortable cadence on flatter routes."
+            },
+            {
+                heading: "APP Control",
+                body: "APP connectivity adds a connected element to the bike and may allow riders to access supported settings or riding information through a compatible smartphone. Available app functions can vary, so buyers should verify the current application and supported features for the specific model."
+            },
+            {
+                heading: "City Commuting and Off-Road Riding",
+                body: "The combination of fat tires, suspension, multiple gears, and a relatively powerful motor makes this bike versatile for both commuting and recreational riding. However, buyers should verify the manufacturer's recommended terrain and local regulations before using it on public roads or trails."
+            },
+            {
+                heading: "Who Should Consider It?",
+                body: "This electric bike may appeal to adults who want a retro-inspired design with fat tires, suspension, removable-battery convenience, and app connectivity. It is particularly interesting for riders who want one bike for commuting and recreational off-road use."
+            },
+            {
+                heading: "Who Should Skip It?",
+                body: "Riders looking for a lightweight traditional bicycle, compact commuter e-bike, or a model with guaranteed long-distance range may prefer a different design. Buyers should also check the bike's weight, payload capacity, exact battery specification, and local classification before purchasing."
+            },
+            {
+                heading: "Final Verdict",
+                body: "This retro electric bike combines a 48V removable battery, 2000W peak motor, claimed 28 MPH top speed, 20x4-inch fat tires, dual suspension, 7-speed gearing, and APP control. It offers a feature-rich setup for adults interested in commuting and recreational riding, while the advertised range should be evaluated carefully against real-world riding conditions."
+            }
+        ]
     }
 ];
 /* unused harmony default export */ var __WEBPACK_DEFAULT_EXPORT__ = ((/* unused pure expression or super */ null && (products)));
