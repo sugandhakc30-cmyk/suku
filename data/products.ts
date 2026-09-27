@@ -3842,7 +3842,7 @@ export const products: Product[] = [
   id: "lisowod-l03pro-native-1080p-outdoor-projector",
   name: "Lisowod L03Pro Outdoor Projector – Native 1080P, WiFi, Bluetooth & 4K Support",
   category: "Projectors",
-  image: "/images/ll.jpg",
+  image: "/images/ml.jpg",
 
   description:
     "Lisowod L03Pro smart portable projector featuring native 1080P resolution, official app support, WiFi and Bluetooth connectivity, 4K input support, AI autofocus, and a portable design for home theater and backyard movie setups.",
