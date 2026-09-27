@@ -1,19 +1,19 @@
 {
   "version": 1,
   "functions": {
-    "/comparisons": {},
     "/best": {},
-    "/affiliate-disclosure": {},
     "/about": {},
+    "/affiliate-disclosure": {},
+    "/comparisons": {},
     "/editorial-policy": {},
     "/cookie-policy": {},
-    "/contact": {},
     "/news": {},
-    "/privacy-policy": {},
-    "/guides": {},
     "/": {},
+    "/privacy-policy": {},
+    "/contact": {},
+    "/guides": {},
     "/reviews": {},
-    "/terms": {},
-    "/search": {}
+    "/search": {},
+    "/terms": {}
   }
 }
