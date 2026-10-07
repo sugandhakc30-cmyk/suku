@@ -4035,6 +4035,207 @@ export const products: Product[] = [
         "The HP HyperX OMEN 15 configuration offers a strong gaming-oriented specification with a Ryzen 7 260 processor, RTX 5060 graphics, 32GB DDR5 memory, 1TB SSD storage, and a 15.3-inch WQXGA 180Hz display. Its Wi-Fi 7, Ethernet, numeric keypad, and cooling features add versatility for both gaming and productivity."
     }
   ]
+},
+{
+  id: "samsung-galaxy-book6-14-core5-8gb-256gb",
+  name: "Samsung Galaxy Book6 14\" Laptop – Intel Core 5, 8GB RAM & 256GB SSD",
+  category: "Laptops",
+  image: "/images/mm.jpg",
+
+  description:
+    "Samsung Galaxy Book6 14-inch laptop featuring an Intel Core 5 processor, 8GB memory, 256GB storage, a Full HD+ IPS anti-glare display, Galaxy AI features, long-lasting battery, and a gray finish.",
+
+  summary:
+    "The Samsung Galaxy Book6 is a compact productivity laptop designed for everyday computing, work, study, and entertainment. Its 14-inch Full HD+ IPS anti-glare display, Intel Core 5 processor, 8GB memory, 256GB storage, Galaxy AI features, and portable design make it a practical choice for users who prioritize everyday usability and mobility.",
+
+  pros: [
+    "Intel Core 5 processor",
+    "14-inch Full HD+ IPS display",
+    "Anti-glare screen",
+    "8GB memory",
+    "256GB storage",
+    "Galaxy AI features",
+    "Long-lasting battery design",
+    "Compact 14-inch form factor",
+    "Gray finish",
+    "2-year warranty listed"
+  ],
+
+  cons: [
+    "8GB RAM may be limiting for heavier multitasking",
+    "256GB storage can fill quickly with large applications and media",
+    "Non-touch display",
+    "Not designed primarily for demanding gaming",
+    "Exact battery life depends on workload, settings, and usage conditions"
+  ],
+
+  affiliateUrl: "https://amzn.to/4rQGWG7",
+
+  published: "October 2026",
+
+  heroLabel: "14-Inch Galaxy AI Laptop",
+
+  reviewSections: [
+    {
+      heading: "Intel Core 5 Processor",
+      body:
+        "The Intel Core 5 processor provides the computing foundation for everyday tasks such as web browsing, office applications, streaming, video calls, and general productivity. Performance will vary depending on the exact processor configuration and workload."
+    },
+    {
+      heading: "14-Inch Full HD+ IPS Display",
+      body:
+        "The 14-inch Full HD+ IPS display provides a compact viewing experience suited to productivity and entertainment. Its anti-glare coating can be useful when working in environments with reflections or overhead lighting."
+    },
+    {
+      heading: "8GB Memory and 256GB Storage",
+      body:
+        "The listed 8GB of memory is suitable for everyday computing and moderate multitasking. The 256GB storage capacity provides room for applications and personal files, although users with large media collections or many applications may want more storage."
+    },
+    {
+      heading: "Galaxy AI Features",
+      body:
+        "Galaxy AI features add smart software capabilities to the Galaxy Book experience. Available functions can depend on the specific software version, region, connected Samsung devices, and current Samsung service availability."
+    },
+    {
+      heading: "Battery and Portability",
+      body:
+        "The compact 14-inch form factor makes the Galaxy Book6 convenient for students, professionals, and users who frequently move between home, office, school, or travel locations. Actual battery runtime depends on brightness, applications, connectivity, and power settings."
+    },
+    {
+      heading: "Anti-Glare Non-Touch Display",
+      body:
+        "This configuration uses a non-touch IPS panel with an anti-glare finish. Users who prefer a traditional laptop display may appreciate the simpler setup, while shoppers specifically looking for pen or touch interaction should consider a touchscreen model instead."
+    },
+    {
+      heading: "2-Year Warranty",
+      body:
+        "The listing specifies a 2-year warranty. Buyers should review the warranty terms, coverage, and regional conditions before purchasing because warranty availability can vary by seller, market, and product configuration."
+    },
+    {
+      heading: "Everyday Productivity",
+      body:
+        "With its Core 5 processor, 8GB memory, 256GB storage, Full HD+ display, and portable 14-inch design, the Galaxy Book6 is positioned as an everyday productivity laptop for browsing, documents, communication, streaming, and general computing."
+    },
+    {
+      heading: "Who Should Consider It?",
+      body:
+        "This laptop is worth considering for students, office users, travelers, and Samsung ecosystem users looking for a compact Windows laptop with Galaxy AI features and an anti-glare display."
+    },
+    {
+      heading: "Who Should Skip It?",
+      body:
+        "Users who regularly perform heavy video editing, 3D rendering, professional workstation workloads, or demanding gaming may want a laptop with more memory, larger storage, and dedicated graphics."
+    },
+    {
+      heading: "Final Verdict",
+      body:
+        "The Samsung Galaxy Book6 14-inch offers a balanced everyday laptop configuration with an Intel Core 5 processor, 8GB memory, 256GB storage, Full HD+ IPS anti-glare display, Galaxy AI features, and a portable design. It is best suited to productivity, study, browsing, communication, and general entertainment rather than demanding gaming or workstation workloads."
+    }
+  ]
+},
+{
+  id: "asus-rog-xg27aqdmgr-27-1440p-240hz-oled",
+  name: "ASUS ROG XG27AQDMGR 27\" 1440p 240Hz Glossy OLED Gaming Monitor",
+  category: "Gaming Monitors",
+  image: "/images/kl.jpg",
+
+  description:
+    "ASUS ROG XG27AQDMGR is a 27-inch 1440p OLED gaming monitor featuring a 240Hz refresh rate, 0.03ms response time, TrueBlack Glossy technology, DisplayHDR 400, 99% DCI-P3 color coverage, OLED Care Pro, Neo Proximity Sensor, and ELMB Sync.",
+
+  summary:
+    "The ASUS ROG XG27AQDMGR combines a 27-inch 1440p OLED panel with a fast 240Hz refresh rate and an extremely low listed 0.03ms response time. Its glossy TrueBlack OLED presentation, HDR support, wide DCI-P3 color coverage, OLED Care Pro, and gaming-focused features make it a premium option for competitive gaming, immersive gaming, and high-quality visual content.",
+
+  pros: [
+    "27-inch 1440p OLED display",
+    "240Hz refresh rate",
+    "0.03ms listed response time",
+    "TrueBlack Glossy OLED technology",
+    "DisplayHDR 400 support",
+    "99% DCI-P3 color coverage",
+    "OLED Care Pro",
+    "Neo Proximity Sensor",
+    "ELMB Sync",
+    "Compatible with PS5 and Xbox",
+    "Designed for competitive and immersive gaming"
+  ],
+
+  cons: [
+    "OLED panels can be more expensive than conventional LCD gaming monitors",
+    "Glossy screens can show reflections in bright environments",
+    "OLED requires appropriate care to reduce image-retention or burn-in risk",
+    "1440p resolution is lower than 4K",
+    "A 240Hz refresh rate is most useful when the gaming system can produce high frame rates",
+    "HDR experience depends on game content and viewing conditions"
+  ],
+
+  affiliateUrl: "https://amzn.to/4yN1m5e",
+
+  published: "October 2026",
+
+  heroLabel: "240Hz QHD OLED Gaming Monitor",
+
+  reviewSections: [
+    {
+      heading: "27-Inch 1440p OLED Display",
+      body:
+        "The 27-inch 1440p OLED panel is designed to deliver strong contrast, deep blacks, and detailed gaming visuals. The QHD resolution also offers a practical balance between image detail and the high frame rates needed to take advantage of a 240Hz refresh rate."
+    },
+    {
+      heading: "240Hz Refresh Rate",
+      body:
+        "A 240Hz refresh rate provides very fluid motion and is particularly valuable in competitive games where fast camera movement and quick reactions are important. To fully benefit from 240Hz, the connected gaming system needs to deliver sufficiently high frame rates."
+    },
+    {
+      heading: "0.03ms Response Time",
+      body:
+        "The monitor is listed with a 0.03ms response time, supporting the fast-response characteristics expected from an OLED gaming display. Actual motion performance can vary depending on operating conditions, settings, and measurement methodology."
+    },
+    {
+      heading: "TrueBlack Glossy OLED",
+      body:
+        "The TrueBlack Glossy presentation is designed to emphasize OLED's deep blacks and strong contrast while providing a glossy viewing experience. The glossy surface can look impressive in controlled lighting but may produce more visible reflections in bright rooms."
+    },
+    {
+      heading: "DisplayHDR 400 and 99% DCI-P3",
+      body:
+        "DisplayHDR 400 support adds HDR capability for compatible games and media, while the listed 99% DCI-P3 coverage provides a wide color gamut. Actual HDR impact depends on content, brightness, game support, and the surrounding environment."
+    },
+    {
+      heading: "OLED Care Pro",
+      body:
+        "OLED Care Pro provides features intended to help manage OLED panel longevity and reduce the risk associated with prolonged static content. Users should still follow the manufacturer's recommended OLED-care procedures."
+    },
+    {
+      heading: "Neo Proximity Sensor",
+      body:
+        "The Neo Proximity Sensor is a convenience-oriented feature designed to detect user presence and support display-management functions. This can be useful for users who frequently step away from their desk during work or gaming sessions."
+    },
+    {
+      heading: "ELMB Sync for Gaming",
+      body:
+        "ELMB Sync is designed to improve motion clarity while working with compatible variable-refresh-rate gaming setups. The usefulness of motion-blur-reduction features can vary depending on the game, refresh rate, and configuration."
+    },
+    {
+      heading: "PS5 and Xbox Compatibility",
+      body:
+        "The monitor is designed to work with current gaming consoles including PlayStation 5 and Xbox. Console output capabilities can differ from PC configurations, so gamers should verify the supported resolution and refresh-rate combination for their specific console and connection."
+    },
+    {
+      heading: "Who Should Consider It?",
+      body:
+        "This monitor is a strong option for PC gamers who want OLED contrast, 1440p resolution, a 240Hz refresh rate, fast response characteristics, and gaming-focused features. It can also appeal to console gamers looking for a premium OLED display."
+    },
+    {
+      heading: "Who Should Skip It?",
+      body:
+        "Users who work primarily with static desktop content for long periods and do not want to manage OLED-care features may prefer a conventional LCD monitor. A 4K monitor may also be more appropriate for users who prioritize maximum resolution over high-refresh-rate 1440p gaming."
+    },
+    {
+      heading: "Final Verdict",
+      body:
+        "The ASUS ROG XG27AQDMGR combines 1440p resolution, a 240Hz refresh rate, OLED contrast, a glossy TrueBlack presentation, DisplayHDR 400, 99% DCI-P3 coverage, and advanced OLED-care features. It is positioned as a premium gaming monitor for players who value smooth motion, fast response, deep blacks, and high-quality visuals."
+    }
+  ]
 }
 ]
 
