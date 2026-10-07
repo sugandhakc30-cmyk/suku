@@ -4236,6 +4236,104 @@ export const products: Product[] = [
         "The ASUS ROG XG27AQDMGR combines 1440p resolution, a 240Hz refresh rate, OLED contrast, a glossy TrueBlack presentation, DisplayHDR 400, 99% DCI-P3 coverage, and advanced OLED-care features. It is positioned as a premium gaming monitor for players who value smooth motion, fast response, deep blacks, and high-quality visuals."
     }
   ]
+},
+{
+  id: "hisense-85-s7sg-hi-qled-canvas-tv-2026",
+  name: "Hisense 85\" Hi-QLED 4K S7 CanvasTV – 144Hz Google Smart Art TV",
+  category: "4K Smart TVs",
+  image: "/images/man.jpg",
+
+  description:
+    "Hisense 85-inch Hi-QLED 4K S7 CanvasTV featuring a 144Hz refresh rate, Google TV, Art Gallery mode, Dolby Vision HDR, anti-glare Hi-Matte display, and included frame and UltraSlim wall mount.",
+
+  summary:
+    "The Hisense S7 CanvasTV combines a large 85-inch 4K display with a TV-meets-art-gallery design. The 144Hz refresh rate is aimed at smooth motion and gaming, while Dolby Vision HDR and the Hi-Matte anti-glare display are designed to enhance the viewing experience. Google TV provides access to compatible streaming apps and smart-TV features.",
+
+  pros: [
+    "Huge 85-inch 4K display",
+    "Hi-QLED display technology",
+    "144Hz refresh rate",
+    "Google TV smart platform",
+    "Art Gallery mode",
+    "Dolby Vision HDR",
+    "Anti-glare Hi-Matte display",
+    "Frame included",
+    "UltraSlim wall mount included",
+    "Designed for both entertainment and wall-mounted art presentation"
+  ],
+
+  cons: [
+    "85-inch size requires substantial wall or room space",
+    "Large-screen installation can require two or more people",
+    "Actual HDR performance depends on content and viewing conditions",
+    "144Hz gaming benefits require compatible source hardware and content",
+    "Large TVs can be more difficult and expensive to transport",
+    "Smart features and app availability can change over time"
+  ],
+
+  affiliateUrl: "https://amzn.to/4zia0bT",
+
+  published: "October 2026",
+
+  heroLabel: "85-Inch 144Hz CanvasTV",
+
+  reviewSections: [
+    {
+      heading: "85-Inch 4K Hi-QLED Display",
+      body:
+        "The 85-inch 4K panel is designed to deliver a large, detailed viewing experience for movies, sports, gaming, and streaming. The Hi-QLED display technology adds a focus on color and picture quality while the large screen makes the TV particularly suited to spacious living rooms and dedicated entertainment areas."
+    },
+    {
+      heading: "144Hz Refresh Rate",
+      body:
+        "The listed 144Hz refresh rate is designed to provide smoother motion and can be especially useful for compatible gaming content and fast-moving sports. The actual refresh rate available depends on the connected source, input, resolution, and supported content."
+    },
+    {
+      heading: "CanvasTV Art Gallery Design",
+      body:
+        "The S7 CanvasTV is designed to function as more than a conventional television. Its Art Gallery mode allows compatible artwork to be displayed when the TV is not being used for entertainment, helping the large screen blend more naturally into a living space."
+    },
+    {
+      heading: "Hi-Matte Anti-Glare Display",
+      body:
+        "The Hi-Matte display is designed to reduce distracting reflections compared with a conventional glossy screen. This can make artwork and TV content easier to view in rooms with ambient lighting, although no display completely eliminates reflections under all conditions."
+    },
+    {
+      heading: "Dolby Vision HDR",
+      body:
+        "Dolby Vision HDR support can provide compatible movies and shows with expanded contrast and color information. The final HDR experience depends on the source content, picture settings, brightness, and viewing environment."
+    },
+    {
+      heading: "Google TV Smart Features",
+      body:
+        "Google TV provides a smart-TV interface for compatible streaming services, apps, recommendations, and other connected features. App availability can vary by region and may change over time."
+    },
+    {
+      heading: "Frame and UltraSlim Wall Mount Included",
+      body:
+        "The included frame and UltraSlim wall mount support the CanvasTV's wall-oriented design. Because this is an 85-inch television, buyers should confirm wall construction, mounting requirements, clearance, and installation space before installation."
+    },
+    {
+      heading: "Gaming and Entertainment",
+      body:
+        "The combination of a large 4K screen and high refresh rate makes this configuration appealing for gaming and entertainment. Console and PC users should verify the supported resolution, refresh rate, HDMI capabilities, and other requirements for their particular setup."
+    },
+    {
+      heading: "Who Should Consider It?",
+      body:
+        "This TV is worth considering for buyers who want a very large 4K display that can also function as wall-mounted artwork. It is particularly interesting for large living rooms, home theaters, sports viewing, gaming, and users who want a more design-focused television."
+    },
+    {
+      heading: "Who Should Skip It?",
+      body:
+        "Users with limited wall space or smaller rooms may find an 85-inch television excessive. Buyers who primarily want the highest possible movie-theater performance may also want to compare dedicated premium home-theater displays before choosing a CanvasTV-style design."
+    },
+    {
+      heading: "Final Verdict",
+      body:
+        "The Hisense 85-inch S7 CanvasTV combines a massive 4K Hi-QLED display with a 144Hz refresh rate, Dolby Vision HDR, Google TV, anti-glare Hi-Matte technology, and an art-gallery-oriented design. The included frame and UltraSlim wall mount further emphasize its role as a lifestyle TV designed to remain attractive even when the screen is not being used for traditional entertainment."
+    }
+  ]
 }
 ]
 
