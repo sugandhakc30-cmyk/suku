@@ -3938,6 +3938,104 @@ export const products: Product[] = [
     }
   ]
 },
+{
+  id: "hp-hyperx-omen-15-5060-ryzen-7-260",
+  name: "HP HyperX OMEN 15 Gaming Laptop – Ryzen 7 260, RTX 5060, 32GB DDR5 & 1TB SSD",
+  category: "Gaming Laptops",
+  image: "/images/vv.jpg",
+
+  description:
+    "HP HyperX OMEN 15 gaming laptop featuring an AMD Ryzen 7 260 processor, NVIDIA GeForce RTX 5060 graphics, 32GB DDR5 memory, 1TB SSD, and a 15.3-inch WQXGA 180Hz display with 100% sRGB coverage.",
+
+  summary:
+    "The HP HyperX OMEN 15 combines a Ryzen 7 260 processor and RTX 5060 graphics with 32GB DDR5 RAM and a 1TB SSD. Its 15.3-inch WQXGA 180Hz display, Wi-Fi 7, Ethernet, numeric keypad, backlit keyboard, and Tempest Cooling system make it a versatile option for gaming and demanding everyday workloads.",
+
+  pros: [
+    "AMD Ryzen 7 260 processor",
+    "NVIDIA GeForce RTX 5060 graphics",
+    "32GB DDR5 RAM",
+    "1TB SSD storage",
+    "15.3-inch WQXGA 180Hz display",
+    "100% sRGB color coverage",
+    "Wi-Fi 7 connectivity",
+    "Ethernet port",
+    "Backlit keyboard with numeric keypad",
+    "Tempest Cooling system",
+    "Windows 11 Home"
+  ],
+
+  cons: [
+    "Gaming performance and battery life will vary by workload and settings",
+    "15.3-inch gaming design may be less portable than an ultrabook",
+    "High-performance components can generate heat and fan noise under heavy loads",
+    "180Hz refresh rate is most useful when the GPU can produce high frame rates",
+    "Exact ports and configuration should be confirmed on the specific listing"
+  ],
+
+  affiliateUrl: "https://amzn.to/4rPHrQN",
+
+  published: "October 2026",
+
+  heroLabel: "RTX 5060 Gaming Laptop",
+
+  reviewSections: [
+    {
+      heading: "Ryzen 7 260 Processor",
+      body:
+        "The AMD Ryzen 7 260 gives this OMEN configuration a strong foundation for gaming, multitasking, productivity applications, and other demanding workloads. Actual performance will depend on power limits, cooling, software, and the specific configuration."
+    },
+    {
+      heading: "NVIDIA RTX 5060 Graphics",
+      body:
+        "The NVIDIA GeForce RTX 5060 is designed for modern PC gaming and graphics-intensive workloads. It makes this laptop a suitable choice for users who want stronger gaming graphics performance without moving to a larger desktop replacement system."
+    },
+    {
+      heading: "15.3-Inch WQXGA 180Hz Display",
+      body:
+        "The 15.3-inch WQXGA display combines a high-resolution panel with a 180Hz refresh rate. The listed 100% sRGB coverage is also useful for gaming, media consumption, and general creative work where accurate standard-gamut color is important."
+    },
+    {
+      heading: "32GB DDR5 Memory and 1TB SSD",
+      body:
+        "With 32GB of DDR5 memory and a 1TB SSD, this configuration provides substantial memory and storage for modern games, applications, multitasking, and everyday use. Storage requirements can still grow quickly with large game libraries and media files."
+    },
+    {
+      heading: "Wi-Fi 7 and Ethernet",
+      body:
+        "Wi-Fi 7 provides a modern wireless networking option, while the Ethernet connection can be useful when a wired connection is preferred for gaming or other latency-sensitive workloads. Actual wireless performance depends on the network equipment and environment."
+    },
+    {
+      heading: "Backlit Keyboard with Numeric Keypad",
+      body:
+        "The backlit keyboard adds visibility in darker environments, while the integrated numeric keypad can be particularly useful for productivity, spreadsheets, data entry, and applications that use dedicated number keys."
+    },
+    {
+      heading: "Tempest Cooling",
+      body:
+        "HP's Tempest Cooling design is intended to help manage temperatures during demanding workloads. Gaming laptops can still become warm and produce noticeable fan noise when the processor and GPU are operating at high performance."
+    },
+    {
+      heading: "Gaming and Everyday Productivity",
+      body:
+        "The combination of Ryzen 7 processing, RTX 5060 graphics, 32GB RAM, a 1TB SSD, and a 180Hz WQXGA display makes this configuration suitable for gaming, multitasking, school or work applications, content consumption, and other demanding workloads."
+    },
+    {
+      heading: "Who Should Consider It?",
+      body:
+        "This laptop is worth considering for gamers and power users who want a high-refresh-rate display, dedicated RTX graphics, generous memory, fast storage, modern wireless connectivity, and a useful full-size keyboard layout."
+    },
+    {
+      heading: "Who Should Skip It?",
+      body:
+        "Users who prioritize ultra-light portability, extremely long battery life, or a compact productivity laptop may prefer a thinner and lighter system. Buyers should also confirm the exact configuration, ports, display specifications, and GPU details on the listing before purchasing."
+    },
+    {
+      heading: "Final Verdict",
+      body:
+        "The HP HyperX OMEN 15 configuration offers a strong gaming-oriented specification with a Ryzen 7 260 processor, RTX 5060 graphics, 32GB DDR5 memory, 1TB SSD storage, and a 15.3-inch WQXGA 180Hz display. Its Wi-Fi 7, Ethernet, numeric keypad, and cooling features add versatility for both gaming and productivity."
+    }
+  ]
+}
 ]
 
 export default products
