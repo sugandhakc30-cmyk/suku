@@ -4334,6 +4334,103 @@ export const products: Product[] = [
         "The Hisense 85-inch S7 CanvasTV combines a massive 4K Hi-QLED display with a 144Hz refresh rate, Dolby Vision HDR, Google TV, anti-glare Hi-Matte technology, and an art-gallery-oriented design. The included frame and UltraSlim wall mount further emphasize its role as a lifestyle TV designed to remain attractive even when the screen is not being used for traditional entertainment."
     }
   ]
+},
+{
+  id: "dji-rs-5-combo-camera-gimbal-stabilizer",
+  name: "DJI RS 5 Combo – Camera Gimbal Stabilizer with Intelligent Tracking",
+  category: "Camera Stabilizers & Gimbals",
+  image: "/images/ty.jpg",
+
+  description:
+    "The DJI RS 5 Combo is a camera gimbal stabilizer designed for compatible mirrorless and DSLR camera setups from Canon, Sony, Nikon, and Fujifilm. Listed features include enhanced intelligent tracking, fine-tuning knobs, second-generation automated axis locks, a quick-open tripod, and a Z-axis indicator.",
+
+  summary:
+    "The DJI RS 5 Combo is designed for videographers and content creators who want smoother camera movement and more controlled shooting. Its intelligent tracking features, fine-tuning controls, automated axis locks, and quick-open tripod aim to make camera setup and filming more convenient for compatible camera systems.",
+
+  pros: [
+    "Designed for compatible Canon, Sony, Nikon, and Fujifilm cameras",
+    "Enhanced intelligent tracking features",
+    "Fine-tuning knobs for camera balancing",
+    "Second-generation automated axis locks",
+    "Quick-open tripod included in the listed package",
+    "Z-axis indicator for shooting feedback",
+    "Designed for smooth, controlled camera movements",
+    "Useful for filmmaking, vlogging, and content creation",
+    "Combo package may provide useful accessories for filming"
+  ],
+
+  cons: [
+    "Camera and lens compatibility should be checked before purchase",
+    "Balancing and setup may require practice",
+    "A gimbal adds weight compared with handheld shooting",
+    "Battery runtime depends on operating conditions and equipment load",
+    "Some tracking and camera-control functions may require compatible accessories or connections",
+    "The Combo package contents should be verified against the seller's listing"
+  ],
+
+  affiliateUrl: "https://amzn.to/4s8p8X2",
+
+  published: "October 2026",
+
+  heroLabel: "Professional Camera Gimbal",
+
+  reviewSections: [
+    {
+      heading: "DJI RS 5 Combo Overview",
+      body:
+        "The DJI RS 5 Combo is designed to help camera operators capture smoother footage while moving, panning, and following subjects. It is aimed at filmmakers, videographers, and creators who want more control over camera movement than ordinary handheld shooting provides."
+    },
+    {
+      heading: "Enhanced Intelligent Tracking",
+      body:
+        "The listed intelligent tracking feature is intended to help keep a subject in the composition while filming. This can be useful for solo creators, interviews, moving shots, and video production where manually controlling the camera at every moment is difficult. Available functions depend on the supported tracking setup."
+    },
+    {
+      heading: "Fine-Tuning Knobs for Balancing",
+      body:
+        "Fine-tuning knobs are designed to help users make precise adjustments while balancing a camera on the gimbal. Correct balancing is important for stable operation and can help the stabilizer work more efficiently."
+    },
+    {
+      heading: "Second-Generation Automated Axis Locks",
+      body:
+        "The listed second-generation automated axis locks are designed to simplify locking and unlocking the gimbal's axes during setup, transport, and storage. This can make handling more convenient when moving between filming locations."
+    },
+    {
+      heading: "Quick-Open Tripod",
+      body:
+        "The quick-open tripod provides a support option for setup, balancing, and stationary use when included in the selected Combo package. It can also make it easier to place the gimbal down between takes."
+    },
+    {
+      heading: "Z-Axis Indicator",
+      body:
+        "The Z-axis indicator provides feedback intended to help operators monitor vertical movement while filming. It can be useful when refining walking technique and working toward smoother moving shots."
+    },
+    {
+      heading: "Camera and Lens Compatibility",
+      body:
+        "The DJI RS 5 is marketed for compatible camera systems from Canon, Sony, Nikon, and Fujifilm. Compatibility is not universal across every camera and lens combination, so buyers should check the official compatibility information, payload limits, connection requirements, and supported camera-control functions before purchasing."
+    },
+    {
+      heading: "Video Production and Content Creation",
+      body:
+        "A camera gimbal can be useful for cinematic movement, event coverage, travel videos, product videos, interviews, and social media content. The RS 5 Combo's listed controls and tracking features are intended to help creators manage moving shots and camera setup more conveniently."
+    },
+    {
+      heading: "Who Should Consider It?",
+      body:
+        "This gimbal is worth considering for videographers, filmmakers, and serious content creators who use a compatible camera setup and want controlled movement, subject-tracking capabilities, and convenient balancing features."
+    },
+    {
+      heading: "Who Should Skip It?",
+      body:
+        "Casual users who mainly record short handheld clips may find a dedicated camera gimbal unnecessary. Buyers using heavier camera-and-lens combinations or specialized rigs should verify payload capacity and full compatibility before choosing a stabilizer."
+    },
+    {
+      heading: "Final Verdict",
+      body:
+        "The DJI RS 5 Combo is a camera-stabilization option for creators seeking smoother moving footage and practical setup features. Its intelligent tracking, fine-tuning knobs, automated axis locks, quick-open tripod, and Z-axis indicator make it worth considering for compatible camera setups. Confirm the precise camera compatibility and included accessories before ordering."
+    }
+  ]
 }
 ]
 
