@@ -1,12 +1,13 @@
-exports.id = 132;
-exports.ids = [132];
+exports.id = 124;
+exports.ids = [124];
 exports.modules = {
 
-/***/ 1683:
+/***/ 2017:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 6403));
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 954, 23))
+Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 954, 23));
+Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 6173, 23))
 
 /***/ }),
 
@@ -268,6 +269,9 @@ __webpack_require__.d(__webpack_exports__, {
 
 // EXTERNAL MODULE: external "next/dist/compiled/react/jsx-runtime"
 var jsx_runtime_ = __webpack_require__(6786);
+// EXTERNAL MODULE: ./node_modules/next/script.js
+var script = __webpack_require__(4862);
+var script_default = /*#__PURE__*/__webpack_require__.n(script);
 // EXTERNAL MODULE: ./app/styles/globals.css
 var globals = __webpack_require__(413);
 // EXTERNAL MODULE: ./node_modules/next/dist/build/webpack/loaders/next-flight-loader/module-proxy.js
@@ -570,6 +574,7 @@ function JsonLd() {
 
 
 
+
 const meta = (0,seo/* siteMeta */.N)();
 const metadata = {
     metadataBase: new URL(meta.baseUrl),
@@ -603,6 +608,12 @@ function RootLayout({ children }) {
                     /*#__PURE__*/ jsx_runtime_.jsx("meta", {
                         name: "viewport",
                         content: "width=device-width, initial-scale=1"
+                    }),
+                    /*#__PURE__*/ jsx_runtime_.jsx((script_default()), {
+                        async: true,
+                        src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8517844838683220",
+                        crossOrigin: "anonymous",
+                        strategy: "beforeInteractive"
                     })
                 ]
             }),
