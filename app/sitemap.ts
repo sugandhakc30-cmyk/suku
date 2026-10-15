@@ -7,10 +7,10 @@ import { categories } from '../data/categories'
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const meta = siteMeta()
-  const base = meta.baseUrl
+  const base = meta.baseUrl.replace(/\/$/, '') // Base URL: https://sugandhatech.in.net
 
   const staticUrls = [
-    '/',
+    '',
     '/reviews',
     '/guides',
     '/news',
@@ -22,7 +22,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     '/editorial-policy',
     '/affiliate-disclosure',
     '/best',
-    '/comparisons'
+    '/comparisons',
   ]
 
   const reviewUrls = articles.map((article) => `/reviews/${article.slug}`)
@@ -32,18 +32,22 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const guideUrls = guides.map((guide) => `/guides/${guide.slug}`)
   const categoryUrls = categories.map((category) => category.href)
 
-  const uniqueUrls = [...new Set([
-    ...staticUrls,
-    ...reviewUrls,
-    ...productUrls,
-    ...guideUrls,
-    ...categoryUrls
-  ])].filter(Boolean)
+  // Merge and remove duplicates
+  const pathnames = Array.from(
+    new Set([
+      ...staticUrls,
+      ...reviewUrls,
+      ...productUrls,
+      ...guideUrls,
+      ...categoryUrls,
+    ])
+  ).filter(Boolean)
 
-  return uniqueUrls.map((path) => ({
-    url: `${base}${path === '/' ? '' : path}`,
+  // Map relative pathnames to full URL objects expected by Next.js
+  return pathnames.map((path) => ({
+    url: `${base}${path}`,
     lastModified: new Date(),
-    changeFrequency: 'weekly' as const,
-    priority: path === '/' ? 1 : 0.7
+    changeFrequency: 'weekly',
+    priority: path === '' ? 1.0 : 0.8,
   }))
 }
