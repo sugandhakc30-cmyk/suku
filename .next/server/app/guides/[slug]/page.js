@@ -92,14 +92,6 @@ module.exports = require("next/dist/shared/lib/hash");
 
 /***/ }),
 
-/***/ 6819:
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("next/dist/shared/lib/head-manager-context");
-
-/***/ }),
-
 /***/ 9569:
 /***/ ((module) => {
 
@@ -420,7 +412,7 @@ function GuidePage({ params }) {
 var __webpack_require__ = require("../../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [478,173,565,980,124,308], () => (__webpack_exec__(1311)));
+var __webpack_exports__ = __webpack_require__.X(0, [478,796,565,980,132,308], () => (__webpack_exec__(1311)));
 module.exports = __webpack_exports__;
 
 })();
