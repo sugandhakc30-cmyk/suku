@@ -4431,6 +4431,196 @@ export const products: Product[] = [
         "The DJI RS 5 Combo is a camera-stabilization option for creators seeking smoother moving footage and practical setup features. Its intelligent tracking, fine-tuning knobs, automated axis locks, quick-open tripod, and Z-axis indicator make it worth considering for compatible camera setups. Confirm the precise camera compatibility and included accessories before ordering."
     }
   ]
+},
+{
+  id: "amazon-alexa-tablet-12-pro-8gb-128gb",
+  name: "Amazon Alexa Tablet 12 Pro – 12-Inch 2.8K Nanomatte Display, 8GB RAM, 128GB",
+  category: "Tablets",
+  image: "/images/l.jpg",
+
+  description:
+    "The Amazon Alexa Tablet 12 Pro is a 12-inch tablet featuring a 2.8K Nanomatte display, 8GB RAM, 128GB storage, an all-day battery, Google Play support, and integration designed for Alexa+. The Graphite finish gives it a modern look for everyday use, entertainment, and productivity.",
+
+  summary:
+    "The Amazon Alexa Tablet 12 Pro combines a large 12-inch 2.8K Nanomatte display with 8GB RAM and 128GB storage. With Google Play access, all-day battery positioning, and features designed for Alexa+, it is presented as a versatile device for streaming, browsing, apps, reading, and smart-assistant tasks. Check the official product specifications to confirm software support and regional availability before purchasing.",
+
+  pros: [
+    "Large 12-inch display",
+    "2.8K Nanomatte screen",
+    "8GB RAM for everyday multitasking",
+    "128GB internal storage",
+    "Advertised all-day battery",
+    "Google Play support listed",
+    "Designed for Alexa+ features",
+    "Graphite finish",
+    "Suitable for entertainment, browsing, and compatible apps"
+  ],
+
+  cons: [
+    "128GB storage may be limited for large offline media libraries",
+    "Actual battery life depends on brightness, apps, and usage",
+    "Alexa+ features may depend on region, subscription, and service availability",
+    "Google Play availability and compatibility should be verified for the exact device",
+    "A 12-inch tablet may be less convenient for one-handed use",
+    "Keyboard, stylus, and other accessories may be sold separately"
+  ],
+
+  affiliateUrl: "https://amzn.to/3WwTqH2",
+
+  published: "October 2026",
+
+  heroLabel: "12-Inch 2.8K Smart Tablet",
+
+  reviewSections: [
+    {
+      heading: "12-Inch 2.8K Nanomatte Display",
+      body:
+        "The listed 12-inch 2.8K Nanomatte display provides a large viewing area for streaming, reading, browsing, video calls, and compatible productivity apps. Its matte-style finish is designed to reduce distracting reflections, although viewing results depend on the lighting environment."
+    },
+    {
+      heading: "8GB RAM for Multitasking",
+      body:
+        "The advertised 8GB of RAM provides memory for everyday applications and multitasking. Practical performance will depend on the processor, operating system, software optimization, and the number of demanding apps running simultaneously."
+    },
+    {
+      heading: "128GB Internal Storage",
+      body:
+        "The 128GB storage capacity provides room for applications, downloaded content, documents, and personal files. Users who keep many large games or videos offline should check whether expandable storage is supported and how much space is available after system files."
+    },
+    {
+      heading: "Designed for Alexa+",
+      body:
+        "The tablet is marketed as being designed for Alexa+. Compatible assistant features may help with supported questions, everyday tasks, and smart-home interactions. Feature availability can depend on account eligibility, region, software updates, and current service terms."
+    },
+    {
+      heading: "Google Play and App Access",
+      body:
+        "Google Play support is listed as a feature, which could provide access to compatible Android applications. Before publishing or purchasing, verify the exact device's Google Play compatibility, supported apps, and software requirements because these details can materially affect the tablet experience."
+    },
+    {
+      heading: "All-Day Battery Positioning",
+      body:
+        "The product is advertised with an all-day battery, making it potentially useful for travel, reading, streaming, and everyday mobile use. Actual runtime varies with screen brightness, wireless connectivity, video playback, applications, and battery settings."
+    },
+    {
+      heading: "Entertainment and Everyday Productivity",
+      body:
+        "The large display and listed memory and storage configuration make the tablet worth considering for media consumption, web browsing, online learning, document viewing, and compatible productivity applications. It should not be assumed to replace a laptop for every professional workload."
+    },
+    {
+      heading: "Who Should Consider It?",
+      body:
+        "This tablet may appeal to users who want a large-screen device for entertainment, browsing, compatible apps, and Alexa-related features. It is especially worth investigating for buyers who prefer a matte-style display and want a device that combines tablet functions with smart-assistant capabilities."
+    },
+    {
+      heading: "Who Should Skip It?",
+      body:
+        "Users who need a confirmed Google Play experience, advanced professional applications, expandable storage, or a guaranteed long battery runtime should verify these requirements before buying. If laptop-class software or extensive desktop multitasking is essential, a suitable laptop or 2-in-1 device may be a better fit."
+    },
+    {
+      heading: "Final Verdict",
+      body:
+        "The Amazon Alexa Tablet 12 Pro is presented with a 12-inch 2.8K Nanomatte display, 8GB RAM, 128GB storage, an all-day battery claim, Google Play support, and Alexa+ positioning. It could be an interesting large-screen tablet for entertainment and everyday tasks, but buyers should confirm the device's exact specifications, Google Play support, and Alexa+ availability before making a decision."
+    }
+  ]
+},
+{
+  id: "lisowod-smart-outdoor-projector-wifi-bluetooth-4k",
+  name: "Lisowod Smart Outdoor Projector – 4K Support, WiFi, Bluetooth & Built-in Apps",
+  category: "Projectors",
+  image: "/images/8l.jpg",
+
+  description:
+    "The Lisowod smart portable projector is designed for backyard movie nights and home cinema setups. Listed features include WiFi, Bluetooth, support for 4K input, more than 1,000 official apps, electric focus, and 4-point keystone correction.",
+
+  summary:
+    "The Lisowod smart projector combines built-in app access with wireless connectivity and convenient image-adjustment features. Electric focus and 4-point keystone correction are designed to simplify setup, while its portable format makes it suitable for indoor entertainment and backyard movie nights. Buyers should confirm the native resolution and brightness specifications before purchasing.",
+
+  pros: [
+    "Portable projector design",
+    "WiFi connectivity",
+    "Bluetooth support",
+    "Advertised support for 4K input",
+    "More than 1,000 apps advertised",
+    "Electric focus for easier image adjustment",
+    "4-point keystone correction",
+    "Designed for home cinema and backyard movies",
+    "Built-in smart entertainment features"
+  ],
+
+  cons: [
+    "4K support does not necessarily mean native 4K resolution",
+    "Actual brightness should be verified before purchase",
+    "Outdoor viewing quality depends on ambient light",
+    "App availability may vary by region and software version",
+    "Bluetooth audio performance depends on the connected device",
+    "Image quality depends on projection distance, screen surface, and settings",
+    "Built-in speakers may not replace a dedicated sound system"
+  ],
+
+  affiliateUrl: "https://amzn.to/4zygbIX",
+
+  published: "October 2026",
+
+  heroLabel: "Smart Outdoor Movie Projector",
+
+  reviewSections: [
+    {
+      heading: "Smart Projector with Built-In Apps",
+      body:
+        "The Lisowod projector advertises access to more than 1,000 official apps, offering a smart-entertainment approach to movie watching. Available apps and streaming services can vary by region, software version, and service requirements, so verify compatibility with your preferred platforms."
+    },
+    {
+      heading: "4K Input Support",
+      body:
+        "The product is advertised as supporting 4K content. Buyers should distinguish between accepting a 4K input signal and displaying a native 4K image. Check the manufacturer's stated native resolution to understand the actual detail the projector can display."
+    },
+    {
+      heading: "WiFi and Bluetooth Connectivity",
+      body:
+        "WiFi supports wireless network access for compatible smart features, while Bluetooth can provide a way to connect supported audio devices. Performance depends on network quality, device compatibility, and the projector's supported wireless functions."
+    },
+    {
+      heading: "Electric Focus",
+      body:
+        "Electric focus allows users to adjust image sharpness electronically rather than manually turning a focus ring. This can make setup more convenient when repositioning the projector or adjusting the image size."
+    },
+    {
+      heading: "4-Point Keystone Correction",
+      body:
+        "Four-point keystone correction is designed to help adjust the image shape when the projector cannot be positioned perfectly straight in front of the screen. Digital correction can reduce the effective image area, so placing the projector as squarely as possible remains beneficial."
+    },
+    {
+      heading: "Outdoor and Backyard Movie Nights",
+      body:
+        "The portable design makes this projector a potential option for backyard movies, family entertainment, and occasional outdoor gatherings. For the clearest picture, use it after sunset or in a darkened environment and pair it with a suitable projection screen."
+    },
+    {
+      heading: "Home Cinema Setup",
+      body:
+        "For indoor viewing, the projector can be considered for movies, streaming, and casual entertainment. The final experience depends on native resolution, verified brightness, screen size, viewing distance, room lighting, and sound quality."
+    },
+    {
+      heading: "Brightness and Picture Quality",
+      body:
+        "The listing describes the projector as ultra-bright, but brightness should be assessed using verified specifications rather than promotional wording alone. A projector generally needs a darker room to produce a more visible image, especially when projecting a large picture."
+    },
+    {
+      heading: "Who Should Consider It?",
+      body:
+        "This projector may suit users seeking a portable smart projector with WiFi, Bluetooth, electric focus, and image correction for home entertainment and backyard movie nights. It is worth considering if convenient setup and built-in app access are priorities."
+    },
+    {
+      heading: "Who Should Skip It?",
+      body:
+        "Users who require native 4K resolution, reliable daytime outdoor viewing, or a specific verified brightness level should confirm those specifications before buying. Buyers who prioritize premium home-theater performance may want to compare higher-specification projector models."
+    },
+    {
+      heading: "Final Verdict",
+      body:
+        "The Lisowod smart portable projector offers an advertised combination of built-in apps, WiFi, Bluetooth, 4K input support, electric focus, and 4-point keystone correction. These features may make it convenient for casual home cinema and backyard entertainment, but verify native resolution, brightness, and streaming-app compatibility before purchasing."
+    }
+  ]
 }
 ]
 
