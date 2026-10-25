@@ -654,7 +654,7 @@ function getBaseUrl() {
         if (url.protocol !== "http:" && url.protocol !== "https:") {
             return fallbackBaseUrl;
         }
-        return url.toString().replace(/\/$/, "");
+        return url.toString().replace(/\/+$/, "");
     } catch  {
         return fallbackBaseUrl;
     }

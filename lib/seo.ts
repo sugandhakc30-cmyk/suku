@@ -15,7 +15,7 @@ function getBaseUrl() {
       return fallbackBaseUrl
     }
 
-    return url.toString().replace(/\/$/, '')
+    return url.toString().replace(/\/+$/, '')
   } catch {
     return fallbackBaseUrl
   }
