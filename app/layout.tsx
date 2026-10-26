@@ -5,6 +5,7 @@ import Header from '../components/Header'
 import Footer from '../components/Footer'
 import { siteMeta } from '../lib/seo'
 import JsonLd from '../components/JsonLd'
+import AdUnit from '../components/AdUnit'
 
 const meta = siteMeta()
 
@@ -41,6 +42,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
         <JsonLd />
         <div className="min-h-screen flex flex-col">
           <Header siteName={meta.siteName} />
+          <AdUnit />
           <main className="flex-1 w-full">
             <div className="container mx-auto py-6 md:py-8 px-4">{children}</div>
           </main>

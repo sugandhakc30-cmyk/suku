@@ -1,12 +1,13 @@
-exports.id = 132;
-exports.ids = [132];
+exports.id = 617;
+exports.ids = [617];
 exports.modules = {
 
-/***/ 1683:
+/***/ 3835:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 6403));
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 954, 23))
+Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 954, 23));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 54))
 
 /***/ }),
 
@@ -18,6 +19,50 @@ Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 831, 23));
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 6926, 23));
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 4282, 23))
+
+/***/ }),
+
+/***/ 54:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ AdUnit)
+/* harmony export */ });
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(6786);
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var next_script__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(1949);
+/* harmony import */ var next_script__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_script__WEBPACK_IMPORTED_MODULE_1__);
+/* __next_internal_client_entry_do_not_use__ default auto */ 
+
+function AdUnit() {
+    return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+        className: "container mx-auto flex justify-center overflow-x-auto px-4",
+        children: [
+            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_script__WEBPACK_IMPORTED_MODULE_1___default()), {
+                async: true,
+                src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8517844838683220",
+                crossOrigin: "anonymous",
+                onReady: ()=>{
+                    window.adsbygoogle = window.adsbygoogle || [];
+                    window.adsbygoogle.push({});
+                }
+            }),
+            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("ins", {
+                className: "adsbygoogle",
+                style: {
+                    display: "inline-block",
+                    width: 728,
+                    height: 90
+                },
+                "data-ad-client": "ca-pub-8517844838683220",
+                "data-ad-slot": "6003313244"
+            })
+        ]
+    });
+}
+
 
 /***/ }),
 
@@ -253,7 +298,7 @@ function Header({ siteName }) {
 
 /***/ }),
 
-/***/ 1112:
+/***/ 576:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -563,7 +608,21 @@ function JsonLd() {
     });
 }
 
+;// CONCATENATED MODULE: ./components/AdUnit.tsx
+
+const AdUnit_proxy = (0,module_proxy.createProxy)(String.raw`C:\Users\SUGANDHA\Downloads\files\components\AdUnit.tsx`)
+
+// Accessing the __esModule property and exporting $$typeof are required here.
+// The __esModule getter forces the proxy target to create the default export
+// and the $$typeof value is for rendering logic to determine if the module
+// is a client boundary.
+const { __esModule: AdUnit_esModule, $$typeof: AdUnit_$$typeof } = AdUnit_proxy;
+const AdUnit_default_ = AdUnit_proxy.default;
+
+
+/* harmony default export */ const AdUnit = (AdUnit_default_);
 ;// CONCATENATED MODULE: ./app/layout.tsx
+
 
 
 
@@ -616,6 +675,7 @@ function RootLayout({ children }) {
                             /*#__PURE__*/ jsx_runtime_.jsx(Header, {
                                 siteName: meta.siteName
                             }),
+                            /*#__PURE__*/ jsx_runtime_.jsx(AdUnit, {}),
                             /*#__PURE__*/ jsx_runtime_.jsx("main", {
                                 className: "flex-1 w-full",
                                 children: /*#__PURE__*/ jsx_runtime_.jsx("div", {

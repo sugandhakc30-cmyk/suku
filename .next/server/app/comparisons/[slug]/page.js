@@ -92,6 +92,14 @@ module.exports = require("next/dist/shared/lib/hash");
 
 /***/ }),
 
+/***/ 6819:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/head-manager-context");
+
+/***/ }),
+
 /***/ 9569:
 /***/ ((module) => {
 
@@ -269,7 +277,7 @@ const tree = {
       ]
       },
         {
-          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 1112)), "C:\\Users\\SUGANDHA\\Downloads\\files\\app\\layout.tsx"],
+          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 576)), "C:\\Users\\SUGANDHA\\Downloads\\files\\app\\layout.tsx"],
           
         }
       ]
@@ -341,7 +349,7 @@ function ComparisonPage() {
 var __webpack_require__ = require("../../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [478,796,565,980,132], () => (__webpack_exec__(4762)));
+var __webpack_exports__ = __webpack_require__.X(0, [478,735,565,980,617], () => (__webpack_exec__(4762)));
 module.exports = __webpack_exports__;
 
 })();
