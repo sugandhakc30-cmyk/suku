@@ -18,6 +18,12 @@ export function middleware(request: NextRequest) {
     return NextResponse.redirect(canonicalUrl, 308)
   }
 
+  if (nextUrl.pathname === '/affiliate-disdosure') {
+    const canonicalUrl = nextUrl.clone()
+    canonicalUrl.pathname = '/affiliate-disclosure'
+    return NextResponse.redirect(canonicalUrl, 308)
+  }
+
   const productId = request.nextUrl.pathname.split('/')[2]
   const reviewPath = canonicalProductRedirects[productId]
 
@@ -29,5 +35,5 @@ export function middleware(request: NextRequest) {
 }
 
 export const config = {
-  matcher: ['/products/:path*']
+  matcher: ['/products/:path*', '/affiliate-disdosure']
 }

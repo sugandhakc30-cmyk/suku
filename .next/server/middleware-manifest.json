@@ -15,6 +15,10 @@
         {
           "regexp": "^(?:\\/(_next\\/data\\/[^/]{1,}))?\\/products(?:\\/((?:[^\\/#\\?]+?)(?:\\/(?:[^\\/#\\?]+?))*))?(.json)?[\\/#\\?]?$",
           "originalSource": "/products/:path*"
+        },
+        {
+          "regexp": "^(?:\\/(_next\\/data\\/[^/]{1,}))?\\/affiliate-disdosure(.json)?[\\/#\\?]?$",
+          "originalSource": "/affiliate-disdosure"
         }
       ],
       "wasm": [],

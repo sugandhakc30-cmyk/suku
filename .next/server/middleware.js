@@ -1,7 +1,7 @@
 // runtime can't be in strict mode because a global variable is assign and maybe created.
 (self["webpackChunk_N_E"] = self["webpackChunk_N_E"] || []).push([[826],{
 
-/***/ 934:
+/***/ 305:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -10,7 +10,7 @@ __webpack_require__.r(__webpack_exports__);
 
 // EXPORTS
 __webpack_require__.d(__webpack_exports__, {
-  "default": () => (/* binding */ next_middleware_loaderabsolutePagePath_private_next_root_dir_2Fmiddleware_ts_page_2Fmiddleware_rootDir_C_3A_5CUsers_5CSUGANDHA_5CDownloads_5Cfiles_matchers_W3sicmVnZXhwIjoiXig_2FOlxcLyhfbmV4dFxcL2RhdGFcXC9bXi9dezEsfSkpP1xcL3Byb2R1Y3RzKD86XFwvKCg_2FOlteXFwvI1xcP10rPykoPzpcXC8oPzpbXlxcLyNcXD9dKz8pKSopKT8oLmpzb24pP1tcXC8jXFw_2FXT8kIiwib3JpZ2luYWxTb3VyY2UiOiIvcHJvZHVjdHMvOnBhdGgqIn1d_preferredRegion_middlewareConfig_eyJtYXRjaGVycyI6W3sicmVnZXhwIjoiXig_2FOlxcLyhfbmV4dFxcL2RhdGFcXC9bXi9dezEsfSkpP1xcL3Byb2R1Y3RzKD86XFwvKCg_2FOlteXFwvI1xcP10rPykoPzpcXC8oPzpbXlxcLyNcXD9dKz8pKSopKT8oLmpzb24pP1tcXC8jXFw_2FXT8kIiwib3JpZ2luYWxTb3VyY2UiOiIvcHJvZHVjdHMvOnBhdGgqIn1dfQ_3D_3D_)
+  "default": () => (/* binding */ next_middleware_loaderabsolutePagePath_private_next_root_dir_2Fmiddleware_ts_page_2Fmiddleware_rootDir_C_3A_5CUsers_5CSUGANDHA_5CDownloads_5Cfiles_matchers_W3sicmVnZXhwIjoiXig_2FOlxcLyhfbmV4dFxcL2RhdGFcXC9bXi9dezEsfSkpP1xcL3Byb2R1Y3RzKD86XFwvKCg_2FOlteXFwvI1xcP10rPykoPzpcXC8oPzpbXlxcLyNcXD9dKz8pKSopKT8oLmpzb24pP1tcXC8jXFw_2FXT8kIiwib3JpZ2luYWxTb3VyY2UiOiIvcHJvZHVjdHMvOnBhdGgqIn0seyJyZWdleHAiOiJeKD86XFwvKF9uZXh0XFwvZGF0YVxcL1teL117MSx9KSk_2FXFwvYWZmaWxpYXRlLWRpc2Rvc3VyZSguanNvbik_2FW1xcLyNcXD9dPyQiLCJvcmlnaW5hbFNvdXJjZSI6Ii9hZmZpbGlhdGUtZGlzZG9zdXJlIn1d_preferredRegion_middlewareConfig_eyJtYXRjaGVycyI6W3sicmVnZXhwIjoiXig_2FOlxcLyhfbmV4dFxcL2RhdGFcXC9bXi9dezEsfSkpP1xcL3Byb2R1Y3RzKD86XFwvKCg_2FOlteXFwvI1xcP10rPykoPzpcXC8oPzpbXlxcLyNcXD9dKz8pKSopKT8oLmpzb24pP1tcXC8jXFw_2FXT8kIiwib3JpZ2luYWxTb3VyY2UiOiIvcHJvZHVjdHMvOnBhdGgqIn0seyJyZWdleHAiOiJeKD86XFwvKF9uZXh0XFwvZGF0YVxcL1teL117MSx9KSk_2FXFwvYWZmaWxpYXRlLWRpc2Rvc3VyZSguanNvbik_2FW1xcLyNcXD9dPyQiLCJvcmlnaW5hbFNvdXJjZSI6Ii9hZmZpbGlhdGUtZGlzZG9zdXJlIn1dfQ_3D_3D_)
 });
 
 // NAMESPACE OBJECT: ./middleware.ts
@@ -2016,6 +2016,11 @@ function middleware(request) {
         canonicalUrl.protocol = "https:";
         return NextResponse.redirect(canonicalUrl, 308);
     }
+    if (nextUrl.pathname === "/affiliate-disdosure") {
+        const canonicalUrl = nextUrl.clone();
+        canonicalUrl.pathname = "/affiliate-disclosure";
+        return NextResponse.redirect(canonicalUrl, 308);
+    }
     const productId = request.nextUrl.pathname.split("/")[2];
     const reviewPath = canonicalProductRedirects[productId];
     if (reviewPath) {
@@ -2025,11 +2030,12 @@ function middleware(request) {
 }
 const config = {
     matcher: [
-        "/products/:path*"
+        "/products/:path*",
+        "/affiliate-disdosure"
     ]
 };
 
-;// CONCATENATED MODULE: ./node_modules/next/dist/build/webpack/loaders/next-middleware-loader.js?absolutePagePath=private-next-root-dir%2Fmiddleware.ts&page=%2Fmiddleware&rootDir=C%3A%5CUsers%5CSUGANDHA%5CDownloads%5Cfiles&matchers=W3sicmVnZXhwIjoiXig%2FOlxcLyhfbmV4dFxcL2RhdGFcXC9bXi9dezEsfSkpP1xcL3Byb2R1Y3RzKD86XFwvKCg%2FOlteXFwvI1xcP10rPykoPzpcXC8oPzpbXlxcLyNcXD9dKz8pKSopKT8oLmpzb24pP1tcXC8jXFw%2FXT8kIiwib3JpZ2luYWxTb3VyY2UiOiIvcHJvZHVjdHMvOnBhdGgqIn1d&preferredRegion=&middlewareConfig=eyJtYXRjaGVycyI6W3sicmVnZXhwIjoiXig%2FOlxcLyhfbmV4dFxcL2RhdGFcXC9bXi9dezEsfSkpP1xcL3Byb2R1Y3RzKD86XFwvKCg%2FOlteXFwvI1xcP10rPykoPzpcXC8oPzpbXlxcLyNcXD9dKz8pKSopKT8oLmpzb24pP1tcXC8jXFw%2FXT8kIiwib3JpZ2luYWxTb3VyY2UiOiIvcHJvZHVjdHMvOnBhdGgqIn1dfQ%3D%3D!
+;// CONCATENATED MODULE: ./node_modules/next/dist/build/webpack/loaders/next-middleware-loader.js?absolutePagePath=private-next-root-dir%2Fmiddleware.ts&page=%2Fmiddleware&rootDir=C%3A%5CUsers%5CSUGANDHA%5CDownloads%5Cfiles&matchers=W3sicmVnZXhwIjoiXig%2FOlxcLyhfbmV4dFxcL2RhdGFcXC9bXi9dezEsfSkpP1xcL3Byb2R1Y3RzKD86XFwvKCg%2FOlteXFwvI1xcP10rPykoPzpcXC8oPzpbXlxcLyNcXD9dKz8pKSopKT8oLmpzb24pP1tcXC8jXFw%2FXT8kIiwib3JpZ2luYWxTb3VyY2UiOiIvcHJvZHVjdHMvOnBhdGgqIn0seyJyZWdleHAiOiJeKD86XFwvKF9uZXh0XFwvZGF0YVxcL1teL117MSx9KSk%2FXFwvYWZmaWxpYXRlLWRpc2Rvc3VyZSguanNvbik%2FW1xcLyNcXD9dPyQiLCJvcmlnaW5hbFNvdXJjZSI6Ii9hZmZpbGlhdGUtZGlzZG9zdXJlIn1d&preferredRegion=&middlewareConfig=eyJtYXRjaGVycyI6W3sicmVnZXhwIjoiXig%2FOlxcLyhfbmV4dFxcL2RhdGFcXC9bXi9dezEsfSkpP1xcL3Byb2R1Y3RzKD86XFwvKCg%2FOlteXFwvI1xcP10rPykoPzpcXC8oPzpbXlxcLyNcXD9dKz8pKSopKT8oLmpzb24pP1tcXC8jXFw%2FXT8kIiwib3JpZ2luYWxTb3VyY2UiOiIvcHJvZHVjdHMvOnBhdGgqIn0seyJyZWdleHAiOiJeKD86XFwvKF9uZXh0XFwvZGF0YVxcL1teL117MSx9KSk%2FXFwvYWZmaWxpYXRlLWRpc2Rvc3VyZSguanNvbik%2FW1xcLyNcXD9dPyQiLCJvcmlnaW5hbFNvdXJjZSI6Ii9hZmZpbGlhdGUtZGlzZG9zdXJlIn1dfQ%3D%3D!
 
         
         
@@ -2042,7 +2048,7 @@ const config = {
           throw new Error('The Middleware "pages/middleware" must export a `middleware` or a `default` function');
         }
 
-        /* harmony default export */ function next_middleware_loaderabsolutePagePath_private_next_root_dir_2Fmiddleware_ts_page_2Fmiddleware_rootDir_C_3A_5CUsers_5CSUGANDHA_5CDownloads_5Cfiles_matchers_W3sicmVnZXhwIjoiXig_2FOlxcLyhfbmV4dFxcL2RhdGFcXC9bXi9dezEsfSkpP1xcL3Byb2R1Y3RzKD86XFwvKCg_2FOlteXFwvI1xcP10rPykoPzpcXC8oPzpbXlxcLyNcXD9dKz8pKSopKT8oLmpzb24pP1tcXC8jXFw_2FXT8kIiwib3JpZ2luYWxTb3VyY2UiOiIvcHJvZHVjdHMvOnBhdGgqIn1d_preferredRegion_middlewareConfig_eyJtYXRjaGVycyI6W3sicmVnZXhwIjoiXig_2FOlxcLyhfbmV4dFxcL2RhdGFcXC9bXi9dezEsfSkpP1xcL3Byb2R1Y3RzKD86XFwvKCg_2FOlteXFwvI1xcP10rPykoPzpcXC8oPzpbXlxcLyNcXD9dKz8pKSopKT8oLmpzb24pP1tcXC8jXFw_2FXT8kIiwib3JpZ2luYWxTb3VyY2UiOiIvcHJvZHVjdHMvOnBhdGgqIn1dfQ_3D_3D_(opts) {
+        /* harmony default export */ function next_middleware_loaderabsolutePagePath_private_next_root_dir_2Fmiddleware_ts_page_2Fmiddleware_rootDir_C_3A_5CUsers_5CSUGANDHA_5CDownloads_5Cfiles_matchers_W3sicmVnZXhwIjoiXig_2FOlxcLyhfbmV4dFxcL2RhdGFcXC9bXi9dezEsfSkpP1xcL3Byb2R1Y3RzKD86XFwvKCg_2FOlteXFwvI1xcP10rPykoPzpcXC8oPzpbXlxcLyNcXD9dKz8pKSopKT8oLmpzb24pP1tcXC8jXFw_2FXT8kIiwib3JpZ2luYWxTb3VyY2UiOiIvcHJvZHVjdHMvOnBhdGgqIn0seyJyZWdleHAiOiJeKD86XFwvKF9uZXh0XFwvZGF0YVxcL1teL117MSx9KSk_2FXFwvYWZmaWxpYXRlLWRpc2Rvc3VyZSguanNvbik_2FW1xcLyNcXD9dPyQiLCJvcmlnaW5hbFNvdXJjZSI6Ii9hZmZpbGlhdGUtZGlzZG9zdXJlIn1d_preferredRegion_middlewareConfig_eyJtYXRjaGVycyI6W3sicmVnZXhwIjoiXig_2FOlxcLyhfbmV4dFxcL2RhdGFcXC9bXi9dezEsfSkpP1xcL3Byb2R1Y3RzKD86XFwvKCg_2FOlteXFwvI1xcP10rPykoPzpcXC8oPzpbXlxcLyNcXD9dKz8pKSopKT8oLmpzb24pP1tcXC8jXFw_2FXT8kIiwib3JpZ2luYWxTb3VyY2UiOiIvcHJvZHVjdHMvOnBhdGgqIn0seyJyZWdleHAiOiJeKD86XFwvKF9uZXh0XFwvZGF0YVxcL1teL117MSx9KSk_2FXFwvYWZmaWxpYXRlLWRpc2Rvc3VyZSguanNvbik_2FW1xcLyNcXD9dPyQiLCJvcmlnaW5hbFNvdXJjZSI6Ii9hZmZpbGlhdGUtZGlzZG9zdXJlIn1dfQ_3D_3D_(opts) {
           return adapter({
             ...opts,
             page: "/middleware",
@@ -2524,7 +2530,7 @@ var __dirname = "/";
 },
 /******/ __webpack_require__ => { // webpackRuntimeModules
 /******/ var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-/******/ var __webpack_exports__ = (__webpack_exec__(934));
+/******/ var __webpack_exports__ = (__webpack_exec__(305));
 /******/ (_ENTRIES = typeof _ENTRIES === "undefined" ? {} : _ENTRIES).middleware_middleware = __webpack_exports__;
 /******/ }
 ]);
