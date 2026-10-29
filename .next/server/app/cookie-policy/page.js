@@ -318,7 +318,7 @@ function CookiePolicy() {
             }),
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
                 className: "mt-4",
-                children: 'Cookie Policy for Sugandha Tech Last updated: October 2026 Sugandha Tech ("we," "our," or "us") uses cookies and similar tracking technologies on sugandhatech.in.net to improve your browsing experience, analyze site traffic, and deliver relevant content and advertisements. 1. What Are Cookies? Cookies are small text files stored on your device (computer, tablet, or mobile) when you visit a website. They help the website recognize your device and remember key preferences or settings over time. 2. Types of Cookies We Use - Essential Cookies: Necessary for the website to function properly, enabling core features such as site security and network management. - Analytics & Performance Cookies: Help us understand how visitors interact with our content, identifying popular pages and improving website performance. - Advertising & Third-Party Cookies: Third-party vendors (such as Google AdSense) use cookies to serve ads based on your prior visits to our site or other websites on the internet. 3. Managing and Disabling Cookies You can control or delete cookies through your web browser settings at any time. Most browsers allow you to block cookies or alert you when a cookie is being set. Please note that disabling cookies may affect certain functionality on our website. 4. Contact Us If you have questions about our use of cookies, please contact us at support@sugandhatech.in.net..'
+                children: 'Cookie Policy for Sugandha Tech Sugandha Tech ("we," "our," or "us") uses cookies and similar tracking technologies on sugandhatech.in.net to improve your browsing experience, analyze site traffic, and deliver relevant content and advertisements. 1. What Are Cookies? Cookies are small text files stored on your device (computer, tablet, or mobile) when you visit a website. They help the website recognize your device and remember key preferences or settings over time. 2. Types of Cookies We Use - Essential Cookies: Necessary for the website to function properly, enabling core features such as site security and network management. - Analytics & Performance Cookies: Help us understand how visitors interact with our content, identifying popular pages and improving website performance. - Advertising & Third-Party Cookies: Third-party vendors (such as Google AdSense) use cookies to serve ads based on your prior visits to our site or other websites on the internet. 3. Managing and Disabling Cookies You can control or delete cookies through your web browser settings at any time. Most browsers allow you to block cookies or alert you when a cookie is being set. Please note that disabling cookies may affect certain functionality on our website. 4. Contact Us If you have questions about our use of cookies, please contact us at support@sugandhatech.in.net..'
             })
         ]
     });
@@ -334,7 +334,7 @@ function CookiePolicy() {
 var __webpack_require__ = require("../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [478,735,543], () => (__webpack_exec__(2422)));
+var __webpack_exports__ = __webpack_require__.X(0, [478,735,617], () => (__webpack_exec__(2422)));
 module.exports = __webpack_exports__;
 
 })();

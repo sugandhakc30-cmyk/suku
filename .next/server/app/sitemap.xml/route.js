@@ -19,7 +19,7 @@ module.exports = require("os");
 
 /***/ }),
 
-/***/ 4221:
+/***/ 3013:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 // ESM COMPAT FLAG
@@ -3226,7 +3226,30 @@ const categories = [
 ];
 /* harmony default export */ const data_categories = ((/* unused pure expression or super */ null && (categories)));
 
+;// CONCATENATED MODULE: ./data/news.ts
+const news = [
+    {
+        slug: "chipmaker-announces-new-gpu",
+        title: "Chipmaker Announces New GPU",
+        excerpt: "New GPU announced, key specs revealed.",
+        date: "2026-08-01"
+    },
+    {
+        slug: "monitor-refresh-rate-trends",
+        title: "Monitor Refresh Rate Trends",
+        excerpt: "How refresh rates are evolving in displays.",
+        date: "2026-07-20"
+    },
+    {
+        slug: "console-updates-2026",
+        title: "Console Updates 2026",
+        excerpt: "Latest console firmware updates and features.",
+        date: "2026-06-14"
+    }
+];
+
 ;// CONCATENATED MODULE: ./app/sitemap.ts
+
 
 
 
@@ -3234,8 +3257,7 @@ const categories = [
 
 async function sitemap() {
     const meta = (0,seo/* siteMeta */.N)();
-    const base = meta.baseUrl.replace(/\/$/, "") // Base URL: https://sugandhatech.in.net
-    ;
+    const base = meta.baseUrl.replace(/\/$/, "");
     const staticUrls = [
         "",
         "/reviews",
@@ -3255,17 +3277,19 @@ async function sitemap() {
     const productUrls = products.filter((product)=>!product.reviewSlug).map((product)=>`/products/${product.id}`);
     const guideUrls = guides.map((guide)=>`/guides/${guide.slug}`);
     const categoryUrls = categories.map((category)=>category.href);
+    const newsUrls = news.map((article)=>`/news/${article.slug}`);
     // Merge and remove duplicates
     const pathnames = Array.from(new Set([
         ...staticUrls,
         ...reviewUrls,
         ...productUrls,
         ...guideUrls,
-        ...categoryUrls
-    ])).filter(Boolean);
+        ...categoryUrls,
+        ...newsUrls
+    ]));
     // Map relative pathnames to full URL objects expected by Next.js
     return pathnames.map((path)=>({
-            url: `${base}${path}`,
+            url: path ? `${base}${path}` : `${base}/`,
             lastModified: new Date(),
             changeFrequency: "weekly",
             priority: path === "" ? 1.0 : 0.8
@@ -3357,7 +3381,7 @@ const originalPathname = "/sitemap.xml/route";
 var __webpack_require__ = require("../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [478,565,501,976,313], () => (__webpack_exec__(4221)));
+var __webpack_exports__ = __webpack_require__.X(0, [478,565,501,976,313], () => (__webpack_exec__(3013)));
 module.exports = __webpack_exports__;
 
 })();

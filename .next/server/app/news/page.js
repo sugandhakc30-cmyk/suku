@@ -302,29 +302,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(5124);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _lib_seo__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(9051);
+/* harmony import */ var _data_news__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(9993);
 
 
 
-const news = [
-    {
-        slug: "chipmaker-announces-new-gpu",
-        title: "Chipmaker Announces New GPU",
-        excerpt: "New GPU announced, key specs revealed.",
-        date: "2026-08-01"
-    },
-    {
-        slug: "monitor-refresh-rate-trends",
-        title: "Monitor Refresh Rate Trends",
-        excerpt: "How refresh rates are evolving in displays.",
-        date: "2026-07-20"
-    },
-    {
-        slug: "console-updates-2026",
-        title: "Console Updates 2026",
-        excerpt: "Latest console firmware updates and features.",
-        date: "2026-06-14"
-    }
-];
+
 const metadata = {
     title: "Tech News — Sugandha Tech",
     description: "Technology news, announcements and analysis.",
@@ -341,7 +323,7 @@ function NewsIndex() {
             }),
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                 className: "space-y-4",
-                children: news.map((n)=>/*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)((next_link__WEBPACK_IMPORTED_MODULE_1___default()), {
+                children: _data_news__WEBPACK_IMPORTED_MODULE_3__/* .news */ .r.map((n)=>/*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)((next_link__WEBPACK_IMPORTED_MODULE_1___default()), {
                         href: `/news/${n.slug}`,
                         className: "block border rounded p-4 bg-white",
                         children: [
@@ -365,6 +347,37 @@ function NewsIndex() {
 }
 
 
+/***/ }),
+
+/***/ 9993:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   r: () => (/* binding */ news)
+/* harmony export */ });
+const news = [
+    {
+        slug: "chipmaker-announces-new-gpu",
+        title: "Chipmaker Announces New GPU",
+        excerpt: "New GPU announced, key specs revealed.",
+        date: "2026-08-01"
+    },
+    {
+        slug: "monitor-refresh-rate-trends",
+        title: "Monitor Refresh Rate Trends",
+        excerpt: "How refresh rates are evolving in displays.",
+        date: "2026-07-20"
+    },
+    {
+        slug: "console-updates-2026",
+        title: "Console Updates 2026",
+        excerpt: "Latest console firmware updates and features.",
+        date: "2026-06-14"
+    }
+];
+
+
 /***/ })
 
 };
@@ -374,7 +387,7 @@ function NewsIndex() {
 var __webpack_require__ = require("../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [478,735,543], () => (__webpack_exec__(3624)));
+var __webpack_exports__ = __webpack_require__.X(0, [478,735,617], () => (__webpack_exec__(3624)));
 module.exports = __webpack_exports__;
 
 })();
