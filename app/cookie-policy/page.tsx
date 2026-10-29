@@ -13,8 +13,6 @@ export default function CookiePolicy() {
       <h1 className="text-2xl font-bold">Cookie Policy</h1>
       <p className="mt-4">Cookie Policy for Sugandha Tech
 
-Last updated: October 2026
-
 Sugandha Tech ("we," "our," or "us") uses cookies and similar tracking technologies on sugandhatech.in.net to improve your browsing experience, analyze site traffic, and deliver relevant content and advertisements.
 
 1. What Are Cookies?

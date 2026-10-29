@@ -2,7 +2,7 @@
 import type { Metadata } from 'next'
 import { siteMeta } from '../../lib/seo'
 
-const contactEmail = 'hello@sugandhatech.in.net'
+const contactEmail = 'sugandhakc30@gmail.com'
 
 export const metadata: Metadata = {
   title: 'Contact Sugandha Tech',

@@ -4,10 +4,11 @@ import { articles } from '../data/articles'
 import { products } from '../data/products'
 import { guides } from '../data/guides'
 import { categories } from '../data/categories'
+import { news } from '../data/news'
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const meta = siteMeta()
-  const base = meta.baseUrl.replace(/\/$/, '') // Base URL: https://sugandhatech.in.net
+  const base = meta.baseUrl.replace(/\/$/, '')
 
   const staticUrls = [
     '',
@@ -31,6 +32,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     .map((product) => `/products/${product.id}`)
   const guideUrls = guides.map((guide) => `/guides/${guide.slug}`)
   const categoryUrls = categories.map((category) => category.href)
+  const newsUrls = news.map((article) => `/news/${article.slug}`)
 
   // Merge and remove duplicates
   const pathnames = Array.from(
@@ -40,12 +42,13 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       ...productUrls,
       ...guideUrls,
       ...categoryUrls,
+      ...newsUrls,
     ])
-  ).filter(Boolean)
+  )
 
   // Map relative pathnames to full URL objects expected by Next.js
   return pathnames.map((path) => ({
-    url: `${base}${path}`,
+    url: path ? `${base}${path}` : `${base}/`,
     lastModified: new Date(),
     changeFrequency: 'weekly',
     priority: path === '' ? 1.0 : 0.8,
