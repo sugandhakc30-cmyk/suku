@@ -49,6 +49,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   // Map relative pathnames to full URL objects expected by Next.js
   return pathnames.map((path) => ({
     url: path ? `${base}${path}` : `${base}/`,
+    lastModified: new Date(),
     changeFrequency: 'weekly',
     priority: path === '' ? 1.0 : 0.8,
   }))
