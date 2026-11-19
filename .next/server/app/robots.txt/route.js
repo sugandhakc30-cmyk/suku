@@ -62,7 +62,7 @@ function robots() {
             userAgent: "*",
             allow: "/"
         },
-        sitemap: `${baseUrl}/sitemap.xml`
+        sitemap: `${baseUrl.replace(/\/$/, "")}/sitemap-index.xml`
     };
 }
 

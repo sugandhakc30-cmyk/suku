@@ -3258,6 +3258,20 @@ const news = [
 async function sitemap() {
     const meta = (0,seo/* siteMeta */.N)();
     const base = meta.baseUrl.replace(/\/$/, "");
+    const urlMap = new Map();
+    const addEntry = (path, lastMod, priority = 0.8)=>{
+        const fullUrl = path ? `${base}${path}` : `${base}/`;
+        if (!urlMap.has(fullUrl)) {
+            urlMap.set(fullUrl, {
+                url: fullUrl,
+                ...lastMod ? {
+                    lastModified: new Date(lastMod)
+                } : {},
+                changeFrequency: "weekly",
+                priority
+            });
+        }
+    };
     const staticUrls = [
         "",
         "/reviews",
@@ -3273,27 +3287,13 @@ async function sitemap() {
         "/best",
         "/comparisons"
     ];
-    const reviewUrls = articles.map((article)=>`/reviews/${article.slug}`);
-    const productUrls = products.filter((product)=>!product.reviewSlug).map((product)=>`/products/${product.id}`);
-    const guideUrls = guides.map((guide)=>`/guides/${guide.slug}`);
-    const categoryUrls = categories.map((category)=>category.href);
-    const newsUrls = news.map((article)=>`/news/${article.slug}`);
-    // Merge and remove duplicates
-    const pathnames = Array.from(new Set([
-        ...staticUrls,
-        ...reviewUrls,
-        ...productUrls,
-        ...guideUrls,
-        ...categoryUrls,
-        ...newsUrls
-    ]));
-    // Map relative pathnames to full URL objects expected by Next.js
-    return pathnames.map((path)=>({
-            url: path ? `${base}${path}` : `${base}/`,
-            lastModified: new Date(),
-            changeFrequency: "weekly",
-            priority: path === "" ? 1.0 : 0.8
-        }));
+    staticUrls.forEach((path)=>addEntry(path, undefined, path === "" ? 1.0 : 0.8));
+    articles.forEach((article)=>addEntry(`/reviews/${article.slug}`, article.updated ?? article.date));
+    guides.forEach((guide)=>addEntry(`/guides/${guide.slug}`, guide.date));
+    news.forEach((article)=>addEntry(`/news/${article.slug}`, article.date));
+    products.filter((product)=>!product.reviewSlug).forEach((product)=>addEntry(`/products/${product.id}`));
+    categories.forEach((category)=>addEntry(category.href));
+    return Array.from(urlMap.values());
 }
 
 // EXTERNAL MODULE: ./node_modules/next/dist/build/webpack/loaders/metadata/resolve-route-data.js

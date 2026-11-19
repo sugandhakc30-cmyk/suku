@@ -12,7 +12,7 @@ module.exports = require("os");
 
 /***/ }),
 
-/***/ 8487:
+/***/ 27:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 // ESM COMPAT FLAG
@@ -44,11 +44,68 @@ var app_route_module = __webpack_require__(9692);
 var route_kind = __webpack_require__(9513);
 // EXTERNAL MODULE: ./lib/seo.ts
 var seo = __webpack_require__(9051);
+// EXTERNAL MODULE: ./data/articles.ts
+var articles = __webpack_require__(2049);
+// EXTERNAL MODULE: ./data/products.ts
+var products = __webpack_require__(4615);
+// EXTERNAL MODULE: ./data/guides.ts
+var guides = __webpack_require__(7308);
+// EXTERNAL MODULE: ./data/categories.ts
+var categories = __webpack_require__(8152);
+// EXTERNAL MODULE: ./data/news.ts
+var news = __webpack_require__(9993);
+;// CONCATENATED MODULE: ./app/sitemap.ts
+
+
+
+
+
+
+async function sitemap() {
+    const meta = (0,seo/* siteMeta */.N)();
+    const base = meta.baseUrl.replace(/\/$/, "");
+    const urlMap = new Map();
+    const addEntry = (path, lastMod, priority = 0.8)=>{
+        const fullUrl = path ? `${base}${path}` : `${base}/`;
+        if (!urlMap.has(fullUrl)) {
+            urlMap.set(fullUrl, {
+                url: fullUrl,
+                ...lastMod ? {
+                    lastModified: new Date(lastMod)
+                } : {},
+                changeFrequency: "weekly",
+                priority
+            });
+        }
+    };
+    const staticUrls = [
+        "",
+        "/reviews",
+        "/guides",
+        "/news",
+        "/about",
+        "/contact",
+        "/privacy-policy",
+        "/terms",
+        "/cookie-policy",
+        "/editorial-policy",
+        "/affiliate-disclosure",
+        "/best",
+        "/comparisons"
+    ];
+    staticUrls.forEach((path)=>addEntry(path, undefined, path === "" ? 1.0 : 0.8));
+    articles/* articles */.D.forEach((article)=>addEntry(`/reviews/${article.slug}`, article.updated ?? article.date));
+    guides/* guides */.k.forEach((guide)=>addEntry(`/guides/${guide.slug}`, guide.date));
+    news/* news */.r.forEach((article)=>addEntry(`/news/${article.slug}`, article.date));
+    products/* products */.R.filter((product)=>!product.reviewSlug).forEach((product)=>addEntry(`/products/${product.id}`));
+    categories/* categories */.b.forEach((category)=>addEntry(category.href));
+    return Array.from(urlMap.values());
+}
+
 ;// CONCATENATED MODULE: ./app/sitemap-index.xml/route.ts
 
-function GET() {
-    const baseUrl = (0,seo/* siteMeta */.N)().baseUrl.replace(/\/$/, "");
-    const sitemapUrl = `${baseUrl}/sitemap.xml`.replace(/[&<>"']/g, (character)=>{
+function escapeXml(value) {
+    return value.replace(/[&<>"']/g, (character)=>{
         const entities = {
             "&": "&amp;",
             "<": "&lt;",
@@ -58,15 +115,23 @@ function GET() {
         };
         return entities[character];
     });
+}
+async function GET() {
+    const entries = await sitemap();
+    const urls = entries.map((entry)=>`
+  <url>
+    <loc>${escapeXml(entry.url)}</loc>
+    ${entry.lastModified ? `<lastmod>${new Date(entry.lastModified).toISOString()}</lastmod>` : ""}
+    ${entry.changeFrequency ? `<changefreq>${entry.changeFrequency}</changefreq>` : ""}
+    ${entry.priority !== undefined ? `<priority>${entry.priority}</priority>` : ""}
+  </url>`).join("");
     const xml = `<?xml version="1.0" encoding="UTF-8"?>
-<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <sitemap>
-    <loc>${sitemapUrl}</loc>
-  </sitemap>
-</sitemapindex>`;
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${urls}
+</urlset>`;
     return new Response(xml, {
         headers: {
-            "Content-Type": "application/xml; charset=utf-8"
+            "Content-Type": "application/xml; charset=utf-8",
+            "Cache-Control": "public, max-age=3600, s-maxage=3600"
         }
     });
 }
@@ -102,6 +167,36 @@ const originalPathname = "/sitemap-index.xml/route";
 
 
 //# sourceMappingURL=app-route.js.map
+
+/***/ }),
+
+/***/ 9993:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   r: () => (/* binding */ news)
+/* harmony export */ });
+const news = [
+    {
+        slug: "chipmaker-announces-new-gpu",
+        title: "Chipmaker Announces New GPU",
+        excerpt: "New GPU announced, key specs revealed.",
+        date: "2026-08-01"
+    },
+    {
+        slug: "monitor-refresh-rate-trends",
+        title: "Monitor Refresh Rate Trends",
+        excerpt: "How refresh rates are evolving in displays.",
+        date: "2026-07-20"
+    },
+    {
+        slug: "console-updates-2026",
+        title: "Console Updates 2026",
+        excerpt: "Latest console firmware updates and features.",
+        date: "2026-06-14"
+    }
+];
+
 
 /***/ }),
 
@@ -156,7 +251,7 @@ const seoDefaults = {
 var __webpack_require__ = require("../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [478,565,501], () => (__webpack_exec__(8487)));
+var __webpack_exports__ = __webpack_require__.X(0, [478,565,501,615,49,308,152], () => (__webpack_exec__(27)));
 module.exports = __webpack_exports__;
 
 })();

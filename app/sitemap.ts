@@ -6,9 +6,28 @@ import { guides } from '../data/guides'
 import { categories } from '../data/categories'
 import { news } from '../data/news'
 
-export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
+type SitemapEntry = MetadataRoute.Sitemap[number] & {
+  changeFrequency: 'weekly'
+  priority: number
+}
+
+export default async function sitemap(): Promise<SitemapEntry[]> {
   const meta = siteMeta()
   const base = meta.baseUrl.replace(/\/$/, '')
+
+  const urlMap = new Map<string, SitemapEntry>()
+  const addEntry = (path: string, lastMod?: string | Date, priority = 0.8) => {
+    const fullUrl = path ? `${base}${path}` : `${base}/`
+
+    if (!urlMap.has(fullUrl)) {
+      urlMap.set(fullUrl, {
+        url: fullUrl,
+        ...(lastMod ? { lastModified: new Date(lastMod) } : {}),
+        changeFrequency: 'weekly',
+        priority,
+      })
+    }
+  }
 
   const staticUrls = [
     '',
@@ -26,31 +45,17 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     '/comparisons',
   ]
 
-  const reviewUrls = articles.map((article) => `/reviews/${article.slug}`)
-  const productUrls = products
-    .filter((product) => !product.reviewSlug)
-    .map((product) => `/products/${product.id}`)
-  const guideUrls = guides.map((guide) => `/guides/${guide.slug}`)
-  const categoryUrls = categories.map((category) => category.href)
-  const newsUrls = news.map((article) => `/news/${article.slug}`)
+  staticUrls.forEach((path) => addEntry(path, undefined, path === '' ? 1.0 : 0.8))
 
-  // Merge and remove duplicates
-  const pathnames = Array.from(
-    new Set([
-      ...staticUrls,
-      ...reviewUrls,
-      ...productUrls,
-      ...guideUrls,
-      ...categoryUrls,
-      ...newsUrls,
-    ])
+  articles.forEach((article) =>
+    addEntry(`/reviews/${article.slug}`, article.updated ?? article.date)
   )
+  guides.forEach((guide) => addEntry(`/guides/${guide.slug}`, guide.date))
+  news.forEach((article) => addEntry(`/news/${article.slug}`, article.date))
+  products
+    .filter((product) => !product.reviewSlug)
+    .forEach((product) => addEntry(`/products/${product.id}`))
+  categories.forEach((category) => addEntry(category.href))
 
-  // Map relative pathnames to full URL objects expected by Next.js
-  return pathnames.map((path) => ({
-    url: path ? `${base}${path}` : `${base}/`,
-    lastModified: new Date(),
-    changeFrequency: 'weekly',
-    priority: path === '' ? 1.0 : 0.8,
-  }))
+  return Array.from(urlMap.values())
 }
